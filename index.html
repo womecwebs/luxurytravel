@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script src="https://analytics.ahrefs.com/analytics.js" data-key="TXoclhmromegXturaJV7ug" async></script>
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -55,9 +54,31 @@
       property="og:image"
       content="https://luxuryparadisetravel.com/images/luxury-travel-banner.jpg"
     />
-
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="images/logo.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/images/icons/site.webmanifest" />
+
     <!-- Schema Markup (Structured Data for SEO) -->
     <script type="application/ld+json">
       {
@@ -74,19 +95,25 @@
       }
     </script>
 
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
   </head>
   <body>
+    <!-- navigation bar -->
     <section class="nav-bar">
       <a href="#">
         <img
           class="logo"
           src="images/logo.png"
-          alt="logo of Luxury Travel and Cruises & Private Yacht Charters travel website"
+          alt="Luxury Travel Paradise Logo - 5-Star Hotels, Cruises, Private Jets"
         />
       </a>
 
@@ -100,32 +127,47 @@
         <ul class="navMenu">
           <li><a href="#">Home</a></li>
           <li>
+            <a
+              target="_blank"
+              rel="nofollow noopener"
+              href="https://amzn.to/4lbDtO5"
+              >Travel Grears</a
+            >
+          </li>
+          <li>
             <a href="blogs.html">Blogs<span class="dropdown-sign"> ▼</span></a>
             <ul class="dropdown_menu">
               <li>
-                <a target="blank_" href="best-luxury-cruises-2025.html"
+                <a target="blank_" href="/blogs/best-luxury-cruises-2025.html"
                   >Best Luxury Cruises for 2025</a
                 >
               </li>
               <li>
-                <a target="blank_" href="Best-Cruises-for-Couples-in-2025.html"
+                <a
+                  target="blank_"
+                  href="/blogs/Best-Cruises-for-Couples-in-2025.html"
                   >Best Luxury Cruises for Couples in 2025</a
                 >
               </li>
               <li>
-                <a target="blank_" href="best-overwater-villas-maldives.html"
+                <a
+                  target="blank_"
+                  href="/blogs/best-overwater-villas-maldives.html"
                   >Overwater Villas in the Maldives for 2025
                 </a>
               </li>
               <li>
-                <a target="blank_" href="how-to-fly-first-class-for-free.html">
+                <a
+                  target="blank_"
+                  href="/blogs/how-to-fly-first-class-for-free.html"
+                >
                   Fly First Class, Free Using Points & Miles</a
                 >
               </li>
               <li>
                 <a
                   target="blank_"
-                  href="exclusive-private-islands-luxury-travel.html"
+                  href="/blogs/exclusive-private-islands-luxury-travel.html"
                   >Top 10 Most Exclusive Private Islands</a
                 >
               </li>
@@ -134,6 +176,7 @@
           <li><a href="Destination.html">Destinations</a></li>
           <li>
             <a
+              rel="nofollow noopener"
               target="blank_"
               href="https://expedia.com/affiliates/hotel-search-randheli-island.OkieGo9"
               >5-Star Hotels</a
@@ -147,47 +190,293 @@
             <ul class="dropdown_menu travel_dropdownmenu">
               <li><a href="#best-campany">Best Luxury campany</a></li>
               <li>
-                <a href="https://expedia.com/affiliates/expedia-home.hMJbWB1"
+                <a
+                  target="_blank"
+                  rel="nofollow noopener"
+                  href="https://expedia.com/affiliates/expedia-home.hMJbWB1"
                   >Luxury Cruises</a
                 >
               </li>
               <li>
                 <a
+                  target="_blank"
+                  rel="nofollow noopener"
                   href="https://www.viator.com/St-Thomas-attractions/Yacht-Haven-Grande/d965-a14287?pid=P00218939&mcid=42383&medium=link&medium_version=selector"
-                  >Yacht Rentals</a
+                  >Yacht Experiences</a
                 >
               </li>
               <li>
-                <a href="https://www.villiersjets.com/?id=9474"
+                <a
+                  target="_blank"
+                  rel="nofollow noopener"
+                  href="https://www.villiersjets.com/?id=9474"
                   >First-Class Jets</a
                 >
               </li>
               <!-- <li><a href="">Travel Credit Cards</a></li> -->
-              <li><a href="#travel1">VIP Travel Deals</a></li>
+              <li><a href="/luxury-travel-deals.html">VIP Travel Deals</a></li>
             </ul>
           </li>
         </ul>
       </nav>
-      <a href="#subscribe" class="btn">Newsletter Signup</a>
+      <a
+        rel="nofollow noopener"
+        href="https://paradise-newsletter-cf9438.beehiiv.com/subscribe"
+        class="btn"
+        >Newsletter Signup</a
+      >
     </section>
+
+    <!-- hero section -->
     <section class="hero">
       <div class="hero-container">
         <h1>
           Experience the World's Most Exclusive
           <span class="heading">Luxury Travel</span> & VIP Getaways
         </h1>
-        <a
-          target="blank_"
-          href="https://www.viator.com/?pid=P00218939&mcid=42383&medium=link&medium_version=selector"
-          class="btn2"
-          >Explore Luxury Travel Deals</a
-        >
+        <div class="heros-btns">
+          <a target="blank_" href="/luxury-travel-deals.html" class="btn2"
+            >Explore Luxury Travel Deals</a
+          >
+          <a
+            target="blank_"
+            rel="nofollow noopener"
+            href="https://www.viator.com/partner-shop/unforgatable-tours/Luxury-paradise-travel?medium=link&medium_version=shop"
+            class="btn second-btn"
+            >Luxury travel Experiences</a
+          >
+        </div>
       </div>
-      <video autoplay loop muted plays-inline class="hero-video">
-        <source src="images/background.mp4" type="video/mp4" />
+      <video
+        aria-hidden="true"
+        autoplay
+        loop
+        muted
+        plays-inline
+        class="hero-video"
+        preload="auto"
+        poster="/images/beautiful-landscapes.jpg"
+      >
+        <source src="images/background2.mp4" loading="lazy" type="video/mp4" />
       </video>
     </section>
+    <!-- trusted partners -->
+    <section class="first-dealstext">
+      <div class="deals-quote">
+        <p>
+          <strong>Trusted Luxury companies:</strong> <br />
+          <a
+            rel="nofollow noopener"
+            target="blank_"
+            href="https://expedia.com/affiliates/hotel-search-randheli-island.OkieGo9"
+            >Expedia</a
+          >
+          •
+          <a
+            rel="nofollow noopener"
+            target="blank_"
+            href="https://www.viator.com/?pid=P00218939&mcid=42383&medium=link&medium_version=selector"
+            >Viator</a
+          >
+          •
+          <a
+            rel="nofollow noopener"
+            target="blank_"
+            href="https://amzn.to/4lbDtO5"
+            >Amazon</a
+          >
+          •
+          <a
+            rel="nofollow noopener"
+            target="blank_"
+            href="https://kiwitaxi.tpk.mx/7OgDoKGT"
+            >Kiwi.com</a
+          >
+          •
+          <a
+            rel="nofollow noopener"
+            target="blank_"
+            href="https://hotellook.tpk.mx/Fmhh4o28"
+            >Hotellook</a
+          >
+          •
+          <a
+            rel="nofollow noopener"
+            target="blank_"
+            href="https://www.villiersjets.com/?id=9474"
+            >Villiers Jets</a
+          >
+          •
+        </p>
+      </div>
+    </section>
 
+    <!-- why us section -->
+    <section class="why-us-section">
+      <h2>Why Choose Luxury Paradise Travel?</h2>
+      <p>
+        At <strong>Luxury Paradise Travel</strong>, we do more than just
+        recommend destinations—we unlock the world's most exclusive luxury
+        travel experiences. From overwater villas in the Maldives to private jet
+        charters and VIP cruises, we help you travel like royalty—without the
+        guesswork.
+      </p>
+
+      <ul class="why-us-list">
+        <li>
+          <strong>Curated Luxury</strong>: We handpick only the top-rated 5-star
+          hotels, private islands, first-class flights, and yacht rentals that
+          meet our strict luxury standards.
+        </li>
+        <li>
+          <strong>Insider Travel Deals</strong>: Through trusted affiliate
+          partners like Viator, Expedia, Villiers Jets, and Amazon, we deliver
+          verified VIP deals you won't find on random blogs.
+        </li>
+        <li>
+          <strong>Expert Travel Guides</strong>: Our detailed destination guides
+          and travel ebooks help you book smarter, travel better, and create
+          unforgettable luxury experiences.
+        </li>
+        <li>
+          <strong>Affiliate-Backed Transparency</strong>: Every link on our site
+          supports our mission through affiliate partnerships—but we only
+          promote what we trust and use ourselves.
+        </li>
+        <li>
+          <strong>Fast, Modern, & Mobile-Friendly</strong>: Our website is
+          designed for speed, clarity, and an exceptional experience across all
+          devices.
+        </li>
+      </ul>
+
+      <p class="why-us-final">
+        Whether you're planning your honeymoon, a solo adventure, or a VIP
+        getaway with friends, <strong>Luxury Paradise Travel</strong> is your
+        trusted guide to the best the world has to offer.
+      </p>
+      <!-- affiliate disclosure -->
+      <div class="quote-quotes">
+        <blockquote>
+          <p class="affiliate-disclosure">
+            Disclosure: Some of the links on this site are affiliate links. This
+            means we may earn a commission at no extra cost to you if you make a
+            purchase through them. As an Amazon Associate, we earn from
+            qualifying purchases.
+          </p>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- Private Jets Section -->
+    <section class="private-charters">
+      <div class="privatejets-container">
+        <div class="jet-firsttext">
+          <h2>Elevate Your Travel Experience</h2>
+          <p>
+            Experience the ultimate in luxury travel with our private jet
+            charter services.
+          </p>
+        </div>
+        <div class="jets-firstcontainer">
+          <div class="jets-grid">
+            <div class="jetsgrid-firsttextcontainer">
+              <h3>Private Jet Charter</h3>
+              <p>
+                Skip the long lines and crowded terminals. Travel on your
+                schedule with personalized service and unparalleled comfort.
+              </p>
+              <ul class="space-y-3 mb-8">
+                <li class="flex items-start">
+                  ✔ Access 10,000+ private jets worldwide in real-time
+                </li>
+                <li class="flex items-start">
+                  ✔ Instant flight search with transparent pricing
+                </li>
+                <li class="flex items-start">
+                  ✔ No delays, no layovers — fly on your schedule
+                </li>
+                <li class="flex items-start">
+                  ✔ VIP service, professional pilots, luxury cabins
+                </li>
+              </ul>
+              <div class="jets-container">
+                <a
+                  href="https://www.villiersjets.com/?id=9474"
+                  target="_blank"
+                  rel="nofollow noopener"
+                  class="btn"
+                >
+                  Search Flights with Villiers jets</a
+                >
+              </div>
+            </div>
+            <div class="jets-image">
+              <img
+                src="/images/charters.jpg"
+                alt="Private Jet Interior"
+                class="absolute inset-0 w-full h-full object-cover object-top"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- categories section -->
+    <section>
+      <div class="luxurydeals-categories">
+        <a
+          target="_blank"
+          rel="nofollow noopener"
+          href="https://expedia.com/affiliates/expedia-home.hMJbWB1"
+        >
+          <div class="deals-categories">
+            <span class="material-symbols-outlined"> flight </span>
+            <p><strong>flights</strong></p>
+          </div>
+        </a>
+        <a
+          target="_blank"
+          rel="nofollow noopener"
+          href="https://expedia.com/affiliates/hotel-search-randheli-island.OkieGo9"
+        >
+          <div class="deals-categories">
+            <span class="material-symbols-outlined"> apartment </span>
+            <p><strong>Hotels</strong></p>
+          </div>
+        </a>
+        <a
+          target="_blank"
+          rel="nofollow noopener"
+          href="https://www.villiersjets.com/?id=9474"
+        >
+          <div class="deals-categories">
+            <span class="material-symbols-outlined"> plane_contrails </span>
+            <p><strong>Private Jets</strong></p>
+          </div>
+        </a>
+        <a href="/luxury-travel-deals.html#tours">
+          <div class="deals-categories">
+            <span class="material-symbols-outlined"> travel_explore </span>
+            <p><strong>Tours</strong></p>
+          </div>
+        </a>
+        <a rel="nofollow noopener" href="https://expedia.com/affiliate/rhFxUWU">
+          <div class="deals-categories">
+            <span class="material-symbols-outlined"> beach_access </span>
+            <p><strong>Vacation</strong></p>
+          </div>
+        </a>
+        <a rel="nofollow noopener" href="https://amzn.to/4lbDtO5">
+          <div class="deals-categories">
+            <span class="material-symbols-outlined"> shopping_cart </span>
+            <p><strong>Travel gears</strong></p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- blog section -->
     <section class="blogging">
       <h3 class="blog-h3">Latest Luxury Travel Guides & Blogs</h3>
       <p>make your travel easier and full of unforgatable exprience</p>
@@ -195,27 +484,27 @@
         <div class="blogs-lists">
           <ul class="blogs">
             <li>
-              <a href="best-luxury-cruises-2025.html"
+              <a href="/blogs/best-luxury-cruises-2025.html"
                 >Best Luxury Cruises for 2025</a
               >
             </li>
             <li>
-              <a href="how-to-fly-first-class-for-free.html">
+              <a href="/blogs/how-to-fly-first-class-for-free.html">
                 Fly First Class, Free Using Points & Miles</a
               >
             </li>
             <li>
-              <a href="best-overwater-villas-maldives.html"
+              <a href="/blogs/best-overwater-villas-maldives.html"
                 >Overwater Villas in the Maldives for 2025
               </a>
             </li>
             <li>
-              <a href="Best-Cruises-for-Couples-in-2025.html"
+              <a href="/blogs/Best-Cruises-for-Couples-in-2025.html"
                 >Best Luxury Cruises for Couples in 2025</a
               >
             </li>
             <li>
-              <a href="exclusive-private-islands-luxury-travel.html"
+              <a href="/blogs/exclusive-private-islands-luxury-travel.html"
                 >Top 10 Most Exclusive Private Islands</a
               >
             </li>
@@ -223,12 +512,14 @@
         </div>
       </div>
     </section>
+
+    <!-- destination section -->
     <section class="destination">
       <h3>Featured Luxury Destinations</h3>
       <p>
         Find the finest resorts, private islands, and VIP travel experiences.
       </p>
-      <div class="featured-destinations">
+      <div class="featured-destinations home-destinations">
         <div class="destination-cards">
           <img
             src="images/valley.jpg"
@@ -239,7 +530,9 @@
             Home to the world's best overwater villas,Crystal-clear lagoons,
             white sandy beaches, Private island resorts with personal butlers
           </p>
-          <a target="blank_" class="btn" href="Maldives.html">Explore</a>
+          <a target="blank_" class="btn" href="/destinations/Maldives.html"
+            >Explore</a
+          >
         </div>
         <div class="destination-cards">
           <img
@@ -252,7 +545,9 @@
             with glass floors, Romantic getaways with private dining on the
             beach,VIP stays at Four Seasons, St. Regis, and Conrad Bora Bora
           </p>
-          <a target="blank_" class="btn" href="Bora-Bora.html">Explore</a>
+          <a target="blank_" class="btn" href="/destinations/Bora-Bora.html"
+            >Explore</a
+          >
         </div>
         <div class="destination-cards">
           <img
@@ -265,7 +560,9 @@
             Private yacht charters & helicopter tours,Luxury shopping, desert
             safaris & sky-high dining
           </p>
-          <a target="blank_" class="btn" href="dubai.html">Explore</a>
+          <a target="blank_" class="btn" href="/destinations/dubai.html"
+            >Explore</a
+          >
         </div>
         <div class="destination-cards">
           <img
@@ -277,11 +574,15 @@
             Stunning white-washed villas with infinity pools, Caldera views with
             luxury cave hotels, Sunset yacht cruises & private beach dining
           </p>
-          <a target="blank_" class="btn" href="Santorini.html">Explore</a>
+          <a target="blank_" class="btn" href="/destinations/Santorini.html"
+            >Explore</a
+          >
         </div>
       </div>
-      <a href="Destination.html" class="btn">Look for More Destinations</a>
+      <a href="/Destination.html" class="btn">Look for More Destinations</a>
     </section>
+
+    <!-- travel ebook -->
     <section class="ebooks" id="ebook">
       <div class="ebook-container">
         <h3>Guide of the Year 2025</h3>
@@ -313,6 +614,241 @@
         />
       </div>
     </section>
+    <!-- amazon books affiliate -->
+    <section class="travel-books-section home-books">
+      <h3>Top Travel Reads on Amazon</h3>
+      <div class="book-card-grid">
+        <!-- Book 1 -->
+        <div
+          class="book-card"
+          style="background-image: url('/images/deals/read-booktwo.jpg')"
+        >
+          <div class="book-overlay">
+            <h5>Inspiration for the Road</h5>
+            <p>
+              Find powerful stories and tips to fuel your wanderlust and shape
+              your journey through life.
+            </p>
+            <a
+              href="https://amzn.to/4kpRC9h"
+              target="_blank"
+              rel="nofollow noopener"
+              >Discover on Amazon</a
+            >
+          </div>
+        </div>
+
+        <!-- Book 2 -->
+        <div
+          class="book-card"
+          style="background-image: url('/images/deals/read-bookthree.jpg')"
+        >
+          <div class="book-overlay">
+            <h5>Books for the Modern Nomad</h5>
+            <p>
+              From minimalist living to digital freedom, explore reads that
+              align with your travel-driven lifestyle.
+            </p>
+            <a
+              href="https://amzn.to/3GA7ZlA"
+              target="_blank"
+              rel="nofollow noopener"
+              >Explore Now</a
+            >
+          </div>
+        </div>
+
+        <!-- Book 3 -->
+        <!-- <div
+          class="book-card"
+          style="background-image: url('/images/deals/read-bookone.jpg')"
+        >
+          <div class="book-overlay">
+            <h5>Smart Travel, Smarter Spending</h5>
+            <p>
+              Discover how to see the world without breaking the bank —
+              practical advice, timeless insight.
+            </p>
+            <a
+              href="https://amzn.to/4ktrAC7"
+              target="_blank"
+              rel="nofollow noopener"
+              >Read More</a
+            >
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- featured blogposts -->
+    <section class="blog-preview-section deal-slider-section featured-flights">
+      <h3>Latest Luxury Travel Guides</h3>
+      <p>
+        Explore curated tips, hidden getaways, and exclusive strategies to
+        travel in luxury—smarter, cheaper, and better.
+      </p>
+      <div class="swiper flight-swiper">
+        <div class="swiper-wrapper">
+          <div class="blog-post swiper-slide">
+            <img
+              src="images/cruise.jpg"
+              alt="A luxury cruise near a secluded land"
+            />
+            <div class="blogpage-content">
+              <h3 class="heading">
+                Best Luxury Cruises for 2025: Top 10 VIP Experiences
+              </h3>
+              <p>
+                Luxury cruising is evolving, offering private butlers,
+                Michelin-star dining, and exclusive island stops.
+              </p>
+              <a href="/blogs/best-luxury-cruises-2025.html">read more</a>
+            </div>
+          </div>
+          <div class="blog-post swiper-slide">
+            <img
+              src="images/cruise2.jpg"
+              alt="An expensive luxury cruise near a secluded land "
+            />
+            <div class="blogpage-content">
+              <h3 class="heading">
+                Most Expensive Cruise Suites in the World (Ultimate VIP Travel)
+              </h3>
+              <p>
+                For the world's wealthiest travelers, luxury cruising is about
+                exclusivity, opulence, and VIP treatment.
+              </p>
+              <a href="/blogs/most-expensive-cruise-suites.html">read more</a>
+            </div>
+          </div>
+          <div class="blog-post swiper-slide">
+            <img
+              src="images/vill.jpg"
+              alt="A luxury cruise near a secluded land "
+            />
+            <div class="blogpage-content">
+              <h3 class="heading">
+                Best Overwater Villas in the Maldives for 2025 (5-Star Resorts)
+              </h3>
+              <p>
+                waking up in a private overwater villa, stepping onto your sun
+                deck, and diving straight into the crystal-clear Maldives
+                lagoon.
+              </p>
+              <a href="/blogs/best-overwater-villas-maldives.html">read more</a>
+            </div>
+          </div>
+          <div class="blog-post swiper-slide">
+            <img
+              src="images/cruise3.jpg"
+              alt="A luxury cruise near a secluded land "
+            />
+            <div class="blogpage-content">
+              <h3 class="heading">
+                How to Book a Luxury Cruise for Cheap & Save Thousands
+              </h3>
+              <p>
+                we'll reveal insider tips on how to book a luxury cruise for
+                cheap, so you can experience VIP suites, gourmet dining, and
+                private shore excursions—without overspending!
+              </p>
+              <a href="/blogs/how-to-book-a-luxury-cruise.html">read more</a>
+            </div>
+          </div>
+          <div class="blog-post swiper-slide">
+            <img
+              src="images/island.jpg"
+              alt="A luxury cruise near a secluded land "
+            />
+            <div class="blogpage-content">
+              <h3 class="heading">
+                Top 10 Most Exclusive Private Islands for Luxury Travelers
+              </h3>
+              <p>
+                seeking privacy, exclusivity, and personalized experiences more
+                than ever. Even if you want to rent an entire island or stay in
+                an ultra-luxurious private villa, we have curated the top 10
+                most exclusive private islands in the world.
+              </p>
+              <a href="/blogs/exclusive-private-islands-luxury-travel.html"
+                >read more</a
+              >
+            </div>
+          </div>
+          <div class="blog-post swiper-slide">
+            <img
+              src="images/person.jpg"
+              alt="A luxury cruise near a secluded land "
+            />
+            <div class="blogpage-content">
+              <h3 class="heading">
+                How to Fly First Class for Free Using Points & Miles
+              </h3>
+              <p>
+                Flying first class is the ultimate luxury travel experience—but
+                did you know you can do it for FREE? Instead of paying $5,000+
+                per ticket, you can use travel points and miles to book
+                first-class flights for little to no cost. <br />
+                In this guide, we will show you how to fly first class for free
+                using:
+              </p>
+              <a href="/blogs/how-to-fly-first-class-for-free.html"
+                >read more</a
+              >
+            </div>
+          </div>
+          <div class="blog-post swiper-slide">
+            <img
+              src="images/yacht.jpg"
+              alt="A luxury yacht near a secluded land "
+            />
+            <div class="blogpage-content">
+              <h3 class="heading">
+                The Ultimate Luxury Yacht Experience in the Mediterranean
+              </h3>
+              <p>
+                With a private yacht charter, you get VIP service, personal
+                chefs, and access to hidden beaches. In this guide, we will
+                explore the top 5 luxury yacht charters in the Mediterranean for
+                2025
+              </p>
+              <a href="/blogs/Private-Yacht-Charters.html">read more</a>
+            </div>
+          </div>
+        </div>
+        <!-- Navigation arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <!-- amazon affiliate -->
+    <section class="amazon-gadgets">
+      <div class="amazongadgets-container">
+        <div class="amazon-gadgetone">
+          <img
+            src="/images/deals/amazon-gadgets.jpg"
+            loading="lazy"
+            alt="travel essentials for smooth and good experience on travel"
+          />
+        </div>
+        <div class="amazon-gadgettwo">
+          <h3>Travel Essentials on Amazon</h3>
+          <p>
+            Pack smarter. Discover must-have travel gear to elevate every
+            journey all just a click away.
+          </p>
+          <a
+            target="blank_"
+            rel="nofollow noopener"
+            href="https://amzn.to/4lbDtO5"
+            >Shop Now</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- travel deals -->
     <section id="travel1" class="travel-deals">
       <h3>Exclusive VIP Travel Deals</h3>
       <p>
@@ -381,81 +917,322 @@
           >
         </div>
       </div>
-      <a
-        target="blank_"
-        href="https://www.viator.com/tours/Dubai/Dubai-Burj-Al-Arab-Guided-Tour-with-High-Tea-Experience/d828-340534P24?pid=P00218939&mcid=42383&medium=link&medium_version=selector"
-        class="btn card-btn"
+      <a target="blank_" href="/luxury-travel-deals.html" class="btn card-btn"
         >Look for More Travel Deals</a
       >
     </section>
-    <section class="campany-container">
+
+    <!-- affiliate copanies i promote -->
+    <section class="trusted-partners" id="best-campany">
+      <h3>Trusted Travel Platforms We Recommend</h3>
+      <p class="partner-description">
+        These are some of the top travel brands we feature through affiliate
+        partnerships to bring you premium deals.
+      </p>
+
+      <div class="partners-grid">
+        <div class="partner">
+          <span class="material-symbols-outlined">public</span>
+          <p>Expedia</p>
+        </div>
+        <div class="partner">
+          <span class="material-symbols-outlined">map</span>
+          <p>Viator</p>
+        </div>
+        <div class="partner">
+          <span class="material-symbols-outlined">flight</span>
+          <p>Villiers Jets</p>
+        </div>
+        <div class="partner">
+          <span class="material-symbols-outlined">airplane_ticket</span>
+          <p>Kiwi.com</p>
+        </div>
+        <div class="partner">
+          <span class="material-symbols-outlined">hotel</span>
+          <p>Hotellook</p>
+        </div>
+        <div class="partner">
+          <span class="material-symbols-outlined">shopping_cart</span>
+          <p>Amazon</p>
+        </div>
+      </div>
+
+      <div class="partner-features">
+        <div class="feature">
+          <span class="material-symbols-outlined">verified</span> Verified
+          Partners
+        </div>
+        <div class="feature">
+          <span class="material-symbols-outlined">lock</span> Secure Payments
+        </div>
+        <div class="feature">
+          <span class="material-symbols-outlined">support_agent</span> 24/7
+          Support
+        </div>
+        <div class="feature">
+          <span class="material-symbols-outlined">price_check</span> Best Price
+          Guarantee
+        </div>
+      </div>
+    </section>
+    <section class="campany-container deal-slider-section featured-flights">
       <h3 class="campany-h3">
         Best Luxury Campanies For Exclusive Experiece and Trust
       </h3>
-      <section id="best-campany">
-        <div class="campanies">
-          <div
-            class="eg-affiliate-banners"
-            data-program="us-expedia"
-            data-network="pz"
-            data-layout="medium-rectangle"
-            data-image="sailing"
-            data-message="bye-bye-bucket-list-hello-adventure"
-            data-link="home"
-            data-camref="1101l3YUcM"
-            data-pubref=""
-          ></div>
-          <p>
-            Expedia is a trusted travel booking platform that offers premium
-            accommodations, first-class flights, and tailor-made vacation
-            packages at competitive prices. If you are looking for five-star
-            resorts, luxury villas, or business-class flights, Expedia provides
-            exclusive deals and member rewards to elevate your travel
-            experience. Their bundle & save option allows travelers to combine
-            flights, hotels, and car rentals for extra savings.
-          </p>
+      <div class="campany-section swiper flight-swiper">
+        <div class="swiper-wrapper">
+          <div class="campanies swiper-slide">
+            <div
+              class="eg-affiliate-banners"
+              data-program="us-expedia"
+              data-network="pz"
+              data-layout="medium-rectangle"
+              data-image="sailing"
+              data-message="bye-bye-bucket-list-hello-adventure"
+              data-link="home"
+              data-camref="1101l3YUcM"
+              data-pubref=""
+            ></div>
+            <p>
+              Expedia is a trusted travel booking platform that offers premium
+              accommodations, first-class flights, and tailor-made vacation
+              packages at competitive prices. If you are looking for five-star
+              resorts, luxury villas, or business-class flights, Expedia
+              provides exclusive deals and member rewards to elevate your travel
+              experience. Their bundle & save option allows travelers to combine
+              flights, hotels, and car rentals for extra savings.
+            </p>
+          </div>
+          <div class="campanies swiper-slide">
+            <div
+              data-id="viator-banner"
+              data-partner-id="P00218939"
+              data-url="https://www.viator.com/"
+              data-banner-width="300"
+              data-banner-height="250"
+              data-banner-language="en"
+              data-banner-selection="banner1"
+            ></div>
+            <p>
+              Viator is the go-to platform for booking unforgettable travel
+              experiences worldwide. With access to luxury private tours, VIP
+              excursions, and skip-the-line passes, Viator ensures an exclusive
+              and seamless experience for travelers. If you want a private yacht
+              cruise, helicopter tour, or a Michelin-star dining experience,
+              Viator offers curated activities that cater to high-end travelers.
+              Plus, their free cancellation policy and 24/7 customer support
+              make booking risk-free and convenient.
+            </p>
+          </div>
+          <div class="campanies swiper-slide">
+            <a href="https://www.villiersjets.com/?id=9474"
+              ><img
+                src="https://assets.villiersjets.com/banners/300X250.jpg"
+                alt="Villiers Private Jet Charter  "
+                width="300"
+                height="250"
+            /></a>
+            <p>
+              For those who seek the ultimate in private air travel, Villiers is
+              a premier private jet charter service offering access to over
+              10,000 aircraft worldwide. If you need a last-minute business
+              flight or a luxurious, stress-free travel experience, Villiers
+              provides on-demand private jets with no membership fees. Enjoy the
+              freedom to fly anywhere, anytime, with personalized concierge
+              services and VIP treatment from takeoff to landing.
+            </p>
+          </div>
+          <div class="campanies swiper-slide">
+            <script
+              async
+              src="https://tpwdg.com/content?currency=usd&trs=393596&shmarker=610677.paradise&powered_by=true&locale=en&campaign_id=111&promo_id=4484"
+              charset="utf-8"
+            ></script>
+            <p>
+              Kiwi.com is a powerful travel search platform that lets you book
+              flights across multiple airlines in one smooth itinerary — even
+              when those airlines don't officially work together. It's
+              especially helpful for international travelers, backpackers, and
+              deal-hunters who want to mix and match low-cost carriers or fly
+              unconventional routes to save time and money.
+            </p>
+          </div>
+          <div class="campanies swiper-slide">
+            <script
+              async
+              src="https://tpwdg.com/content?currency=USD&trs=393596&shmarker=610677.paradise&language=en&theme=1&powered_by=true&campaign_id=1&promo_id=1486"
+              charset="utf-8"
+            ></script>
+            <p>
+              KiwiTaxi offers convenient, pre-booked private transfers between
+              airports, hotels, cities, and tourist areas in over 100 countries.
+              Whether you're arriving late at night or want a reliable driver
+              waiting when you land, KiwiTaxi gives you peace of mind — with
+              fixed prices, English-speaking support, and a range of car types
+              (standard, business, minivan, etc.)
+            </p>
+          </div>
+          <div class="campanies swiper-slide">
+            <script
+              async
+              src="https://tpwdg.com/content?currency=usd&trs=393596&shmarker=610677.paradise&show_hotels=true&powered_by=true&locale=en&searchUrl=search.hotellook.com&primary_override=%23FF8E01&color_button=%23FF8E01&color_icons=%23FF8E01&secondary=%23FFFFFF&dark=%23262626&light=%23FFFFFF&special=%23C4C4C4&color_focused=%23FF8E01&border_radius=5&plain=false&promo_id=7873&campaign_id=101"
+              charset="utf-8"
+            ></script>
+            <p>
+              Hotellook is a hotel price comparison site that pulls listings
+              from top booking platforms like Booking.com, Agoda, Hotels.com,
+              and more — all in one search. It's perfect for travelers who want
+              to see all their options quickly without bouncing between 10
+              different tabs.
+            </p>
+          </div>
         </div>
-        <div class="campanies">
-          <div
-            data-id="viator-banner"
-            data-partner-id="P00218939"
-            data-url="https://www.viator.com/"
-            data-banner-width="300"
-            data-banner-height="250"
-            data-banner-language="en"
-            data-banner-selection="banner1"
-          ></div>
-          <p>
-            Viator is the go-to platform for booking unforgettable travel
-            experiences worldwide. With access to luxury private tours, VIP
-            excursions, and skip-the-line passes, Viator ensures an exclusive
-            and seamless experience for travelers. If you want a private yacht
-            cruise, helicopter tour, or a Michelin-star dining experience,
-            Viator offers curated activities that cater to high-end travelers.
-            Plus, their free cancellation policy and 24/7 customer support make
-            booking risk-free and convenient.
-          </p>
-        </div>
-        <div class="campanies">
-          <a href="https://www.villiersjets.com/?id=9474"
-            ><img
-              src="https://assets.villiersjets.com/banners/300X250.jpg"
-              alt="Villiers Private Jet Charter  "
-              width="300"
-              height="250"
-          /></a>
-          <p>
-            For those who seek the ultimate in private air travel, Villiers is a
-            premier private jet charter service offering access to over 10,000
-            aircraft worldwide. If you need a last-minute business flight or a
-            luxurious, stress-free travel experience, Villiers provides
-            on-demand private jets with no membership fees. Enjoy the freedom to
-            fly anywhere, anytime, with personalized concierge services and VIP
-            treatment from takeoff to landing.
-          </p>
-        </div>
-      </section>
+        <!-- Navigation arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
     </section>
+
+    <!-- youtube video -->
+    <section class="video-section">
+      <h2>Watch Our Luxury Travel Overview</h2>
+      <p>
+        Discover how to explore the world in style with 5-star hotels, private
+        jets, and exclusive travel experiences.
+      </p>
+
+      <div class="custom-video-container">
+        <iframe
+          src="https://www.youtube.com/embed/dAupJAcyGQY"
+          title="Luxury Paradise Travel Overview"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          loading="lazy"
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- faqs section  -->
+    <section class="section-light faq">
+      <div class="faqs-container">
+        <h3>Frequently Asked Questions</h3>
+      </div>
+
+      <details>
+        <summary>
+          <h5>What's the best day to book cheap international flights?</h5>
+        </summary>
+        <p>
+          According to flight data, Tuesday and Wednesday typically have the
+          lowest fares. Use
+          <a
+            class="link"
+            href="https://kiwitaxi.tpk.mx/7OgDoKGT"
+            target="_blank"
+            rel="nofollow noopener"
+            >Kiwi.com</a
+          >
+          or
+          <a
+            class="link"
+            href="https://expedia.com/affiliates/hotel-search-randheli-island.OkieGo9"
+            target="_blank"
+            rel="nofollow noopener"
+            >Expedia</a
+          >
+          to compare prices across flexible dates and score deals.
+        </p>
+      </details>
+
+      <details>
+        <summary>
+          <h5>
+            Is it possible to charter a private jet online without a broker?
+          </h5>
+        </summary>
+        <p>
+          Yes.
+          <a
+            class="link"
+            href="https://www.villiersjets.com/?id=9474"
+            target="_blank"
+            rel="nofollow noopener"
+            >Villiers Jets</a
+          >
+          offers direct, on-demand private jet bookings with transparent pricing
+          and no hidden fees. Choose from over 10,000 aircraft worldwide.
+        </p>
+      </details>
+
+      <details>
+        <summary>
+          <h5>How do I find luxury tours and skip-the-line experiences?</h5>
+        </summary>
+        <p>
+          Use
+          <a
+            class="link"
+            href="https://www.viator.com/?pid=P00218939&mcid=42383"
+            target="_blank"
+            rel="nofollow noopener"
+            >Viator</a
+          >
+          to browse curated luxury experiences, from private yacht cruises to
+          helicopter tours. Most options include free cancellation and verified
+          reviews.
+        </p>
+      </details>
+
+      <details>
+        <summary>
+          <h5>
+            What are the most important travel essentials for luxury trips?
+          </h5>
+        </summary>
+        <p>
+          Pack lightweight luxury: RFID passport wallet, noise-canceling
+          headphones, sleep mask, and packing cubes. Browse top-rated travel
+          gear on
+          <a
+            class="link"
+            href="https://amzn.to/4lbDtO5"
+            target="_blank"
+            rel="nofollow noopener"
+            >Amazon</a
+          >.
+        </p>
+      </details>
+
+      <details>
+        <summary>
+          <h5>How do I cancel or change a booking on Expedia or Viator?</h5>
+        </summary>
+        <p>
+          Most bookings on
+          <a
+            class="link"
+            href="https://expedia.com/affiliates/hotel-search-randheli-island.OkieGo9"
+            target="_blank"
+            rel="nofollow noopener"
+            >Expedia</a
+          >
+          and
+          <a
+            class="link"
+            href="https://www.viator.com/?pid=P00218939&mcid=42383"
+            target="_blank"
+            rel="nofollow noopener"
+            >Viator</a
+          >
+          offer free cancellation. Always check the policy listed before
+          booking, and use your account dashboard to manage or modify
+          reservations.
+        </p>
+      </details>
+    </section>
+
+    <!-- social media platforms -->
     <section class="socialmedia-icons">
       <section id="subscribe">
         <h2>Join Our Luxury Travel Newsletter</h2>
@@ -477,40 +1254,68 @@
         </form>
       </section>
       <h3>FOLOW US</h3>
-      <a target="blank_" href="https://www.youtube.com/@paradise-lux"
+      <a
+        target="blank_"
+        rel="nofollow noopener"
+        href="https://www.youtube.com/@paradise-lux"
         ><i class="bx bxl-youtube"></i
       ></a>
       <a
         target="blank_"
+        rel="nofollow noopener"
         href="https://www.facebook.com/profile.php?id=61562869575815"
         ><i class="bx bxl-facebook-circle"></i
       ></a>
-      <a target="blank_" href="https://x.com/luxuryparadise0"
+      <a
+        target="blank_"
+        rel="nofollow noopener"
+        href="https://x.com/luxuryparadise0"
         ><i class="bx bxl-twitter"></i
       ></a>
-      <a target="blank_" href="https://www.tiktok.com/@luxury_paradis0"
+      <a
+        target="blank_"
+        rel="nofollow noopener"
+        href="https://www.tiktok.com/@luxury_paradis0"
         ><i class="bx bxl-tiktok"></i
       ></a>
-      <a target="blank_" href="https://www.pinterest.com/luxuryparadise101/"
+      <a
+        target="blank_"
+        rel="nofollow noopener"
+        href="https://www.pinterest.com/luxuryparadise101/"
         ><i class="bx bxl-pinterest"></i
       ></a>
-      <a target="blank_" href="https://www.instagram.com/luxuryparadise0/"
+      <a
+        target="blank_"
+        rel="nofollow noopener"
+        href="https://www.instagram.com/luxuryparadise0/"
         ><i class="bx bxl-instagram"></i
       ></a>
-      <a target="blank_" href="www.linkedin.com/in/luxury-paradise-3a1a85314"
+      <a
+        target="blank_"
+        rel="nofollow noopener"
+        href="www.linkedin.com/in/luxury-paradise-3a1a85314"
         ><i class="bx bxl-linkedin-square"></i
       ></a>
     </section>
 
+    <!-- footer -->
     <section class="footer-section">
       <div class="footer">
-        <div><img class="footer-logo" src="images/logo.png" alt="" /></div>
+        <div>
+          <img
+            loading="lazy"
+            class="footer-logo"
+            src="images/logo.png"
+            alt="the luxury travel logo of this website"
+          />
+        </div>
         <div class="footer-container">
           <h3 class="heading">Best Services</h3>
           <ul class="footer-list">
             <li><a href="#best-campany">Best Luxury campany</a></li>
             <li>
               <a
+                rel="nofollow noopener"
                 target="blank_"
                 href="https://expedia.com/affiliates/hotel-search-randheli-island.OkieGo9"
                 >Luxury Cruises</a
@@ -518,26 +1323,35 @@
             </li>
             <li>
               <a
+                rel="nofollow noopener"
                 target="blank_"
                 href="https://www.viator.com/St-Thomas-attractions/Yacht-Haven-Grande/d965-a14287?pid=P00218939&mcid=42383&medium=link&medium_version=selector"
                 >Yacht Rentals</a
               >
             </li>
             <li>
-              <a target="blank_" href="https://www.villiersjets.com/?id=9474"
+              <a
+                rel="nofollow noopener"
+                target="blank_"
+                href="https://www.villiersjets.com/?id=9474"
                 >First-Class Travel</a
               >
             </li>
-            <!-- <li><a href="">Travel Credit Cards</a></li> -->
+            <li>
+              <a rel="nofollow noopener" href="https://amzn.to/4lbDtO5"
+                >Travel Grear</a
+              >
+            </li>
             <li><a href="#travel1">VIP Travel Deals</a></li>
           </ul>
         </div>
         <div class="footer-container">
           <h3 class="heading">Discover</h3>
           <ul class="footer-list">
-            <li><a href="Destination.html">Destinations</a></li>
+            <li><a href="/Destination.html">Destinations</a></li>
             <li>
               <a
+                rel="nofollow noopener"
                 target="blank_"
                 href="https://expedia.com/affiliates/hotel-search-randheli-island.OkieGo9"
                 >5-Star Hotels</a
@@ -545,9 +1359,10 @@
             </li>
             <li><a target="blank_" href="blogs.html">Blogs</a></li>
             <li>
-              <a target="blank_" href="#ebook">Travel guides and ebooks</a>
+              <a target="blank_" href="https://amzn.to/4kpRC9h"
+                >Travel guides and ebooks</a
+              >
             </li>
-            <!-- <li><a target="blank_" href="">Travel essentials</a></li> -->
           </ul>
         </div>
         <div class="footer-container">
@@ -577,6 +1392,63 @@
         <p>&copy; 2025 Luxury Travel | All Rights Reserved</p>
       </div>
     </section>
+
+    <!-- fixed buttons -->
+    <div class="floating-buttons">
+      <a
+        href="https://expedia.com/affiliates/hotel-search-randheli-island.OkieGo9"
+        target="_blank"
+        rel="nofollow noopener"
+        class="float-btn flights"
+        title="Book Flights"
+      >
+        <span class="material-symbols-outlined">flight</span></a
+      >
+      <a
+        href="https://hotellook.tpk.mx/Fmhh4o28"
+        target="_blank"
+        rel="nofollow noopener"
+        class="float-btn hotels"
+        title="Book Hotels"
+        ><span class="material-symbols-outlined">hotel</span></a
+      >
+      <a
+        href="https://www.viator.com/?pid=P00218939&mcid=42383&medium=link&medium_version=selector"
+        target="_blank"
+        rel="nofollow noopener"
+        class="float-btn tours"
+        title="Find Tours"
+      >
+        <span class="material-symbols-outlined">map</span></a
+      >
+      <a
+        href="https://amzn.to/4lbDtO5"
+        target="_blank"
+        rel="nofollow noopener"
+        class="float-btn jets"
+        title="Private Jets"
+        ><span class="material-symbols-outlined">shopping_cart</span></a
+      >
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".flight-swiper", {
+        slidesPerView: 1.2,
+        spaceBetween: 20,
+        loop: false,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          640: { slidesPerView: 1.5 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        },
+      });
+    </script>
     <script
       async
       src="https://partners.vtrcdn.com/static/scripts/banners/banners.js"
@@ -585,5 +1457,54 @@
       class="eg-affiliate-banners-script"
       src="https://affiliates.expediagroup.com/products/banners/assets/eg-affiliate-banners.js"
     ></script>
+    <!-- schema for seo -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What's the best day to book cheap international flights?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Tuesday and Wednesday tend to offer the best fares. Use Kiwi.com or Expedia to search across flexible dates for the lowest prices."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it possible to charter a private jet online without a broker?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, Villiers Jets allows direct bookings with real-time availability and transparent pricing, eliminating the need for brokers or hidden fees."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I find luxury tours and skip-the-line experiences?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Viator offers verified, curated luxury tours including yacht cruises, skip-the-line attractions, and helicopter experiences with flexible booking options."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the most important travel essentials for luxury trips?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Essentials include RFID passport wallets, noise-canceling headphones, sleep masks, and travel organizers — all available on Amazon."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I cancel or change a booking on Expedia or Viator?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most bookings on Expedia and Viator include free cancellation. Check cancellation policies before booking and use your account dashboard to manage changes."
+            }
+          }
+        ]
+      }
+    </script>
   </body>
 </html>
