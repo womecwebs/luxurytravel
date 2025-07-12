@@ -42,7 +42,8 @@ h4 {
 h5 {
   font-size: 1.8rem;
 }
-p {
+p,
+ul li {
   color: var(--paragraph-color);
   margin: 2rem 0.5rem;
 }
@@ -61,10 +62,11 @@ h2,
 h3 {
   color: var(--heading-color);
 }
-/* h1,
-h2 {
-  font-family: "Playfair Display", serif;
-} */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
 table {
   border-collapse: collapse;
 }
@@ -259,7 +261,7 @@ h4 {
 }
 @media screen and (max-width: 425px) {
   h1 {
-    font-size: 4.3rem;
+    font-size: 3.5rem;
   }
 }
 @media screen and (min-width: 1099px) {
@@ -272,17 +274,18 @@ h4 {
 .deals-hero {
   background: linear-gradient(rgb(0, 0, 0, 0.55), rgb(0, 0, 0, 0.55)),
     url(/images/beautiful-landscapes.jpg);
-  height: 100vh;
+  height: 90vh;
   clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
 }
 .deals-hero h1,
 .deals-hero h2 {
   font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
 }
 .deals-hero h1 {
   font-family: "Montserrat", sans-serif;
   margin-bottom: 0;
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 .deals-hero h2 {
   color: white;
@@ -294,8 +297,8 @@ h4 {
 }
 @media screen and (max-width: 768px) {
   .deals-hero {
-    height: 110vh;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 96%, 0 100%);
+    height: 105vh;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 100%);
   }
   .deals-hero h1 {
     margin-top: 1.5rem;
@@ -311,12 +314,12 @@ h4 {
 }
 @media screen and (max-width: 336px) {
   .deals-hero {
-    height: 125vh;
+    height: 110vh;
   }
 }
 @media screen and (max-width: 329px) {
   .deals-hero {
-    height: 135vh;
+    height: 125vh;
   }
 }
 /* why us section */
@@ -705,6 +708,7 @@ h4 {
 .footer-list {
   padding: 0 10px;
   left: 2rem;
+  list-style: none;
 }
 .footer-list li {
   padding: 10px;
@@ -747,7 +751,7 @@ h4 {
 
 .container {
   max-width: 800px;
-  margin: 5rem auto;
+  margin: 7rem auto;
   background: white;
   padding: 20px;
   border-radius: 10px;
@@ -771,6 +775,12 @@ textarea {
   margin: 5px 0;
   border: 1px solid #ccc;
   border-radius: 5px;
+}
+.privacy-head {
+  margin: 3.5rem 0 0;
+}
+.privcy-list {
+  padding: 0 1.5rem 0 3rem;
 }
 /* BLOGS PAGE */
 .heading-blog {
@@ -1256,6 +1266,7 @@ textarea {
 }
 blockquote {
   border-left: 6px solid var(--button-color);
+  border-right: 6px solid var(--button-color);
   text-align: left;
 }
 blockquote p {
