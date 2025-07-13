@@ -311,6 +311,22 @@
       </div>
     </section>
 
+    <!-- ---------- SEARCH BAR + AUTOCOMPLETE ---------- -->
+    <div id="search-container">
+      <h3>Find Your Perfect Travel Experience</h3>
+
+      <input
+        id="searchInput"
+        type="text"
+        placeholder="e.g. flights to Dubai, luxury safari, private jet..."
+        onkeyup="showSuggestions(event)"
+      />
+      <button class="search-btn" onclick="handleSearch()">Search</button>
+
+      <!-- Suggestions dropdown -->
+      <ul id="suggestions"></ul>
+    </div>
+
     <!-- categories section -->
     <section>
       <div class="luxurydeals-categories">
@@ -546,7 +562,9 @@
           >
         </div>
       </div>
-      <a href="/Destination.html" class="btn">Look for More Destinations</a>
+      <a href="/Destination.html" class="btn destination-btn"
+        >Look for More Destinations</a
+      >
     </section>
 
     <!-- travel ebook -->
@@ -1471,6 +1489,123 @@
             }
           }
         ]
+      }
+    </script>
+
+    <!-- for search bar which is affiliated  -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-S1G5HQZXP2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-S1G5HQZXP2");
+    </script>
+    <script>
+      /* ======= 1. PRESET KEYWORDS & AFFILIATE LINKS ======= */
+      const routes = [
+        {
+          keywords: ["flight", "fly"],
+          suggestion: [
+            "Flights to Dubai",
+            "Cheap flights to Paris",
+            "Last-minute flights",
+          ],
+          url: "https://expedia.com/affiliates/expedia-home.hMJbWB1",
+        },
+        {
+          keywords: ["hotel", "stay", "accommodation"],
+          suggestion: [
+            "Hotels in London",
+            "Beach resorts Bali",
+            "Budget stays New-York",
+          ],
+          url: "https://hotellook.tpk.mx/Fmhh4o28",
+        },
+        {
+          keywords: ["safari", "tour", "experience"],
+          suggestion: [
+            "Luxury safari Tanzania",
+            "Rome food tour",
+            "Snorkeling experiences",
+          ],
+          url: "https://www.viator.com/?pid=P00218939&mcid=42383&medium=link&medium_version=selector",
+        },
+        {
+          keywords: ["private jet", "luxury flight", "charter"],
+          suggestion: [
+            "Private Jet to London",
+            "Charter flight Dubai",
+            "VIP jet service",
+          ],
+          url: "https://www.villiersjets.com/?id=9474",
+        },
+      ];
+
+      /* ======= 2. AUTOCOMPLETE LOGIC ======= */
+      function showSuggestions(e) {
+        const val = e.target.value.toLowerCase();
+        const box = document.getElementById("suggestions");
+        box.innerHTML = ""; // clear previous
+        box.style.display = "none";
+
+        gtag("event", "search_bar_typing", { search_term: val }); // GA4 typing event
+
+        if (!val) return;
+
+        // build unique matches
+        const matches = new Set();
+        routes.forEach((r) => {
+          if (r.keywords.some((k) => val.includes(k))) {
+            r.suggestion.forEach((s) => matches.add(s));
+          }
+        });
+
+        if (matches.size === 0) return;
+
+        // populate dropdown
+        matches.forEach((text) => {
+          const li = document.createElement("li");
+          li.textContent = text;
+          li.style.padding = "0.75rem 1rem";
+          li.style.cursor = "pointer";
+          li.onmouseover = () => (li.style.background = "#f0f0f0");
+          li.onmouseout = () => (li.style.background = "#fff");
+          li.onclick = () => {
+            document.getElementById("searchInput").value = text;
+            box.style.display = "none";
+            gtag("event", "search_suggestion_click", { suggestion: text }); // GA4 click
+            handleSearch(); // immediately redirect
+          };
+          box.appendChild(li);
+        });
+        box.style.display = "block";
+      }
+
+      /* ======= 3. SEARCH SUBMIT / REDIRECT ======= */
+      function handleSearch() {
+        const input = document
+          .getElementById("searchInput")
+          .value.toLowerCase();
+        let target = null;
+
+        for (const r of routes) {
+          if (r.keywords.some((k) => input.includes(k))) {
+            target = r.url;
+            break;
+          }
+        }
+        if (!target) target = "/luxury-travel-deals.html"; // fallback internal page
+
+        gtag("event", "search_bar_submit", {
+          search_term: input,
+          redirect_to: target,
+        }); // GA4 submit
+        window.location.href = target;
       }
     </script>
   </body>
