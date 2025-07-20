@@ -48,12 +48,22 @@
       property="og:description"
       content="Explore the world's finest luxury travel destinations. Book luxury cruises, VIP hotel stays, and private yacht rentals."
     />
-    <meta property="og:url" content="https://luxuryparadisetravel.com" />
+    <meta property="og:url" content="https://luxurytravelpradise.netlify.app" />
     <meta property="og:type" content="website" />
     <meta
       property="og:image"
-      content="https://luxuryparadisetravel.com/images/luxury-travel-banner.jpg"
+      content="https://luxurytravelpradise.netlify.app/images/beautiful-landscapes.jpg"
     />
+
+    <!-- conical tag -->
+    <link rel="canonical" href="https://luxurytravelpradise.netlify.app/" />
+
+    <!-- font for css -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Swiper CSS -->
     <link
       rel="stylesheet"
@@ -79,6 +89,16 @@
     />
     <link rel="manifest" href="/images/icons/site.webmanifest" />
 
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
     <!-- Schema Markup (Structured Data for SEO) -->
     <script type="application/ld+json">
       {
@@ -94,17 +114,304 @@
         }
       }
     </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://luxurytravelpradise.netlify.app/"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://luxurytravelpradise.netlify.app/#website",
+            "url": "https://luxurytravelpradise.netlify.app/",
+            "name": "Luxury Paradise Travel",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://luxurytravelpradise.netlify.app/?s={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": "VideoObject",
+            "name": "Luxury Paradise Travel Overview",
+            "description": "Discover 5-star hotels, private jets, and VIP travel deals.",
+            "thumbnailUrl": "https://i.ytimg.com/vi/dAupJAcyGQY/maxresdefault.jpg",
+            "uploadDate": "2025-07-05",
+            "contentUrl": "https://www.youtube.com/watch?v=dAupJAcyGQY",
+            "embedUrl": "https://www.youtube.com/embed/dAupJAcyGQY"
+          },
+          {
+            "@type": "Product",
+            "name": "Ultimate Luxury Travel Guide 2025",
+            "description": "Travel like a VIP—discover how to book 5-star hotels, private jets, and cruises for less.",
+            "image": "https://luxurytravelpradise.netlify.app/images/ebook1.jpg",
+            "offers": {
+              "@type": "Offer",
+              "price": "5.00",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock",
+              "url": "https://payhip.com/b/U4Go1"
+            }
+          }
+        ]
+      }
+    </script>
 
-    <link rel="stylesheet" href="/css/styles.css" />
-    <!-- icons -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
-    />
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+    <!-- the inline hero and nav bar style -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;500;700&display=swap");
+
+      :root {
+        --button-color: #d4af37;
+        --button-hover: gold;
+        --heading-color: black;
+        --paragraph-color: #4a4a4a;
+        --primary-color: #f5f5dc;
+        --secondary-color: white;
+        --back-color: #c9c6c4;
+        --backing-color: lightblue;
+        --affiliate-color: #f4f7fb;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        font-size: 62.5%;
+      }
+      body {
+        background: var(--primary-color);
+        font-family: "Montserrat", sans-serif;
+      }
+      h1 {
+        color: var(--secondary-color);
+        font-size: 5rem;
+        margin-bottom: 3.5rem;
+      }
+      h2 {
+        font-size: 4rem;
+      }
+
+      ul li {
+        color: var(--paragraph-color);
+        margin: 2rem 0.5rem;
+      }
+      a {
+        color: var(--heading-color);
+        text-decoration: none;
+      }
+
+      a,
+      li {
+        font-size: 1.7rem;
+      }
+
+      @media screen and (max-width: 768px) {
+        h1 {
+          font-size: 3.5rem;
+        }
+      }
+
+      .heros-btns {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+      }
+      .second-btn {
+        border-radius: 50px;
+      }
+      .btn,
+      .btn2 {
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+        padding: 10px 15px;
+      }
+      .btn {
+        background: var(--button-color);
+        color: var(--secondary-color);
+      }
+      .btn2 {
+        background: none;
+        color: var(--secondary-color);
+        border: 2px solid var(--button-color);
+        border-radius: 50px;
+      }
+      .btn:hover,
+      .btn2:hover {
+        background: var(--button-hover);
+        color: var(--heading-color);
+      }
+
+      /* NAVIGATION BAR */
+      .dropdown-sign {
+        font-size: 1rem;
+      }
+      .heading,
+      .blog-heading,
+      h4 {
+        color: var(--button-color);
+      }
+      .nav-bar {
+        align-items: center;
+        background: var(--secondary-color);
+        display: flex;
+        height: 70px;
+        justify-content: space-between;
+        padding: 0 2.5%;
+        width: 100%;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+      }
+      .logo {
+        width: 18rem;
+      }
+      .navMenu li,
+      .blogs li {
+        display: inline-block;
+        font-weight: bold;
+        padding: 0 1.3rem;
+        position: relative;
+      }
+      .navMenu li a {
+        transition: 0.4s ease-in-out;
+      }
+      .navMenu li a:hover {
+        color: var(--button-color);
+      }
+      .dropdown_menu {
+        background: var(--secondary-color);
+        display: block;
+      }
+
+      .dropdown_menu {
+        display: none;
+        left: 0;
+        position: absolute;
+        top: 100%;
+        width: 400px;
+        z-index: 1000;
+      }
+      .dropdown_menu li,
+      .blogs li {
+        border-bottom: 3px solid var(--primary-color);
+        display: block;
+        margin: 2rem 0.5rem;
+        padding: 0.5rem 0;
+      }
+      .navMenu li:hover .dropdown_menu {
+        display: block;
+      }
+      .travel_dropdownmenu {
+        width: 200px;
+      }
+      .icons {
+        cursor: pointer;
+        display: none;
+        font-size: 2.8rem;
+        left: 2%;
+        position: absolute;
+      }
+      #check {
+        display: none;
+      }
+
+      @media screen and (max-width: 1188px) {
+        .icons {
+          display: inline-flex;
+        }
+        #check:checked ~ .icons #menu_icon {
+          display: none;
+        }
+        #close_icon {
+          display: none;
+        }
+        #check:checked ~ .icons #close_icon {
+          display: block;
+        }
+        nav {
+          background: var(--secondary-color);
+          box-shadow: 0 10px 5px rgb(0, 0, 0, 0.2);
+          height: 0;
+          left: 0;
+          overflow: hidden;
+          position: absolute;
+          top: 100%;
+          transition: 0.4s ease-in-out;
+          width: 100%;
+          z-index: 1000;
+        }
+        #check:checked ~ nav {
+          height: 30rem;
+        }
+        .navMenu li {
+          border-bottom: 3px solid var(--primary-color);
+          display: block;
+          padding: 1.3rem;
+          text-align: center;
+        }
+        .dropdown_menu li {
+          display: none;
+        }
+      }
+      /* HERO SECTION FOR ALL PAGES */
+      .hero {
+        display: flex;
+        position: relative;
+        width: 100%;
+        margin-top: 70px;
+        align-items: center;
+        justify-content: center;
+        padding: 0 2rem;
+        background: rgb(0, 0, 0, 0.55);
+        height: 90vh;
+      }
+
+      .hero-video {
+        bottom: 0;
+        position: absolute;
+        right: 0;
+        width: 100%;
+        z-index: -1;
+      }
+      .hero-container {
+        text-align: center;
+      }
+      @media (min-aspect-ratio: 16/9) {
+        .hero-video {
+          width: 100%;
+          height: auto;
+        }
+      }
+      @media (max-aspect-ratio: 16/9) {
+        .hero-video {
+          width: auto;
+          height: 100%;
+        }
+      }
+      @media screen and (max-width: 425px) {
+        h1 {
+          font-size: 3.5rem;
+        }
+      }
+      @media screen and (min-width: 1099px) {
+        .hero-container {
+          max-width: 100rem;
+        }
+      }
+    </style>
   </head>
   <body>
     <!-- navigation bar -->
@@ -131,7 +438,7 @@
               target="_blank"
               rel="nofollow noopener"
               href="https://amzn.to/4lbDtO5"
-              >Travel Grears</a
+              >Travel Gears</a
             >
           </li>
           <li>
@@ -188,7 +495,11 @@
             >
 
             <ul class="dropdown_menu travel_dropdownmenu">
-              <li><a href="#best-campany">Best Luxury campany</a></li>
+              <li>
+                <a href="/best-luxury-travel-companies.html"
+                  >Best Luxury company</a
+                >
+              </li>
               <li>
                 <a
                   target="_blank"
@@ -248,18 +559,22 @@
         </div>
       </div>
       <video
-        aria-hidden="true"
+        class="hero-video"
         autoplay
         loop
         muted
-        plays-inline
-        class="hero-video"
-        preload="auto"
-        poster="/images/beautiful-landscapes.jpg"
+        playsinline
+        preload="none"
+        width="100%"
+        height="auto"
+        poster="images/beautiful-landscapes.jpg"
       >
-        <source src="images/background2.mp4" loading="lazy" type="video/mp4" />
+        <source src="/images/background2.webm" type="video/webm" />
+        <source src="/images/background2.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
       </video>
     </section>
+
     <!-- trusted partners -->
     <section class="first-dealstext">
       <div class="deals-quote">
@@ -313,7 +628,7 @@
 
     <!-- ---------- SEARCH BAR + AUTOCOMPLETE ---------- -->
     <div id="search-container">
-      <h3>Find Your Perfect Travel Experience</h3>
+      <h2>Find Your Perfect Travel Experience</h2>
 
       <input
         id="searchInput"
@@ -392,22 +707,10 @@
       <a class="btn" href="/why-us.html">Learn more about how we work →</a>
     </section>
 
-    <!-- affiliate disclosure -->
-    <div class="quote-quotes">
-      <blockquote>
-        <p class="affiliate-disclosure">
-          Disclosure: Some of the links on this site are affiliate links. This
-          means we may earn a commission at no extra cost to you if you make a
-          purchase through them. As an Amazon Associate, we earn from qualifying
-          purchases.
-        </p>
-      </blockquote>
-    </div>
-
     <!-- blog section -->
     <section class="blogging">
-      <h3 class="blog-h3">Latest Luxury Travel Guides & Blogs</h3>
-      <p>make your travel easier and full of unforgatable exprience</p>
+      <h2 class="blog-h3">Latest Luxury Travel Guides & Blogs</h2>
+      <p>make your travel easier and full of unforgettable experience</p>
       <div class="blogs-section">
         <div class="blogs-lists">
           <ul class="blogs">
@@ -486,9 +789,11 @@
             </div>
             <div class="jets-image">
               <img
-                src="/images/charters.jpg"
+                src="images/charters.webp"
                 alt="Private Jet Interior"
-                class="absolute inset-0 w-full h-full object-cover object-top"
+                width="600"
+                height="400"
+                loading="lazy"
               />
             </div>
           </div>
@@ -498,67 +803,151 @@
 
     <!-- destination section -->
     <section class="destination">
-      <h3>Featured Luxury Destinations</h3>
+      <h2>Featured Luxury Destinations</h2>
       <p>
         Find the finest resorts, private islands, and VIP travel experiences.
       </p>
       <div class="featured-destinations home-destinations">
+        <!-- the maldives -->
         <div class="destination-cards">
           <img
-            src="images/valley.jpg"
-            alt="Aerial view of overwater villas with turquoise waters "
+            src="images/valley.webp"
+            alt="Overwater villas in Maldives "
+            width="600"
+            height="400"
+            loading="lazy"
           />
-          <h4>Maldives</h4>
+          <h3>Maldives</h3>
           <p>
-            Home to the world's best overwater villas,Crystal-clear lagoons,
-            white sandy beaches, Private island resorts with personal butlers
+            The Maldives is the definition of barefoot luxury. From overwater
+            villas to private island resorts, it's ideal for honeymoons and
+            high-end escapes. Crystal-clear lagoons,and Michelin-star cuisine
+            await you.
           </p>
-          <a target="blank_" class="btn" href="/destinations/Maldives.html"
-            >Explore</a
+          <a
+            rel="nofollow noopener"
+            target="blank_"
+            class="btn"
+            href="https://expedia.com/affiliate/Ck2q94H"
+            >Explore the Maldives</a
           >
         </div>
+        <!-- Paris -->
         <div class="destination-cards">
           <img
-            src="images/0verwater.jpg"
+            src="/images/paris-tower.webp"
+            alt="Luxury Eiffel Tower view hotel in Paris"
+            width="600"
+            height="400"
+            loading="lazy"
+          />
+          <h3>Paris, France</h3>
+          <p>
+            Known as the City of Light, Paris offers more than just romance.
+            Think palace hotels, designer shopping on Champs-Élysées, rooftop
+            fine dining, and private Seine cruises. Paris is a must for luxury
+            seekers.
+          </p>
+          <a
+            rel="nofollow noopener"
+            target="blank_"
+            class="btn"
+            href="https://expedia.com/affiliates/paris.Jjst0C2"
+            >Discover Paris luxury</a
+          >
+        </div>
+
+        <!-- bora bora -->
+        <div class="destination-cards">
+          <img
+            src="images/0verwater.webp"
             alt="Overwater bungalows with Mount Otemanu in the background"
+            width="600"
+            height="400"
+            loading="lazy"
           />
-          <h4>Bora Bora</h4>
+          <h3>Bora Bora</h3>
           <p>
-            The Ultimate Honeymoon Destination, Luxury bungalows over the water
-            with glass floors, Romantic getaways with private dining on the
-            beach,VIP stays at Four Seasons, St. Regis, and Conrad Bora Bora
+            Known as the City of Light, Paris offers more than just romance.
+            Think palace hotels, designer shopping on Champs-Élysées, rooftop
+            fine dining, and private Seine cruises. Paris is a must for luxury
+            seekers.
           </p>
-          <a target="blank_" class="btn" href="/destinations/Bora-Bora.html"
-            >Explore</a
+          <a
+            rel="nofollow noopener"
+            target="_blank"
+            class="btn"
+            href="https://www.viator.com/Bora-Bora/d5180-ttd?pid=P00218939&mcid=42383&medium=link"
+            >Explore Bora bora</a
           >
         </div>
+
+        <!-- dubai -->
         <div class="destination-cards">
           <img
-            src="images/pool.jpg"
+            src="images/pool.webp"
             alt="Infinity pool in a luxury hotel overlooking the skyline"
+            width="600"
+            height="400"
+            loading="lazy"
           />
-          <h4>Dubai, UAE</h4>
+          <h3>Dubai, UAE</h3>
           <p>
-            The City of Ultra-Luxury, Home to the Burj Al Arab(7-star hotel),
-            Private yacht charters & helicopter tours,Luxury shopping, desert
-            safaris & sky-high dining
+            Dubai blends cutting-edge architecture with ultra-luxurious
+            experiences: private desert safaris, yacht charters, and 7-star
+            hotels like Burj Al Arab. It's built for VIP travelers chasing
+            modern opulence.
           </p>
-          <a target="blank_" class="btn" href="/destinations/dubai.html"
-            >Explore</a
+          <a
+            rel="nofollow noopener"
+            target="blank_"
+            class="btn"
+            href="https://expedia.com/affiliates/dubai.w64effE"
+            >Plan luxury in Dubai</a
           >
         </div>
+
+        <!-- Zanzibar -->
         <div class="destination-cards">
           <img
-            src="images/dome.jpg"
-            alt="Infinity pool with Santorini's blue domes in the background"
+            src="/images/zanzibar.webp"
+            alt="Luxury beach resort in Zanzibar"
+            width="600"
+            height="400"
+            loading="lazy"
           />
-          <h4>Santorini, Greece</h4>
+          <h3>Zanzibar, Tanzania</h3>
           <p>
-            Stunning white-washed villas with infinity pools, Caldera views with
-            luxury cave hotels, Sunset yacht cruises & private beach dining
+            Zanzibar is East Africa's tropical jewel — home to white-sand
+            beaches, coral reefs, and historic Stone Town. Stay in exclusive
+            beachfront villas or all-inclusive spa resorts with Indian Ocean
+            views.
           </p>
-          <a target="blank_" class="btn" href="/destinations/Santorini.html"
-            >Explore</a
+          <!-- <a target="blank_" class="btn" href="/destinations/zanzibar.html"
+            >Explore Zanzibar luxury
+          </a> -->
+        </div>
+
+        <div class="destination-cards">
+          <img
+            src="images/dome.webp"
+            alt="Infinity pool with Santorini's blue domes in the background"
+            width="600"
+            height="400"
+            loading="lazy"
+          />
+          <h3>Santorini, Greece</h3>
+          <p>
+            Famous for its cliffside views and cave-style suites, Santorini is a
+            luxury dream. Sunset dinners, catamaran tours, and adults-only spas
+            make it ideal for romantic high-end vacations.
+          </p>
+          <a
+            target="blank_"
+            class="btn"
+            rel="nofollow noopener"
+            href="https://www.viator.com/searchResults/all?text=Santorini%2C+Greece&pid=P00218939&mcid=42383&medium=link"
+            >Explore santorini luxury</a
           >
         </div>
       </div>
@@ -570,11 +959,11 @@
     <!-- travel ebook -->
     <section class="ebooks" id="ebook">
       <div class="ebook-container">
-        <h3>Guide of the Year 2025</h3>
-        <h4 class="blog-h4">
+        <h2>Guide of the Year 2025</h2>
+        <p class="blog-h4">
           Ultimate Luxury Travel Guide 2025: Your VIP Guide to 5-Star Hotels,
           First-Class Flights & Exclusive Experiences
-        </h4>
+        </p>
         <p>
           Unlock the Secrets to Luxury Travel - Stay in Private Villas, Fly
           First-Class for Less & Book Exclusive VIP Experiences
@@ -594,20 +983,21 @@
       <div class="ebookimg-container">
         <img
           class="ebook-img"
-          src="images/ebook1.jpg"
+          src="images/ebook1.webp"
           alt="Ultimate Luxury Travel Guide 2025: Your VIP Guide to 5-Star Hotels, First-Class Flights & Exclusive Experiences"
+          width="600"
+          height="400"
+          loading="lazy"
         />
       </div>
     </section>
+
     <!-- amazon books affiliate -->
     <section class="travel-books-section home-books">
-      <h3>Top Travel Reads on Amazon</h3>
+      <h2>Top Travel Reads on Amazon</h2>
       <div class="book-card-grid">
         <!-- Book 1 -->
-        <div
-          class="book-card"
-          style="background-image: url('/images/deals/read-booktwo.jpg')"
-        >
+        <div class="book-card book-card-one">
           <div class="book-overlay">
             <h5>Inspiration for the Road</h5>
             <p>
@@ -624,10 +1014,7 @@
         </div>
 
         <!-- Book 2 -->
-        <div
-          class="book-card"
-          style="background-image: url('/images/deals/read-bookthree.jpg')"
-        >
+        <div class="book-card book-card-two">
           <div class="book-overlay">
             <h5>Books for the Modern Nomad</h5>
             <p>
@@ -642,32 +1029,12 @@
             >
           </div>
         </div>
-
-        <!-- Book 3 -->
-        <!-- <div
-          class="book-card"
-          style="background-image: url('/images/deals/read-bookone.jpg')"
-        >
-          <div class="book-overlay">
-            <h5>Smart Travel, Smarter Spending</h5>
-            <p>
-              Discover how to see the world without breaking the bank —
-              practical advice, timeless insight.
-            </p>
-            <a
-              href="https://amzn.to/4ktrAC7"
-              target="_blank"
-              rel="nofollow noopener"
-              >Read More</a
-            >
-          </div>
-        </div> -->
       </div>
     </section>
 
     <!-- featured blogposts -->
     <section class="blog-preview-section deal-slider-section featured-flights">
-      <h3>Latest Luxury Travel Guides</h3>
+      <h2>Latest Luxury Travel Guides</h2>
       <p>
         Explore curated tips, hidden getaways, and exclusive strategies to
         travel in luxury—smarter, cheaper, and better.
@@ -676,8 +1043,11 @@
         <div class="swiper-wrapper">
           <div class="blog-post swiper-slide">
             <img
-              src="images/cruise.jpg"
+              src="images/cruise.webp"
               alt="A luxury cruise near a secluded land"
+              width="600"
+              height="400"
+              loading="lazy"
             />
             <div class="blogpage-content">
               <h3 class="heading">
@@ -692,8 +1062,11 @@
           </div>
           <div class="blog-post swiper-slide">
             <img
-              src="images/cruise2.jpg"
+              src="images/cruise2.webp"
               alt="An expensive luxury cruise near a secluded land "
+              width="600"
+              height="400"
+              loading="lazy"
             />
             <div class="blogpage-content">
               <h3 class="heading">
@@ -708,8 +1081,11 @@
           </div>
           <div class="blog-post swiper-slide">
             <img
-              src="images/vill.jpg"
+              src="images/vill.webp"
               alt="A luxury cruise near a secluded land "
+              width="600"
+              height="400"
+              loading="lazy"
             />
             <div class="blogpage-content">
               <h3 class="heading">
@@ -725,8 +1101,11 @@
           </div>
           <div class="blog-post swiper-slide">
             <img
-              src="images/cruise3.jpg"
+              src="images/cruise3.webp"
               alt="A luxury cruise near a secluded land "
+              width="600"
+              height="400"
+              loading="lazy"
             />
             <div class="blogpage-content">
               <h3 class="heading">
@@ -742,8 +1121,11 @@
           </div>
           <div class="blog-post swiper-slide">
             <img
-              src="images/island.jpg"
+              src="images/island.webp"
               alt="A luxury cruise near a secluded land "
+              width="600"
+              height="400"
+              loading="lazy"
             />
             <div class="blogpage-content">
               <h3 class="heading">
@@ -762,8 +1144,11 @@
           </div>
           <div class="blog-post swiper-slide">
             <img
-              src="images/person.jpg"
+              src="images/person.webp"
               alt="A luxury cruise near a secluded land "
+              width="600"
+              height="400"
+              loading="lazy"
             />
             <div class="blogpage-content">
               <h3 class="heading">
@@ -784,8 +1169,11 @@
           </div>
           <div class="blog-post swiper-slide">
             <img
-              src="images/yacht.jpg"
+              src="images/yacht.webp"
               alt="A luxury yacht near a secluded land "
+              width="600"
+              height="400"
+              loading="lazy"
             />
             <div class="blogpage-content">
               <h3 class="heading">
@@ -812,9 +1200,11 @@
       <div class="amazongadgets-container">
         <div class="amazon-gadgetone">
           <img
-            src="/images/deals/amazon-gadgets.jpg"
-            loading="lazy"
+            src="/images/deals/amazon-gadgets.webp"
             alt="travel essentials for smooth and good experience on travel"
+            width="600"
+            height="400"
+            loading="lazy"
           />
         </div>
         <div class="amazon-gadgettwo">
@@ -835,7 +1225,7 @@
 
     <!-- travel deals -->
     <section id="travel1" class="travel-deals">
-      <h3>Exclusive VIP Travel Deals</h3>
+      <h2>Exclusive VIP Travel Deals</h2>
       <p>
         Luxury hotels, first-class flights, and private island stays at the best
         prices.
@@ -909,7 +1299,7 @@
 
     <!-- affiliate copanies i promote -->
     <section class="trusted-partners" id="best-campany">
-      <h3>Trusted Travel Platforms We Recommend</h3>
+      <h2>Trusted Travel Platforms We Recommend</h2>
       <p class="partner-description">
         These are some of the top travel brands we feature through affiliate
         partnerships to bring you premium deals.
@@ -961,9 +1351,6 @@
       </div>
     </section>
     <section class="campany-container deal-slider-section featured-flights">
-      <h3 class="campany-h3">
-        Best Luxury Campanies For Exclusive Experiece and Trust
-      </h3>
       <div class="campany-section swiper flight-swiper">
         <div class="swiper-wrapper">
           <div class="campanies swiper-slide">
@@ -1101,7 +1488,7 @@
     <!-- faqs section  -->
     <section class="section-light faq">
       <div class="faqs-container">
-        <h3>Frequently Asked Questions</h3>
+        <h2>Frequently Asked Questions</h2>
       </div>
 
       <details>
@@ -1121,7 +1508,7 @@
           or
           <a
             class="link"
-            href="https://expedia.com/affiliates/hotel-search-randheli-island.OkieGo9"
+            href="https://expedia.com/affiliates/expedia-home.hMJbWB1"
             target="_blank"
             rel="nofollow noopener"
             >Expedia</a
@@ -1197,7 +1584,7 @@
           Most bookings on
           <a
             class="link"
-            href="https://expedia.com/affiliates/hotel-search-randheli-island.OkieGo9"
+            href="https://expedia.com/affiliates/expedia-home.hMJbWB1"
             target="_blank"
             rel="nofollow noopener"
             >Expedia</a
@@ -1213,6 +1600,142 @@
           offer free cancellation. Always check the policy listed before
           booking, and use your account dashboard to manage or modify
           reservations.
+        </p>
+      </details>
+      <details>
+        <summary>
+          <h5>Do private jets clear immigration faster?</h5>
+        </summary>
+        <p>
+          Yes. Flying private usually allows travelers to clear immigration
+          through exclusive VIP terminals or FBOs (Fixed Base Operators), which
+          are faster and more secure than commercial terminals.
+        </p>
+      </details>
+
+      <details>
+        <summary>
+          <h5>What is the best time to visit the Maldives?</h5>
+        </summary>
+        <p>
+          The best time is between November and April when the weather is dry,
+          skies are clear, and the water is perfect for overwater villa stays,
+          snorkeling, and boat tours.
+        </p>
+      </details>
+
+      <details>
+        <summary>
+          <h5>Are luxury safaris in Africa safe?</h5>
+        </summary>
+        <p>
+          Yes. Luxury safaris in Tanzania, Kenya, Botswana, and South Africa are
+          run by top-rated operators with professional guides, secure
+          accommodations, and 24/7 guest support.
+        </p>
+      </details>
+
+      <details>
+        <summary>
+          <h5>Can I book a yacht charter online?</h5>
+        </summary>
+        <p>
+          Yes. Platforms like
+          <a
+            href="https://www.villiersjets.com/?id=9474"
+            target="_blank"
+            rel="nofollow noopener"
+            >Villiers Jets</a
+          >
+          and
+          <a
+            class="link"
+            href="https://www.viator.com/?pid=P00218939&mcid=42383"
+            target="_blank"
+            rel="nofollow noopener"
+            >Viator</a
+          >
+          let you book luxury yachts worldwide, including crewed charters and
+          sunset cruises.
+        </p>
+      </details>
+
+      <details>
+        <summary>
+          <h5>How early should I book luxury hotels?</h5>
+        </summary>
+        <p>
+          Book 2-4 months in advance for premium availability and early booking
+          discounts, especially for peak seasons, festivals, or major holidays.
+        </p>
+      </details>
+
+      <details>
+        <summary>
+          <h5>Are luxury cruises all-inclusive?</h5>
+        </summary>
+        <p>
+          Most luxury cruise lines include gourmet meals, excursions, and
+          premium drinks. Check whether gratuities, Wi-Fi, and airport transfers
+          are included before booking.
+        </p>
+      </details>
+
+      <details>
+        <summary>
+          <h5>What's the difference between 5-star and 7-star hotels?</h5>
+        </summary>
+        <p>
+          7-star hotels offer hyper-personalized service, private butlers,
+          Rolls-Royce transport, and unmatched exclusivity. They go far beyond
+          standard 5-star expectations.
+        </p>
+      </details>
+
+      <details>
+        <summary>
+          <h5>What's the best way to compare luxury travel deals?</h5>
+        </summary>
+        <p>
+          Use trusted affiliate platforms like
+          <a
+            class="link"
+            href="https://expedia.com/affiliates/expedia-home.hMJbWB1"
+            target="_blank"
+            rel="nofollow noopener"
+            >Expedia</a
+          >
+          and
+          <a
+            class="link"
+            href="https://hotellook.tpk.mx/Fmhh4o28"
+            target="_blank"
+            rel="nofollow noopener"
+            >Hotellook</a
+          >
+          to compare verified high-end accommodations and flights.
+        </p>
+      </details>
+
+      <details>
+        <summary>
+          <h5>Can I customize a private luxury itinerary?</h5>
+        </summary>
+        <p>
+          Yes. Many services offer custom VIP experiences, including private jet
+          routes, luxury car hires, concierge bookings, and exclusive
+          reservations.
+        </p>
+      </details>
+
+      <details>
+        <summary>
+          <h5>What luxury destinations are budget-friendly?</h5>
+        </summary>
+        <p>
+          Bali, Zanzibar, and parts of Greece offer luxury stays at far lower
+          costs than cities like Dubai or Paris — great for travelers seeking
+          affordable elegance.
         </p>
       </details>
     </section>
@@ -1238,7 +1761,7 @@
           <button type="submit" class="button">Subscribe</button>
         </form>
       </section>
-      <h3>FOLOW US</h3>
+      <h3>FOLLOW US</h3>
       <a
         target="blank_"
         rel="nofollow noopener"
@@ -1283,6 +1806,18 @@
       ></a>
     </section>
 
+    <!-- affiliate disclosure -->
+    <div class="quote-quotes">
+      <blockquote>
+        <p class="affiliate-disclosure">
+          Disclosure: Some of the links on this site are affiliate links. This
+          means we may earn a commission at no extra cost to you if you make a
+          purchase through them. As an Amazon Associate, we earn from qualifying
+          purchases.
+        </p>
+      </blockquote>
+    </div>
+
     <!-- footer -->
     <section class="footer-section">
       <div class="footer">
@@ -1297,7 +1832,7 @@
         <div class="footer-container">
           <h3 class="heading">Best Services</h3>
           <ul class="footer-list">
-            <li><a href="#best-campany">Best Luxury campany</a></li>
+            <li><a href="#best-campany">Best Luxury company</a></li>
             <li>
               <a
                 rel="nofollow noopener"
@@ -1324,7 +1859,7 @@
             </li>
             <li>
               <a rel="nofollow noopener" href="https://amzn.to/4lbDtO5"
-                >Travel Grear</a
+                >Travel Gear</a
               >
             </li>
             <li><a href="#travel1">VIP Travel Deals</a></li>
@@ -1363,6 +1898,10 @@
                 >Contact Us</a
               >
             </li>
+            <li>
+              <a href="/about-josh.html">About Josh</a>
+            </li>
+
             <li>
               <a target="blank_" href="/privacy-policy.html">Privacy Policy</a>
             </li>
@@ -1417,7 +1956,30 @@
     </div>
 
     <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const s = document.createElement("script");
+        s.src = "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js";
+        s.onload = () => {
+          new Swiper(".flight-swiper", {
+            slidesPerView: 1.2,
+            spaceBetween: 20,
+            loop: false,
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+              640: { slidesPerView: 1.5 },
+              768: { slidesPerView: 2 },
+              1024: { slidesPerView: 3 },
+            },
+          });
+        };
+        document.body.appendChild(s);
+      });
+    </script>
+    <!-- for banners and widjets -->
     <script>
       const swiper = new Swiper(".flight-swiper", {
         slidesPerView: 1.2,
@@ -1442,6 +2004,7 @@
       class="eg-affiliate-banners-script"
       src="https://affiliates.expediagroup.com/products/banners/assets/eg-affiliate-banners.js"
     ></script>
+
     <!-- schema for seo -->
     <script type="application/ld+json">
       {
@@ -1453,7 +2016,7 @@
             "name": "What's the best day to book cheap international flights?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Tuesday and Wednesday tend to offer the best fares. Use Kiwi.com or Expedia to search across flexible dates for the lowest prices."
+              "text": "Tuesday and Wednesday usually offer the lowest fares. Use sites like Kiwi.com or Expedia to compare deals across flexible dates."
             }
           },
           {
@@ -1461,7 +2024,7 @@
             "name": "Is it possible to charter a private jet online without a broker?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes, Villiers Jets allows direct bookings with real-time availability and transparent pricing, eliminating the need for brokers or hidden fees."
+              "text": "Yes. Villiers Jets lets you book private jets directly online without intermediaries or hidden fees."
             }
           },
           {
@@ -1469,7 +2032,7 @@
             "name": "How do I find luxury tours and skip-the-line experiences?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Viator offers verified, curated luxury tours including yacht cruises, skip-the-line attractions, and helicopter experiences with flexible booking options."
+              "text": "Use Viator to find verified luxury experiences including skip-the-line tours, yacht cruises, and helicopter flights."
             }
           },
           {
@@ -1477,7 +2040,7 @@
             "name": "What are the most important travel essentials for luxury trips?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Essentials include RFID passport wallets, noise-canceling headphones, sleep masks, and travel organizers — all available on Amazon."
+              "text": "Top-rated essentials include a passport wallet, noise-canceling headphones, packing cubes, and a portable charger."
             }
           },
           {
@@ -1485,7 +2048,87 @@
             "name": "How do I cancel or change a booking on Expedia or Viator?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Most bookings on Expedia and Viator include free cancellation. Check cancellation policies before booking and use your account dashboard to manage changes."
+              "text": "Most bookings allow free cancellation. Use your Expedia or Viator dashboard to view and manage reservations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do private jets clear immigration faster?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Travelers often pass through VIP terminals or private lounges with expedited immigration procedures."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the best time to visit the Maldives?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "November to April offers the best weather for beach activities, diving, and luxury resort stays."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are luxury safaris in Africa safe?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Premium lodges in Africa operate under strict safety and wildlife management standards."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I book a yacht charter online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Sites like Villiers Jets and Viator offer private yacht charters you can book in minutes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How early should I book luxury hotels?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "2-4 months before travel is ideal, especially during high season or holiday periods."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are luxury cruises all-inclusive?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most are. Luxury cruises include meals, excursions, and some extras — check individual policies."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's the difference between 5-star and 7-star hotels?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "7-star hotels provide ultra-luxury: private butlers, Rolls-Royce transfers, and extreme personalization."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's the best way to compare luxury travel deals?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Using Expedia, Hotellook, or Viator lets you compare 5-star hotels and experiences side-by-side."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I customize a private travel itinerary?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Many concierge services and platforms offer full custom luxury trip planning."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What luxury destinations are budget-friendly?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Try Bali, Zanzibar, and Greece for affordable luxury villas and 5-star experiences at lower rates."
             }
           }
         ]
@@ -1493,18 +2136,6 @@
     </script>
 
     <!-- for search bar which is affiliated  -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-S1G5HQZXP2"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "G-S1G5HQZXP2");
-    </script>
     <script>
       /* ======= 1. PRESET KEYWORDS & AFFILIATE LINKS ======= */
       const routes = [
@@ -1608,5 +2239,14 @@
         window.location.href = target;
       }
     </script>
+
+    <!-- css styles -->
+    <link
+      rel="stylesheet"
+      href="/css/styles.css"
+      media="all"
+      onload="this.onload=null;this.media='all'"
+    />
+    <noscript><link rel="stylesheet" href="/css/styles.css" /></noscript>
   </body>
 </html>

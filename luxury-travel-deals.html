@@ -31,6 +31,7 @@
       href="https://luxurytravelpradise.netlify.app/luxury-travel-deals.html"
     />
     <meta name="robots" content="index,follow" />
+
     <!-- open graphs  -->
     <meta
       property="og:title"
@@ -49,6 +50,7 @@
       content="https://luxurytravelpradise.netlify.app/luxury-travel-deals.html"
     />
     <meta name="twitter:card" content="summary_large_image" />
+
     <!-- icons -->
     <link
       rel="stylesheet"
@@ -58,10 +60,23 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+
     <!-- Swiper CSS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- font for css -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- conical tag -->
+    <link
+      rel="canonical"
+      href="https://luxurytravelpradise.netlify.app/luxury-travel-deals"
     />
 
     <!-- Favicon -->
@@ -335,24 +350,24 @@
           •
         </p>
       </div>
-      <h3>
+      <p>
         Discover exclusive discounts on
         <a
           rel="nofollow noopener"
-          class="link bold-links"
+          class="link"
           target="blank_"
           href="https://www.villiersjets.com/?id=9474"
           >first-class flights</a
         >, overwater villas, yacht charters, and
         <a
           rel="nofollow noopener"
-          class="link bold-links"
+          class="link"
           target="blank_"
           href="https://www.viator.com/?pid=P00218939&mcid=42383&medium=link&medium_version=selector"
           >luxury tours</a
         >
         curated weekly from the world's most trusted providers.
-      </h3>
+      </p>
     </section>
 
     <!-- categories section -->
@@ -392,32 +407,33 @@
     </section>
 
     <!-- quick sumurries of the page -->
-    <blockquote class="quick-summary">
-      <h3>Quick Summary</h3>
-
-      <ul>
-        <li>
-          Compare and book international flights with exclusive discounts via
-          Expedia and Kiwi.com
-        </li>
-        <li>
-          Access luxury hotel deals and boutique stays from trusted providers
-          like Hotellook
-        </li>
-        <li>
-          Discover unforgettable tours through Viator, from city walks to guided
-          expeditions
-        </li>
-        <li>
-          Charter private jets on-demand worldwide via Villiers Jets with no
-          membership required
-        </li>
-      </ul>
-    </blockquote>
+    <div class="quick-sammary-container">
+      <blockquote class="quick-summary">
+        <h2>Quick Summary</h2>
+        <ul>
+          <li>
+            Compare and book international flights with exclusive discounts via
+            Expedia and Kiwi.com
+          </li>
+          <li>
+            Access luxury hotel deals and boutique stays from trusted providers
+            like Hotellook
+          </li>
+          <li>
+            Discover unforgettable tours through Viator, from city walks to
+            guided expeditions
+          </li>
+          <li>
+            Charter private jets on-demand worldwide via Villiers Jets with no
+            membership required
+          </li>
+        </ul>
+      </blockquote>
+    </div>
 
     <!-- featured flight deals -->
     <section id="flights" class="deal-slider-section featured-flights">
-      <h3>Featured flight deals</h3>
+      <h2>Featured flight deals</h2>
       <p>
         Browse top flight deals curated for both luxury travelers and smart
         spenders. Whether you're flying business class or looking for flexible
@@ -555,7 +571,7 @@
 
     <!-- featured hotel deals -->
     <section id="hotels" class="deal-slider-section featured-flights">
-      <h3>Top Luxury Hotel Deals</h3>
+      <h2>Top Luxury Hotel Deals</h2>
       <p>
         Stay in the world's most luxurious resorts or score hidden boutique
         hotel gems with our hand-picked hotel offers. These deals are powered by
@@ -690,7 +706,7 @@
 
     <!-- private jet deals -->
     <section id="private-jets" class="deal-slider-section featured-flights">
-      <h3>Exclusive Private Jet Charter Deals</h3>
+      <h2>Exclusive Private Jet Charter Deals</h2>
       <p>
         Looking for elite private jet charters with no strings attached? Book
         direct flights to anywhere on earth through Villiers Jets, with
@@ -839,7 +855,7 @@
 
     <!-- tours through viator widjets -->
     <section class="real-tours" id="tours">
-      <h3>Top Tours from Viator</h3>
+      <h2>Top Tours from Viator</h2>
       <p>
         Explore iconic destinations with expert-guided tours that take your
         travel experience beyond just flights and hotels. We partner with Viator
@@ -857,13 +873,10 @@
     </section>
     <!-- amazon books affiliate -->
     <section class="travel-books-section">
-      <h3>Top Travel Reads on Amazon</h3>
+      <h2>Top Travel Reads on Amazon</h2>
       <div class="book-card-grid">
         <!-- Book 1 -->
-        <div
-          class="book-card"
-          style="background-image: url('/images/deals/read-booktwo.jpg')"
-        >
+        <div class="book-card book-card-one">
           <div class="book-overlay">
             <h5>Inspiration for the Road</h5>
             <p>
@@ -880,10 +893,7 @@
         </div>
 
         <!-- Book 2 -->
-        <div
-          class="book-card"
-          style="background-image: url('/images/deals/read-bookthree.jpg')"
-        >
+        <div class="book-card book-card-two">
           <div class="book-overlay">
             <h5>Books for the Modern Nomad</h5>
             <p>
@@ -900,10 +910,7 @@
         </div>
 
         <!-- Book 3 -->
-        <div
-          class="book-card"
-          style="background-image: url('/images/deals/read-bookone.jpg')"
-        >
+        <div class="book-card book-card-three">
           <div class="book-overlay">
             <h5>Smart Travel, Smarter Spending</h5>
             <p>
@@ -923,7 +930,7 @@
 
     <!-- blog section -->
     <section class="blogging">
-      <h3 class="blog-h3">Latest Luxury Travel Guides & Blogs</h3>
+      <h2 class="blog-h3">Latest Luxury Travel Guides & Blogs</h2>
       <p>make your travel easier and full of unforgatable exprience</p>
       <div class="blogs-section deals-blogs">
         <div class="blogs-lists">
@@ -998,7 +1005,7 @@
     <!-- faqs section -->
     <section class="section-light faq">
       <div class="faqs-container">
-        <h3>Frequently Asked Questions</h3>
+        <h2>Frequently Asked Questions</h2>
       </div>
       <details>
         <summary>
@@ -1046,7 +1053,7 @@
     </section>
     <!-- partners affiliates  -->
     <section class="trusted-partners" id="best-campany">
-      <h3>Trusted Travel Platforms We Recommend</h3>
+      <h2>Trusted Travel Platforms We Recommend</h2>
       <p class="partner-description">
         These are some of the top travel brands we feature through affiliate
         partnerships to bring you premium deals.
@@ -1218,7 +1225,7 @@
     <!-- fixed buttons -->
     <div class="floating-buttons">
       <a
-        href="https://expedia.com/affiliates/hotel-search-randheli-island.OkieGo9"
+        href="https://expedia.com/affiliates/expedia-home.hMJbWB1"
         target="_blank"
         rel="nofollow noopener"
         class="float-btn flights"

@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;500;700&display=swap");
-
 :root {
   --button-color: #d4af37;
   --button-hover: gold;
@@ -29,9 +27,7 @@ h1 {
   font-size: 5rem;
   margin-bottom: 3.5rem;
 }
-h2 {
-  font-size: 4rem;
-}
+h2,
 h3 {
   font-size: 3rem;
 }
@@ -65,6 +61,9 @@ h3 {
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 3.5rem;
+  }
+  h2 {
+    font-size: 2.6rem;
   }
 }
 table {
@@ -116,7 +115,9 @@ tr th {
 .dropdown-sign {
   font-size: 1rem;
 }
-.heading,
+.heading {
+  color: var(--button-color);
+}
 .blog-heading,
 h4 {
   color: var(--button-color);
@@ -226,17 +227,21 @@ h4 {
 }
 /* HERO SECTION FOR ALL PAGES */
 .hero,
-.deals-hero {
+.deals-hero,
+.luxury-hero {
   display: flex;
   position: relative;
   width: 100%;
   margin-top: 70px;
 }
-.hero {
+.hero,
+.luxury-hero {
   align-items: center;
   justify-content: center;
   padding: 0 2rem;
   background: rgb(0, 0, 0, 0.55);
+}
+.hero {
   height: 90vh;
 }
 
@@ -325,6 +330,12 @@ h4 {
     height: 125vh;
   }
 }
+.main-title {
+  color: var(--paragraph-color);
+}
+.luxury-hero {
+  height: 40rem;
+}
 /* why us section */
 .why-us-section {
   display: flex;
@@ -356,7 +367,7 @@ h4 {
 }
 .blogs-section {
   background: linear-gradient(rgb(6, 6, 6, 0.4), rgb(6, 6, 6, 0.4)),
-    url(/images/airplane.jpg) no-repeat center/cover;
+    url(/images/airplane.webp) no-repeat center/cover;
   width: 90%;
   height: 82vh;
   padding: 2rem 2rem;
@@ -425,6 +436,51 @@ h4 {
   }
 }
 /* DESTINATION SECTION */
+.hero-sliding {
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  animation: slideShow 30s infinite ease-in-out;
+}
+
+@keyframes slideShow {
+  0% {
+    background-image: url("/images/valley.webp");
+  }
+  33% {
+    background-image: url("/images/0verwater.webp");
+  }
+  66% {
+    background-image: url("/images/pool.webp");
+  }
+  100% {
+    background-image: url("/images/dome.webp");
+  }
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 10, 10, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  color: #fff;
+}
+
+.hero-title {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
 .destination {
   width: 100%;
   height: auto;
@@ -441,23 +497,24 @@ h4 {
 }
 .destination-cards {
   background: var(--secondary-color);
-
   width: 300px;
   text-align: center;
   border-radius: 10px;
   transition: transform 0.3s;
+  border: 1px solid #ddd;
+  padding: 0.2rem;
+  border-radius: 12px;
 }
 .destination-cards img {
   width: 100%;
   height: 200px;
   object-fit: cover;
+  border-radius: 8px;
 }
-.destination-cards h4 {
-  font-weight: bold;
-}
+
 .destination-cards p,
-.destination-cards h4 {
-  padding: 0 2rem;
+.destination-cards h3 {
+  padding: 0 1.3rem;
 }
 .destination-cards:hover,
 .card-daels:hover {
@@ -544,23 +601,23 @@ h4 {
 }
 .card1 {
   background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.7)),
-    url(/images/food.jpg) no-repeat center/cover;
+    url(/images/food.webp) no-repeat center/cover;
 }
 .card2 {
   background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.7)),
-    url(/images/pool.jpg) no-repeat center/cover;
+    url(/images/pool.webp) no-repeat center/cover;
 }
 .card3 {
   background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.7)),
-    url(/images/airplane.jpg) no-repeat center/cover;
+    url(/images/airplane.webp) no-repeat center/cover;
 }
 .card4 {
   background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.7)),
-    url(/images/dome.jpg) no-repeat center/cover;
+    url(/images/dome.webp) no-repeat center/cover;
 }
 .card5 {
   background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.7)),
-    url(/images/valley.jpg) no-repeat center/cover;
+    url(/images/valley.webp) no-repeat center/cover;
 }
 /* BEST CAMPANY SECTION */
 .campany-container {
@@ -590,7 +647,7 @@ h4 {
   text-align: center;
   padding: 60px 20px;
   background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.4)),
-    url(/images/cruise.jpg) no-repeat center/cover;
+    url(/images/cruise.webp) no-repeat center/cover;
   border-radius: 10px;
 }
 #subscribe h2 {
@@ -785,21 +842,23 @@ textarea {
 .privcy-list {
   padding: 0 1.5rem 0 3rem;
 }
+
 /* BLOGS PAGE */
 .heading-blog {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(/images/snow.jpg) no-repeat center/cover;
+  background: rgb(5, 5, 32);
   color: white;
   text-align: center;
   padding: 20px;
-  margin: 4rem 4rem;
-  border-radius: 5px;
-  height: 200px;
+  margin: 4rem 0;
+  height: 40vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
-
+.heading-blog h2 {
+  color: var(--secondary-color);
+}
 .blog-container {
   width: 100%;
   margin: 20px auto;
@@ -817,6 +876,8 @@ textarea {
   width: 100%;
   height: 250px;
   object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .blogpage-content {
   padding: 10px;
@@ -895,6 +956,30 @@ textarea {
   padding: 3rem 0;
 }
 
+.blogs-amazon {
+  margin: 3rem 0;
+}
+.bloglead-card {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/beautiful-landscapes.webp);
+}
+.bloglead-card-two {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/charters.webp);
+}
+.bloglead-card-three {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/person.webp);
+}
+.bloglead-overlay {
+  padding: 0.3px;
+  text-align: center;
+}
+.bloglead-overlay p,
+.bloglead-overlay h5 {
+  color: white;
+}
+
 @media screen and (max-width: 1024px) {
   .blogspage-container {
     flex-direction: column;
@@ -915,12 +1000,17 @@ textarea {
     gap: 8;
   }
   .heading-blog {
-    margin-top: 10rem;
+    margin-top: 5rem;
   }
 }
 @media screen and (min-width: 994px) {
   .blog-post {
     max-width: 400px;
+  }
+}
+@media screen and (max-width: 589px) {
+  .heading-blog {
+    height: 60vh;
   }
 }
 
@@ -983,6 +1073,137 @@ textarea {
 .maldives-aside div {
   padding: 1rem 0.5rem;
 }
+.hotel-card ul li,
+.top-rated h3 {
+  color: var(--secondary-color);
+}
+.top-rated {
+  padding: 1rem;
+}
+.top-rated-zero {
+  background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    url(/images/couples.webp);
+}
+.top-rated-one {
+  background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    url(/images/0verwater.webp);
+}
+.top-rated-two {
+  background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    url(/images/hotel2.webp);
+}
+.top-rated-three {
+  background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    url(/images/dome.webp);
+}
+.top-rated-four {
+  background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    url(/images/paris-tower.webp);
+}
+.experience-cta {
+  width: 100%;
+  margin: 4rem 0;
+  text-align: center;
+}
+/* comparison tool section */
+
+.destination-experiences {
+  padding: 4rem 2rem;
+  background-color: #fafafa;
+}
+
+.destination-experiences .container {
+  max-width: 1100px;
+  margin: auto;
+}
+.destination-comparison table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.destination-comparison thead,
+.destination-comparison table,
+.hidden-gems {
+  background-color: var(--secondary-color);
+}
+
+.destination-comparison th,
+.destination-comparison td {
+  padding: 1rem;
+  border: 1px solid var(--back-color);
+}
+
+/* hidden gems  */
+
+.gem-cta {
+  text-align: center;
+  margin: 2rem 0 4rem;
+}
+
+/* plan vip gateaway */
+.vip-trip-planner {
+  padding: 4rem 2rem;
+  color: var(--secondary-color);
+}
+
+.vip-trip-planner .trip-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.vip-trip-planner .trip-card {
+  flex: 1 1 300px;
+  background: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.vip-trip-planner .trip-card h4 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #00ae98;
+}
+
+.vip-trip-planner .trip-card p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: var(--secondary-color);
+}
+
+.vip-trip-planner .btn {
+  background-color: #00ae98;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.vip-trip-planner .btn:hover {
+  background-color: #008e7e;
+}
+
+@media screen and (max-width: 768px) {
+  .responsive-table {
+    overflow-x: auto;
+  }
+
+  .destination-comparison table {
+    min-width: 700px;
+  }
+}
+
+.comparison-cta {
+  margin-top: 4rem;
+  text-align: center;
+  width: 100%;
+}
+
 @media screen and (max-width: 600px) {
   .maldives {
     height: 35rem;
@@ -1044,7 +1265,7 @@ textarea {
   justify-content: center;
   flex-direction: column;
 }
-.first-dealstext h3 {
+.first-dealstext p {
   max-width: 800px;
 }
 .deals-quote a {
@@ -1053,9 +1274,7 @@ textarea {
 .deals-quote a:hover {
   color: gold;
 }
-.bold-links {
-  font-size: 3rem;
-}
+
 .luxurydeals-categories,
 .deals-categories {
   display: flex;
@@ -1085,8 +1304,8 @@ textarea {
 .deals-categories:hover {
   background: var(--button-hover);
 }
-.featured-flights h3,
-.real-tours h3 {
+.featured-flights h2,
+.real-tours h2 {
   padding: 2rem 0 0.5rem 2rem;
 }
 .featured-flights p,
@@ -1104,7 +1323,7 @@ textarea {
 }
 
 .deal-card {
-  background: #fff;
+  background: var(--secondary-color);
   border: 1px solid #eee;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
@@ -1133,7 +1352,7 @@ textarea {
   align-self: start;
   padding: 10px 16px;
   background: #00ae98;
-  color: white;
+  color: var(--secondary-color);
   text-decoration: none;
   border-radius: 4px;
   font-weight: 600;
@@ -1174,7 +1393,7 @@ textarea {
   left: 20px;
   font-size: 20px;
   font-weight: bold;
-  color: #fff;
+  color: var(--secondary-color);
   background: rgba(0, 0, 0, 0.5);
   padding: 6px 12px;
   border-radius: 4px;
@@ -1184,7 +1403,7 @@ textarea {
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.75);
-  color: white;
+  color: var(--secondary-color);
   flex-direction: column;
   padding: 20px;
   opacity: 0;
@@ -1380,6 +1599,22 @@ blockquote p {
   transition: transform 0.3s ease;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
+.book-card-one {
+  background-image: url("/images/deals/read-booktwo.webp");
+}
+.book-card-two {
+  background-image: url("/images/deals/read-bookthree.webp");
+}
+.book-card-three {
+  background-image: url("/images/deals/read-bookone.jpg");
+}
+.book-card-one,
+.book-card-two,
+.book-card-three {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .book-card:hover {
   transform: translateY(-5px);
@@ -1387,6 +1622,8 @@ blockquote p {
 
 .book-overlay {
   background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
   color: #fff;
   padding: 30px;
   width: 100%;
@@ -1472,14 +1709,26 @@ blockquote p {
     gap: 10px;
   }
 }
+.quick-sammary-container,
+.quick-summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .quick-summary {
   padding: 2rem;
   width: 90%;
   margin: 2rem 1rem;
+  background-color: var(--back-color);
+}
+.quick-sammary-container {
+  width: 90%;
 }
 @media screen and (min-width: 768px) {
   .quick-summary {
     padding: 0 4rem;
+    max-width: 600px;
   }
 }
 /* faqs */
@@ -1634,16 +1883,23 @@ blockquote p {
   margin: 5rem 0;
 }
 /* search bar */
-#search-container {
+#search-container,
+#search-container-hero {
   padding: 2rem 0;
-  background: #f9f9f9;
   text-align: center;
   position: relative;
   padding: 5rem 0;
 }
-#search-container h3 {
+#search-container {
+  background: #f9f9f9;
+}
+/* for destination */
+
+#search-container h2,
+#search-container-hero h1 {
   margin: 3rem 0;
 }
+
 #searchInput {
   width: 80%;
   height: 5rem;
@@ -1671,7 +1927,7 @@ blockquote p {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 210px;
+  top: 220px;
   width: 80%;
   max-width: 600px;
   background: #fff;
@@ -1684,4 +1940,40 @@ blockquote p {
   #suggestions {
     top: 250px;
   }
+}
+/* luxury companies */
+.about-luxury-section {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 2rem;
+}
+.luxury-btn {
+  margin: 2rem 0;
+}
+.expedia-content {
+  margin: 2rem 0 5rem;
+}
+.luxury-companies {
+  margin: 3rem 0;
+}
+
+/* about me page  */
+.about-josh-section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+.about-josh-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 150%;
+  margin-top: 1rem;
+  object-fit: cover;
+  filter: grayscale(10);
+}
+.about-josh-section p {
+  margin-top: 2rem;
+}
+.about-mejosh {
+  text-align: center;
 }

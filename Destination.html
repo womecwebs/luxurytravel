@@ -2,14 +2,21 @@
 <html lang="en">
   <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-S1G5HQZXP2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-S1G5HQZXP2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-S1G5HQZXP2');
-</script>
+      gtag("config", "G-S1G5HQZXP2");
+    </script>
+
+    <!-- meta tags -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
@@ -20,13 +27,39 @@
       name="description"
       content="Experience the best luxury hotels, private jets, VIP yacht charters and VIP tours."
     />
+    <meta
+      property="og:title"
+      content="Top Luxury Travel Destinations | Private Jets, 5-Star Hotels, and VIP Experiences"
+    />
+    <meta
+      property="og:description"
+      content="Explore the best luxury travel spots — from Maldives to Paris. Book private jets, luxury resorts, and VIP experiences with exclusive deals."
+    />
+    <meta property="og:image" content="/images/island.webp" />
+    <meta
+      property="og:url"
+      content="https://luxurytravelparadise.netlify.app/Destination.html"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link
+      rel="canonical"
+      href="https://luxurytravelpradise.netlify.app/Destination.html"
+    />
+
+    <!-- font for css and styles.css -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/css/styles.css" />
 
-     <!-- Swiper CSS -->
+    <!-- Swiper CSS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+
     <!-- Favicon -->
     <link
       rel="apple-touch-icon"
@@ -47,7 +80,7 @@
     />
     <link rel="manifest" href="/images/icons/site.webmanifest" />
 
-     <!-- icons -->
+    <!-- icons -->
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
@@ -58,7 +91,8 @@
     />
   </head>
   <body>
-       <section class="nav-bar">
+    <!-- navigation bar -->
+    <section class="nav-bar">
       <a href="/index.html">
         <img
           class="logo"
@@ -138,7 +172,11 @@
             >
 
             <ul class="dropdown_menu travel_dropdownmenu">
-              <li><a href="#best-campany">Best Luxury campany</a></li>
+              <li>
+                <a href="/best-luxury-travel-companies.html"
+                  >Best Luxury campany</a
+                >
+              </li>
               <li>
                 <a
                   target="_blank"
@@ -176,238 +214,1129 @@
         >Newsletter Signup</a
       >
     </section>
-    <section class="destination destination-page">
+
+    <!-- hero section -->
+    <section class="hero-sliding">
+      <div class="hero-overlay">
+        <!-- ---------- SEARCH BAR + AUTOCOMPLETE ---------- -->
+        <div id="search-container-hero">
+          <h1 class="hero-title">
+            Discover the World's Finest Luxury Destinations <br />
+          </h1>
+
+          <input
+            id="searchInput"
+            type="text"
+            placeholder="e.g. flights to Dubai, luxury safari, private jet..."
+            onkeyup="showSuggestions(event)"
+          />
+          <button class="search-btn" onclick="handleSearch()">Search</button>
+
+          <!-- Suggestions dropdown -->
+          <ul id="suggestions"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- trusted partners -->
+    <section class="first-dealstext">
+      <div class="deals-quote">
+        <p>
+          <strong>Trusted Luxury companies:</strong> <br />
+          <a
+            rel="nofollow noopener"
+            target="blank_"
+            href="https://expedia.com/affiliates/expedia-home.hMJbWB1"
+            >Expedia</a
+          >
+          •
+          <a
+            rel="nofollow noopener"
+            target="blank_"
+            href="https://www.viator.com/?pid=P00218939&mcid=42383&medium=link&medium_version=selector"
+            >Viator</a
+          >
+          •
+          <a
+            rel="nofollow noopener"
+            target="blank_"
+            href="https://amzn.to/4lbDtO5"
+            >Amazon</a
+          >
+          •
+          <a
+            rel="nofollow noopener"
+            target="blank_"
+            href="https://kiwitaxi.tpk.mx/7OgDoKGT"
+            >Kiwi.com</a
+          >
+          •
+          <a
+            rel="nofollow noopener"
+            target="blank_"
+            href="https://hotellook.tpk.mx/Fmhh4o28"
+            >Hotellook</a
+          >
+          •
+          <a
+            rel="nofollow noopener"
+            target="blank_"
+            href="https://www.villiersjets.com/?id=9474"
+            >Villiers Jets</a
+          >
+          •
+        </p>
+      </div>
+    </section>
+
+    <!-- categories section -->
+    <section>
+      <div class="luxurydeals-categories">
+        <a
+          target="_blank"
+          rel="nofollow noopener"
+          href="https://expedia.com/affiliates/expedia-home.hMJbWB1"
+        >
+          <div class="deals-categories">
+            <span class="material-symbols-outlined"> flight </span>
+            <p><strong>flights</strong></p>
+          </div>
+        </a>
+        <a
+          target="_blank"
+          rel="nofollow noopener"
+          href="https://expedia.com/affiliates/hotel-search-randheli-island.OkieGo9"
+        >
+          <div class="deals-categories">
+            <span class="material-symbols-outlined"> apartment </span>
+            <p><strong>Hotels</strong></p>
+          </div>
+        </a>
+        <a
+          target="_blank"
+          rel="nofollow noopener"
+          href="https://www.villiersjets.com/?id=9474"
+        >
+          <div class="deals-categories">
+            <span class="material-symbols-outlined"> plane_contrails </span>
+            <p><strong>Private Jets</strong></p>
+          </div>
+        </a>
+        <a href="/luxury-travel-deals.html#tours">
+          <div class="deals-categories">
+            <span class="material-symbols-outlined"> travel_explore </span>
+            <p><strong>Tours</strong></p>
+          </div>
+        </a>
+        <a rel="nofollow noopener" href="https://expedia.com/affiliate/rhFxUWU">
+          <div class="deals-categories">
+            <span class="material-symbols-outlined"> beach_access </span>
+            <p><strong>Vacation</strong></p>
+          </div>
+        </a>
+        <a rel="nofollow noopener" href="https://amzn.to/4lbDtO5">
+          <div class="deals-categories">
+            <span class="material-symbols-outlined"> shopping_cart </span>
+            <p><strong>Travel gears</strong></p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- top destinations -->
+    <section id="luxury-destinations" class="destination destination-page">
       <h3>Featured Luxury Destinations</h3>
       <p>
         Find the finest resorts, private islands, and VIP travel experiences.
       </p>
       <div class="featured-destinations">
-        <div class="destination-cards">
-          <img
-            src="images/valley.jpg"
-            alt="Aerial view of overwater villas with turquoise waters "
-          />
-          <h4>Maldives</h4>
-          <p>
-            Home to the world's best overwater villas,Crystal-clear lagoons,
-            white sandy beaches, Private island resorts with personal butlers
-          </p>
-          <a target="blank_" class="btn" href="/destinations/Maldives.html">Explore</a>
+        <div class="swiper flight-swiper">
+          <div class="swiper-wrapper">
+            <!-- destination 1 -->
+            <div class="destination-cards swiper-slide">
+              <img
+                width="600"
+                height="400"
+                loading="lazy"
+                src="images/valley.webp"
+                alt="The maldives Aerial view of overwater villas with turquoise waters "
+              />
+              <h4>Maldives</h4>
+              <p>
+                Home to the world's best overwater villas,Crystal-clear lagoons,
+                white sandy beaches, Private island resorts with personal
+                butlers
+              </p>
+              <a
+                rel="nofollow noopener"
+                target="_blank"
+                class="btn"
+                href="https://expedia.com/affiliate/Ck2q94H"
+                >Explore</a
+              >
+            </div>
+
+            <!-- destination 2 -->
+            <div class="destination-cards swiper-slide">
+              <img
+                width="600"
+                height="400"
+                loading="lazy"
+                src="images/0verwater.webp"
+                alt="Bora bora Overwater bungalows with Mount Otemanu in the background"
+              />
+              <h4>Bora Bora</h4>
+              <p>
+                The Ultimate Honeymoon Destination, Luxury bungalows over the
+                water with glass floors, Romantic getaways with private dining
+                on the beach,VIP stays at Four Seasons, St. Regis, and Conrad
+                Bora Bora
+              </p>
+              <a
+                class="btn"
+                target="_blank"
+                rel="nofollow noopener"
+                href="https://www.viator.com/Bora-Bora/d5180-ttd?pid=P00218939&mcid=42383&medium=link"
+                >Explore</a
+              >
+            </div>
+
+            <!-- destination 3 -->
+            <div class="destination-cards swiper-slide">
+              <img
+                width="600"
+                height="400"
+                loading="lazy"
+                src="images/pool.webp"
+                alt="Infinity pool in a luxury hotel overlooking the skyline"
+              />
+              <h4>Dubai, UAE</h4>
+              <p>
+                The City of Ultra-Luxury, Home to the Burj Al Arab(7-star
+                hotel), Private yacht charters & helicopter tours,Luxury
+                shopping, desert safaris & sky-high dining
+              </p>
+              <a
+                class="btn"
+                target="_blank"
+                rel="nofollow noopener"
+                href="https://expedia.com/affiliates/dubai.w64effE"
+                >Explore</a
+              >
+            </div>
+
+            <!-- destination 4 -->
+            <div class="destination-cards swiper-slide">
+              <img
+                width="600"
+                height="400"
+                loading="lazy"
+                src="images/dome.webp"
+                alt="Infinity pool with Santorini's blue domes in the background"
+              />
+              <h4>Santorini, Greece</h4>
+              <p>
+                Stunning white-washed villas with infinity pools, Caldera views
+                with luxury cave hotels, Sunset yacht cruises & private beach
+                dining
+              </p>
+              <a
+                class="btn"
+                target="_blank"
+                rel="nofollow noopener"
+                href="https://www.viator.com/searchResults/all?text=Santorini%2C+Greece&pid=P00218939&mcid=42383&medium=link"
+                >Explore</a
+              >
+            </div>
+            <!-- destination 5 -->
+            <div class="destination-cards fourth-last swiper-slide">
+              <img
+                width="600"
+                height="400"
+                loading="lazy"
+                src="images/yacht.webp"
+                alt="Luxury yacht anchored near a secluded white sand beach "
+              />
+              <h4>New York City</h4>
+              <p>
+                New York City is the ultimate destination for high-end shopping,
+                fine dining, and luxury accommodations, Take a private
+                helicopter tour over Manhattan.
+              </p>
+              <a
+                target="blank_"
+                class="btn"
+                href="/destinations/New-York-City.html"
+                >Explore</a
+              >
+            </div>
+          </div>
         </div>
-        <div class="destination-cards">
-          <img
-            src="images/0verwater.jpg"
-            alt="Overwater bungalows with Mount Otemanu in the background"
-          />
-          <h4>Bora Bora</h4>
-          <p>
-            The Ultimate Honeymoon Destination, Luxury bungalows over the water
-            with glass floors, Romantic getaways with private dining on the
-            beach,VIP stays at Four Seasons, St. Regis, and Conrad Bora Bora
-          </p>
-          <a target="blank_" class="btn" href="/destinations/Bora-Bora.html">Explore</a>
+        <!-- Navigation arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      <div class="swiper flight-swiper">
+        <div class="swiper-wrapper">
+          <!-- destination 6 -->
+          <div class="destination-cards fourth-last swiper-slide">
+            <img
+              width="600"
+              height="400"
+              loading="lazy"
+              src="images/paris-tower.webp"
+              alt="Aerial view of a luxury villa surrounded by vineyards"
+            />
+            <h4>Paris</h4>
+            <p>
+              Paris is the world's fashion and luxury capital, offering the
+              finest dining, designer boutiques, and royal palaces,
+              Michelin-Star Dining & High-End Shopping.
+            </p>
+            <a
+              class="btn"
+              target="_blank"
+              rel="nofollow noopener"
+              href="https://expedia.com/affiliates/paris.Jjst0C2"
+              >Explore</a
+            >
+          </div>
+          <!-- destination 7 -->
+          <div class="destination-cards second-last swiper-slide">
+            <img
+              width="600"
+              height="400"
+              loading="lazy"
+              src="images/tradition.webp"
+              alt="Traditional Japanese ryokan with private garden"
+            />
+            <h4>Kyoto, Japan</h4>
+            <p>
+              Stay in a luxury ryokan (traditional Japanese inn), Private tea
+              ceremonies & geisha experiences, Exclusive cherry blossom viewing
+              & Zen garden retreats
+            </p>
+            <a target="blank_" class="btn" href="/destinations/kyoto.html"
+              >Explore</a
+            >
+          </div>
+          <!-- destination 8 -->
+          <div class="destination-cards third-last swiper-slide">
+            <img
+              width="600"
+              height="400"
+              loading="lazy"
+              src="images/palm.webp"
+              alt="Aerial view of a luxury villa surrounded by vineyards"
+            />
+            <h4>The Seychelles</h4>
+            <p>
+              Stay at ultra-luxury private island resorts , Secluded beaches &
+              world-class diving spots, VIP yacht cruises & helicopter transfers
+            </p>
+            <a
+              class="btn"
+              target="_blank"
+              rel="nofollow noopener"
+              href="https://www.viator.com/Seychelles/d4868-ttd?pid=P00218939&mcid=42383&medium=link"
+              >Explore</a
+            >
+          </div>
+          <!-- destination 9 -->
+          <!-- <div class="destination-cards second-last swiper-slide">
+            <img
+              width="600"
+              height="400"
+              loading="lazy"
+              src="images/snow.webp"
+              alt="Luxury ski lodge with snow-covered mountains"
+            />
+            <h4>Aspen, Colorado</h4>
+            <p>
+              The Ultimate Winter Luxury Destination, Stay in private ski
+              chalets with personal chefs, Heli-skiing & luxury après-ski
+              experiences, Exclusive resorts like The Little Nell & St. Regis
+              Aspen
+            </p>
+            <a class="btn" href="">Explore</a>
+          </div> -->
+          <!-- destination 10 -->
+          <div class="destination-cards swiper-slide">
+            <img
+              width="600"
+              height="400"
+              loading="lazy"
+              src="images/vill.webp"
+              alt="Private infinity pool at a clifftop villa overlooking the sea"
+            />
+            <h4>French Riviera</h4>
+            <p>
+              Luxury Yachting & Beachfront Estates, Luxury yacht charters from
+              Monaco to Saint-Tropez, Stay in a private beachfront villa or
+              château, Exclusive beach clubs & Michelin-star restaurants
+            </p>
+            <a
+              target="blank_"
+              class="btn"
+              href="/destinations/French-Riviera.html"
+              >Explore</a
+            >
+          </div>
         </div>
-        <div class="destination-cards">
+        <!-- Navigation arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <!-- amazon affiliate -->
+    <section class="amazon-gadgets">
+      <div class="amazongadgets-container">
+        <div class="amazon-gadgetone">
           <img
-            src="images/pool.jpg"
-            alt="Infinity pool in a luxury hotel overlooking the skyline"
+            src="/images/deals/amazon-gadgets.webp"
+            alt="travel essentials for smooth and good experience on travel"
+            width="600"
+            height="400"
+            loading="lazy"
           />
-          <h4>Dubai, UAE</h4>
-          <p>
-            The City of Ultra-Luxury, Home to the Burj Al Arab(7-star hotel),
-            Private yacht charters & helicopter tours,Luxury shopping, desert
-            safaris & sky-high dining
-          </p>
-          <a target="blank_" class="btn" href="/destinations/dubai.html">Explore</a>
         </div>
-        <div class="destination-cards">
-          <img
-            src="images/dome.jpg"
-            alt="Infinity pool with Santorini's blue domes in the background"
-          />
-          <h4>Santorini, Greece</h4>
+        <div class="amazon-gadgettwo">
+          <h3>Travel Essentials on Amazon</h3>
           <p>
-            Stunning white-washed villas with infinity pools, Caldera views with
-            luxury cave hotels, Sunset yacht cruises & private beach dining
+            Pack smarter. Discover must-have travel gear to elevate every
+            journey all just a click away.
           </p>
-          <a target="blank_" class="btn" href="/destinations/Santorini.html">Explore</a>
-        </div>
-        <div class="destination-cards fourth-last">
-          <img
-            src="images/yacht.jpg"
-            alt="Luxury yacht anchored near a secluded white sand beach "
-          />
-          <h4>New York City</h4>
-          <p>
-            New York City is the ultimate destination for high-end shopping,
-            fine dining, and luxury accommodations, Take a private helicopter
-            tour over Manhattan.
-          </p>
-          <a target="blank_" class="btn" href="/destinations/New-York-City.html">Explore</a>
-        </div>
-        <div class="destination-cards fourth-last">
-          <img
-            src="images/food.jpg"
-            alt="Aerial view of a luxury villa surrounded by vineyards"
-          />
-          <h4>Paris</h4>
-          <p>
-            Paris is the world's fashion and luxury capital, offering the finest
-            dining, designer boutiques, and royal palaces, Michelin-Star Dining
-            & High-End Shopping.
-          </p>
-          <a target="blank_" class="btn" href="/destinations/Paris.html">Explore</a>
-        </div>
-        <div class="destination-cards second-last">
-          <img
-            src="images/tradition.jpg"
-            alt="Traditional Japanese ryokan with private garden"
-          />
-          <h4>Kyoto, Japan</h4>
-          <p>
-            Stay in a luxury ryokan (traditional Japanese inn), Private tea
-            ceremonies & geisha experiences, Exclusive cherry blossom viewing &
-            Zen garden retreats
-          </p>
-          <a target="blank_" class="btn" href="/destinations/kyoto.html">Explore</a>
-        </div>
-        <!-- <div class="destination-cards third-last">
-          <img
-            src="images/palm.jpg"
-            alt="Aerial view of a luxury villa surrounded by vineyards"
-          />
-          <h4>The Seychelles</h4>
-          <p>
-            Stay at ultra-luxury private island resorts , Secluded beaches &
-            world-class diving spots, VIP yacht cruises & helicopter transfers
-          </p>
-          <a target="blank_" class="btn" href="Seychelles.html">Explore</a>
-        </div> -->
-        <!-- <div class="destination-cards second-last">
-          <img
-            src="images/snow.jpg"
-            alt="Luxury ski lodge with snow-covered mountains"
-          />
-          <h4>Aspen, Colorado</h4>
-          <p>
-            The Ultimate Winter Luxury Destination, Stay in private ski chalets
-            with personal chefs, Heli-skiing & luxury après-ski experiences,
-            Exclusive resorts like The Little Nell & St. Regis Aspen
-          </p>
-          <a class="btn" href="">Explore</a>
-        </div> -->
-        <div class="destination-cards">
-          <img
-            src="images/vill.jpg"
-            alt="Private infinity pool at a clifftop villa overlooking the sea"
-          />
-          <h4>French Riviera</h4>
-          <p>
-            Luxury Yachting & Beachfront Estates, Luxury yacht charters from
-            Monaco to Saint-Tropez, Stay in a private beachfront villa or
-            château, Exclusive beach clubs & Michelin-star restaurants
-          </p>
-          <a target="blank_" class="btn" href="/destinations/French-Riviera.html">Explore</a>
+          <a
+            target="blank_"
+            rel="nofollow noopener"
+            href="https://amzn.to/4lbDtO5"
+            >Shop Now</a
+          >
         </div>
       </div>
     </section>
-    <script async src="https://c111.travelpayouts.com/content?currency=usd&trs=393596&shmarker=610677&to_name=PAR&locale=en&return=anytime&powered_by=true&limit=4&primary_color=00AE98&results_background_color=FFFFFF&form_background_color=FFFFFF&promo_id=3411" charset="utf-8"></script>
-    <section class="campany-container">
-      <h3 class="campany-h3">
-        Best Luxury Campanies For Exclusive Experiece and Trust
-      </h3>
-      <section id="best-campany">
-        <div class="campanies">
-          <div
-            class="eg-affiliate-banners"
-            data-program="us-expedia"
-            data-network="pz"
-            data-layout="medium-rectangle"
-            data-image="sailing"
-            data-message="bye-bye-bucket-list-hello-adventure"
-            data-link="home"
-            data-camref="1101l3YUcM"
-            data-pubref=""
-          ></div>
-          <p>
-            Expedia is a trusted travel booking platform that offers premium
-            accommodations, first-class flights, and tailor-made vacation
-            packages at competitive prices. If you are looking for five-star
-            resorts, luxury villas, or business-class flights, Expedia provides
-            exclusive deals and member rewards to elevate your travel
-            experience. Their bundle & save option allows travelers to combine
-            flights, hotels, and car rentals for extra savings.
-          </p>
+
+    <!-- top rated destinations -->
+    <section class="deal-slider-section featured-flights">
+      <h2 class="section-title">Top-Rated Luxury Experiences Destinations</h2>
+      <p class="section-subtitle">
+        Elevate your trip with the most exclusive experiences tailored to VIP
+        travelers, from private yacht cruises to Michelin-star dining.
+      </p>
+      <!-- Slider container -->
+      <div class="swiper flight-swiper">
+        <div class="swiper-wrapper">
+          <div class="hotel-card swiper-slide top-rated top-rated-zero">
+            <a
+              target="_blank"
+              rel="nofollow noopener"
+              href="https://expedia.com/affiliate/Ck2q94H"
+            >
+              <h3>Maldives</h3>
+              <ul>
+                <li>
+                  <strong>Underwater Spa at Huvafen Fushi</strong> - Relax
+                  beneath the waves with a one-of-a-kind undersea massage
+                  surrounded by coral reefs.
+                </li>
+                <li>
+                  <strong>Private Helicopter Island-Hopping</strong> - Discover
+                  untouched islands from the sky with a personal guide and VIP
+                  service.
+                </li>
+                <li>
+                  <strong>Sunset Yacht Cruise with Champagne</strong> - Enjoy
+                  luxury sailing with fine drinks and 360° views of the Indian
+                  Ocean.
+                </li>
+              </ul>
+            </a>
+          </div>
+
+          <div class="hotel-card swiper-slide top-rated top-rated-one">
+            <a
+              target="_blank"
+              rel="nofollow noopener"
+              href="https://www.viator.com/Bora-Bora/d5180-ttd?pid=P00218939&mcid=42383&medium=link"
+            >
+              <h3>Bora Bora</h3>
+              <ul>
+                <li>
+                  <strong>Overwater Bungalow Massage</strong> - A Tahitian-style
+                  massage directly above turquoise lagoons.
+                </li>
+                <li>
+                  <strong>Private Beach Dining at Four Seasons</strong> -
+                  5-course dinner with tiki torches and butler service.
+                </li>
+                <li>
+                  <strong>Glass-Bottom Boat Shark Feeding</strong> - VIP marine
+                  experience that brings you face to face with reef sharks.
+                </li>
+              </ul>
+            </a>
+          </div>
+
+          <div class="hotel-card swiper-slide top-rated top-rated-two">
+            <a
+              target="_blank"
+              rel="nofollow noopener"
+              href="https://expedia.com/affiliates/dubai.w64effE"
+            >
+              <h3>Dubai, UAE</h3>
+              <ul>
+                <li>
+                  <strong
+                    >Helicopter Tour of Burj Khalifa & Palm Jumeirah</strong
+                  >
+                  - Take in the skyline from a luxury chopper with commentary.
+                </li>
+                <li>
+                  <strong>Private Desert Safari & Gourmet Dinner</strong> - Dune
+                  bashing, falcon shows, and chef-prepared cuisine in the
+                  desert.
+                </li>
+                <li>
+                  <strong>VIP Personal Shopping Experience</strong> - Shop with
+                  a stylist at Dubai's elite designer boutiques.
+                </li>
+              </ul>
+            </a>
+          </div>
+
+          <div class="hotel-card swiper-slide top-rated top-rated-three">
+            <a
+              target="_blank"
+              rel="nofollow noopener"
+              href="https://www.viator.com/searchResults/all?text=Santorini%2C+Greece&pid=P00218939&mcid=42383&medium=link"
+            >
+              <h3>Santorini, Greece</h3>
+              <ul>
+                <li>
+                  <strong>Sunset Catamaran Cruise</strong> - Private sailing
+                  through the caldera with wine, BBQ, and hot spring stops.
+                </li>
+                <li>
+                  <strong>Luxury Wine Tasting Tour</strong> - Sample rare Greek
+                  wines in hidden vineyards with expert sommeliers.
+                </li>
+                <li>
+                  <strong>Stay in Cave Suites with Caldera Views</strong> -
+                  Cliffside infinity pools and minimalist white-stone villas.
+                </li>
+              </ul>
+            </a>
+          </div>
+
+          <div class="hotel-card swiper-slide top-rated top-rated-four">
+            <a
+              target="_blank"
+              rel="nofollow noopener"
+              href="https://expedia.com/affiliates/paris.Jjst0C2"
+            >
+              <h3>Paris</h3>
+              <ul>
+                <li>
+                  <strong>Dine at Le Jules Verne, Eiffel Tower</strong> -
+                  Gourmet French cuisine with iconic skyline views.
+                </li>
+                <li>
+                  <strong>Private Fashion Shopping on Champs-Élysées</strong> -
+                  VIP entry to Paris' elite designer stores with concierge
+                  service.
+                </li>
+                <li>
+                  <strong>Private After-Hours Louvre Tour</strong> - See the
+                  Mona Lisa without the crowds on an expert-guided tour.
+                </li>
+              </ul>
+            </a>
+          </div>
         </div>
-        <div class="campanies">
-          <div
-            data-id="viator-banner"
-            data-partner-id="P00218939"
-            data-url="https://www.viator.com/"
-            data-banner-width="300"
-            data-banner-height="250"
-            data-banner-language="en"
-            data-banner-selection="banner1"
-          ></div>
+        <!-- Navigation arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+      <div class="experience-cta">
+        <a href="/luxury-travel-deals.html" class="btn"
+          >Explore Luxury Travel Deals</a
+        >
+      </div>
+    </section>
+
+    <!-- plan your VIP gateaway -->
+    <section class="section-dark vip-trip-planner">
+      <h3 class="section-title">Plan Your VIP Trip</h3>
+      <p class="section-subtitle">
+        Everything you need for luxury travel — from private jet charters and
+        5-star hotels to unforgettable VIP tours.
+      </p>
+
+      <div class="trip-cards">
+        <!-- Private Jets -->
+        <div class="trip-card">
+          <h4>Charter a Private Jet</h4>
           <p>
-            Viator is the go-to platform for booking unforgettable travel
-            experiences worldwide. With access to luxury private tours, VIP
-            excursions, and skip-the-line passes, Viator ensures an exclusive
-            and seamless experience for travelers. If you want a private yacht
-            cruise, helicopter tour, or a Michelin-star dining experience,
-            Viator offers curated activities that cater to high-end travelers.
-            Plus, their free cancellation policy and 24/7 customer support make
-            booking risk-free and convenient.
+            Book an on-demand private flight with Villiers Jets — access over
+            10,000 aircraft worldwide with VIP service, zero membership fees,
+            and instant availability.
           </p>
+          <a
+            href="https://www.villiersjets.com/?id=9474"
+            target="_blank"
+            rel="nofollow noopener"
+            class="btn"
+            >Book Your Jet</a
+          >
         </div>
-        <div class="campanies">
-          <a href="https://www.villiersjets.com/?id=9474"
-            ><img
-              src="https://assets.villiersjets.com/banners/300X250.jpg"
-              alt="Villiers Private Jet Charter  "
-              width="300"
-              height="250"
-          /></a>
+
+        <!-- Hotels -->
+        <div class="trip-card">
+          <h4>Reserve a 5-Star Hotel</h4>
           <p>
-            For those who seek the ultimate in private air travel, Villiers is a
-            premier private jet charter service offering access to over 10,000
-            aircraft worldwide. If you need a last-minute business flight or a
-            luxurious, stress-free travel experience, Villiers provides
-            on-demand private jets with no membership fees. Enjoy the freedom to
-            fly anywhere, anytime, with personalized concierge services and VIP
-            treatment from takeoff to landing.
+            Find exclusive deals on luxury hotels and resorts with Expedia. From
+            beachfront villas to sky-high penthouses — experience first-class
+            comfort with elite member rewards.
           </p>
+          <a
+            href="https://expedia.com/affiliates/hotel-search-randheli-island.OkieGo9"
+            target="_blank"
+            rel="nofollow noopener"
+            class="btn"
+            >Search Hotels</a
+          >
         </div>
-      </section>
-      <section class="ebooks">
-        <div class="ebook-container">
-          <h3>Guide of the Year 2025</h3>
-          <h4 class="blog-h4">
-            Ultimate Luxury Travel Guide 2025: Your VIP Guide to 5-Star Hotels,
-            First-Class Flights & Exclusive Experiences
-          </h4>
+
+        <!-- VIP Tours -->
+        <div class="trip-card">
+          <h4>Book VIP Tours & Cruises</h4>
           <p>
-            Unlock the Secrets to Luxury Travel - Stay in Private Villas, Fly
-            First-Class for Less & Book Exclusive VIP Experiences
+            Viator brings you curated luxury experiences — private yacht
+            charters, helicopter tours, behind-the-scenes museum access, and
+            more. Travel like royalty in every city.
           </p>
+          <a
+            href="https://www.viator.com/?pid=P00218939&mcid=42383&medium=link&medium_version=selector"
+            target="_blank"
+            rel="nofollow noopener"
+            class="btn"
+            >Explore Experiences</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Luxury Destination Comparison Tool section -->
+    <section class="destination-experiences destination-comparison">
+      <div class="container">
+        <h3 class="section-title">Luxury Destination Comparison Tool</h3>
+        <p class="section-subtitle">
+          Not sure which destination fits your dream trip? Compare the best
+          luxury travel locations side by side.
+        </p>
+
+        <div class="responsive-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Feature</th>
+                <th>Maldives</th>
+                <th>Bora Bora</th>
+                <th>Dubai</th>
+                <th>Santorini</th>
+                <th>Paris</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Type of Trip</td>
+                <td>Relaxation, Honeymoon</td>
+                <td>Romantic Getaway</td>
+                <td>Ultra-Modern Luxury City</td>
+                <td>Scenic, Romantic</td>
+                <td>Fashion & Cultural Escape</td>
+              </tr>
+              <tr>
+                <td>Luxury Level</td>
+                <td>⭐⭐⭐⭐⭐</td>
+                <td>⭐⭐⭐⭐⭐</td>
+                <td>⭐⭐⭐⭐⭐⭐</td>
+                <td>⭐⭐⭐⭐⭐</td>
+                <td>⭐⭐⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td>Best Time to Visit</td>
+                <td>Nov - Apr</td>
+                <td>May - Oct</td>
+                <td>Oct - Apr</td>
+                <td>May - Sep</td>
+                <td>Mar - May / Sep - Oct</td>
+              </tr>
+              <tr>
+                <td>Top Experience</td>
+                <td>Underwater Spa</td>
+                <td>Private Beach Dinner</td>
+                <td>Helicopter City Tour</td>
+                <td>Sunset Catamaran Cruise</td>
+                <td>Dining at Eiffel Tower</td>
+              </tr>
+              <tr>
+                <td>Starting Budget</td>
+                <td>$4,000+</td>
+                <td>$5,000+</td>
+                <td>$6,000+</td>
+                <td>$3,500+</td>
+                <td>$4,500+</td>
+              </tr>
+              <tr>
+                <td>Top Hotel</td>
+                <td>Soneva Fushi</td>
+                <td>Four Seasons Bora Bora</td>
+                <td>Burj Al Arab</td>
+                <td>Canaves Oia Suites</td>
+                <td>Ritz Paris</td>
+              </tr>
+              <tr>
+                <td>Private Jet Access</td>
+                <td>✔</td>
+                <td>✔</td>
+                <td>✔</td>
+                <td>✔</td>
+                <td>✔</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="comparison-cta">
+          <a
+            href="https://www.viator.com/?pid=P00218939&mcid=42383&medium=link&medium_version=selector"
+            class="btn"
+            >search by Destination</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- hidden gems  -->
+    <section class="deal-slider-section featured-flights">
+      <h2 class="section-title">Hidden Gems for Luxury Travelers</h2>
+      <p class="section-subtitle">
+        Looking for something beyond the usual Maldives and Paris? These
+        handpicked luxury destinations are off the radar — but world-class in
+        exclusivity, experience, and elegance.
+      </p>
+      <div class="swiper flight-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide deal-card">
+            <img
+              src="/images/Lake Como.webp"
+              alt="lake como, italy luxury travel destination"
+              width="600"
+              height="400"
+              loading="lazy"
+            />
+            <h3>Lake Como, Italy</h3>
+            <p>
+              Nestled in the Italian Alps, Lake Como offers unmatched serenity,
+              luxury lakeside villas, and VIP access to private boat tours. It's
+              where the elite go to escape crowds — from George Clooney to royal
+              families. Stay at Villa d'Este or Grand Hotel Tremezzo for 5-star
+              historic charm with modern opulence.
+            </p>
+            <a
+              target="_blank"
+              rel="nofollow noopener"
+              href="https://www.viator.com/Lake-Como/d26113-ttd?pid=P00218939&mcid=42383&medium=link"
+              class="btn"
+              >Discover Lake Como</a
+            >
+          </div>
+          <div class="swiper-slide deal-card">
+            <img
+              src="/images/sychelles.webp"
+              alt="the seychelles luxury beauty private island"
+              width="600"
+              height="400"
+              loading="lazy"
+            />
+            <h3>Seychelles</h3>
+            <p>
+              The Seychelles is a private island paradise in the Indian Ocean.
+              With ultra-luxury resorts like North Island and Six Senses Zil
+              Pasyon, this archipelago offers untouched beaches, exotic
+              wildlife, and unparalleled seclusion. Perfect for honeymooners and
+              high-net-worth travelers seeking total privacy.
+            </p>
+            <a
+              target="_blank"
+              rel="nofollow noopener"
+              href="https://www.viator.com/Seychelles/d4868-ttd?pid=P00218939&mcid=42383&medium=link"
+              class="btn"
+              >Explore Seychelles</a
+            >
+          </div>
+          <div class="swiper-slide deal-card">
+            <img
+              src="/images/bhutan.webp"
+              alt="Bhutan's exclusive experience luxury destination"
+              width="600"
+              height="400"
+              loading="lazy"
+            />
+            <h3>Bhutan</h3>
+            <p>
+              Bhutan is Asia's best-kept luxury secret. With its high-value,
+              low-impact tourism policy, the country offers exclusive access to
+              ancient monasteries, private helicopter rides over the Himalayas,
+              and ultra-personalized retreats at COMO Uma Paro or Six Senses
+              Bhutan. A rare gem for spiritual luxury.
+            </p>
+            <a
+              target="_blank"
+              rel="nofollow noopener"
+              href="https://www.viator.com/Bhutan/d21472-ttd?pid=P00218939&mcid=42383&medium=link"
+              class="btn"
+              >Experience Bhutan</a
+            >
+          </div>
+          <div class="swiper-slide deal-card">
+            <img
+              src="/images/pentagonia.webp"
+              alt="the Patagonia, Chile luxury destination view with best travel experiences "
+              width="600"
+              height="400"
+              loading="lazy"
+            />
+            <h3>Patagonia, Chile</h3>
+            <p>
+              For adventure seekers who want luxury, Patagonia delivers. Think
+              private lodges in Torres del Paine, glacial yacht expeditions, and
+              Michelin-level dining in the middle of raw nature. Stay at Awasi
+              Patagonia or Explora Lodge for once-in-a-lifetime wilderness in
+              five-star comfort.
+            </p>
+            <a
+              target="_blank"
+              rel="nofollow noopener"
+              href="https://www.viator.com/searchResults/all?text=Patagonia%2C+Chile&pid=P00218939&mcid=42383&medium=link"
+              class="btn"
+              >Luxury in Patagonia</a
+            >
+          </div>
+          <div class="swiper-slide deal-card">
+            <img
+              src="/images/Montenegro.webp"
+              alt="paradise of Montenegro luxury travel beauty view "
+              width="600"
+              height="400"
+              loading="lazy"
+            />
+            <h3>Montenegro</h3>
+            <p>
+              Montenegro is Europe's rising luxury star — combining Adriatic
+              coastlines, ancient towns, and mega-yachts in the Bay of Kotor.
+              Aman Sveti Stefan and One&Only Portonovi are redefining elite
+              travel in the Balkans. It's quieter than Croatia, but just as rich
+              in beauty and opulence.
+            </p>
+            <a
+              target="_blank"
+              rel="nofollow noopener"
+              href="https://www.viator.com/Montenegro/d4475-ttd?pid=P00218939&mcid=42383&medium=link"
+              class="btn"
+              >Visit Montenegro</a
+            >
+          </div>
+        </div>
+        <!-- Navigation arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+      <div class="gem-cta">
+        <a
+          href="https://www.viator.com/?pid=P00218939&mcid=42383&medium=link&medium_version=selector"
+          class="btn"
+          >Browse More Luxury Destinations</a
+        >
+      </div>
+    </section>
+
+    <script
+      async
+      src="https://c111.travelpayouts.com/content?currency=usd&trs=393596&shmarker=610677&to_name=PAR&locale=en&return=anytime&powered_by=true&limit=4&primary_color=00AE98&results_background_color=FFFFFF&form_background_color=FFFFFF&promo_id=3411"
+      charset="utf-8"
+    ></script>
+
+    <!-- best companies  -->
+    <section class="trusted-partners" id="best-campany">
+      <h2>Trusted Travel Platforms We Recommend</h2>
+      <p class="partner-description">
+        These are some of the top travel brands we feature through affiliate
+        partnerships to bring you premium deals.
+      </p>
+
+      <div class="partners-grid">
+        <div class="partner">
+          <span class="material-symbols-outlined">public</span>
+          <p>Expedia</p>
+        </div>
+        <div class="partner">
+          <span class="material-symbols-outlined">map</span>
+          <p>Viator</p>
+        </div>
+        <div class="partner">
+          <span class="material-symbols-outlined">flight</span>
+          <p>Villiers Jets</p>
+        </div>
+        <div class="partner">
+          <span class="material-symbols-outlined">airplane_ticket</span>
+          <p>Kiwi.com</p>
+        </div>
+        <div class="partner">
+          <span class="material-symbols-outlined">hotel</span>
+          <p>Hotellook</p>
+        </div>
+        <div class="partner">
+          <span class="material-symbols-outlined">shopping_cart</span>
+          <p>Amazon</p>
+        </div>
+      </div>
+
+      <div class="partner-features">
+        <div class="feature">
+          <span class="material-symbols-outlined">verified</span> Verified
+          Partners
+        </div>
+        <div class="feature">
+          <span class="material-symbols-outlined">lock</span> Secure Payments
+        </div>
+        <div class="feature">
+          <span class="material-symbols-outlined">support_agent</span> 24/7
+          Support
+        </div>
+        <div class="feature">
+          <span class="material-symbols-outlined">price_check</span> Best Price
+          Guarantee
+        </div>
+      </div>
+    </section>
+
+    <section class="campany-container deal-slider-section featured-flights">
+      <div class="campany-section swiper flight-swiper">
+        <div class="swiper-wrapper">
+          <div class="campanies swiper-slide">
+            <div
+              class="eg-affiliate-banners"
+              data-program="us-expedia"
+              data-network="pz"
+              data-layout="medium-rectangle"
+              data-image="sailing"
+              data-message="bye-bye-bucket-list-hello-adventure"
+              data-link="home"
+              data-camref="1101l3YUcM"
+              data-pubref=""
+            ></div>
+            <p>
+              Expedia is a trusted travel booking platform that offers premium
+              accommodations, first-class flights, and tailor-made vacation
+              packages at competitive prices. If you are looking for five-star
+              resorts, luxury villas, or business-class flights, Expedia
+              provides exclusive deals and member rewards to elevate your travel
+              experience. Their bundle & save option allows travelers to combine
+              flights, hotels, and car rentals for extra savings.
+            </p>
+          </div>
+          <div class="campanies swiper-slide">
+            <div
+              data-id="viator-banner"
+              data-partner-id="P00218939"
+              data-url="https://www.viator.com/"
+              data-banner-width="300"
+              data-banner-height="250"
+              data-banner-language="en"
+              data-banner-selection="banner1"
+            ></div>
+            <p>
+              Viator is the go-to platform for booking unforgettable travel
+              experiences worldwide. With access to luxury private tours, VIP
+              excursions, and skip-the-line passes, Viator ensures an exclusive
+              and seamless experience for travelers. If you want a private yacht
+              cruise, helicopter tour, or a Michelin-star dining experience,
+              Viator offers curated activities that cater to high-end travelers.
+              Plus, their free cancellation policy and 24/7 customer support
+              make booking risk-free and convenient.
+            </p>
+          </div>
+          <div class="campanies swiper-slide">
+            <a href="https://www.villiersjets.com/?id=9474"
+              ><img
+                src="https://assets.villiersjets.com/banners/300X250.jpg"
+                alt="Villiers Private Jet Charter  "
+                width="300"
+                height="250"
+            /></a>
+            <p>
+              For those who seek the ultimate in private air travel, Villiers is
+              a premier private jet charter service offering access to over
+              10,000 aircraft worldwide. If you need a last-minute business
+              flight or a luxurious, stress-free travel experience, Villiers
+              provides on-demand private jets with no membership fees. Enjoy the
+              freedom to fly anywhere, anytime, with personalized concierge
+              services and VIP treatment from takeoff to landing.
+            </p>
+          </div>
+          <div class="campanies swiper-slide">
+            <script
+              async
+              src="https://tpwdg.com/content?currency=usd&trs=393596&shmarker=610677.paradise&powered_by=true&locale=en&campaign_id=111&promo_id=4484"
+              charset="utf-8"
+            ></script>
+            <p>
+              Kiwi.com is a powerful travel search platform that lets you book
+              flights across multiple airlines in one smooth itinerary — even
+              when those airlines don't officially work together. It's
+              especially helpful for international travelers, backpackers, and
+              deal-hunters who want to mix and match low-cost carriers or fly
+              unconventional routes to save time and money.
+            </p>
+          </div>
+          <div class="campanies swiper-slide">
+            <script
+              async
+              src="https://tpwdg.com/content?currency=USD&trs=393596&shmarker=610677.paradise&language=en&theme=1&powered_by=true&campaign_id=1&promo_id=1486"
+              charset="utf-8"
+            ></script>
+            <p>
+              KiwiTaxi offers convenient, pre-booked private transfers between
+              airports, hotels, cities, and tourist areas in over 100 countries.
+              Whether you're arriving late at night or want a reliable driver
+              waiting when you land, KiwiTaxi gives you peace of mind — with
+              fixed prices, English-speaking support, and a range of car types
+              (standard, business, minivan, etc.)
+            </p>
+          </div>
+          <div class="campanies swiper-slide">
+            <script
+              async
+              src="https://tpwdg.com/content?currency=usd&trs=393596&shmarker=610677.paradise&show_hotels=true&powered_by=true&locale=en&searchUrl=search.hotellook.com&primary_override=%23FF8E01&color_button=%23FF8E01&color_icons=%23FF8E01&secondary=%23FFFFFF&dark=%23262626&light=%23FFFFFF&special=%23C4C4C4&color_focused=%23FF8E01&border_radius=5&plain=false&promo_id=7873&campaign_id=101"
+              charset="utf-8"
+            ></script>
+            <p>
+              Hotellook is a hotel price comparison site that pulls listings
+              from top booking platforms like Booking.com, Agoda, Hotels.com,
+              and more — all in one search. It's perfect for travelers who want
+              to see all their options quickly without bouncing between 10
+              different tabs.
+            </p>
+          </div>
+        </div>
+        <!-- Navigation arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <!-- 2025 luxury ebook -->
+    <section class="ebooks">
+      <div class="ebook-container">
+        <h3>Guide of the Year 2025</h3>
+        <h4 class="blog-h4">
+          Ultimate Luxury Travel Guide 2025: Your VIP Guide to 5-Star Hotels,
+          First-Class Flights & Exclusive Experiences
+        </h4>
+        <p>
+          Unlock the Secrets to Luxury Travel - Stay in Private Villas, Fly
+          First-Class for Less & Book Exclusive VIP Experiences
+        </p>
+        <p>
+          In this guide we show you how you can Travel Like a VIP
+          <strong> Without Spending a Fortune!</strong>, whether five-star
+          hotels, private yachts, and first-class flights but don't know where
+          to start? The Ultimate Luxury Travel Guide 2025 is your exclusive
+          passport to the world's most luxurious experiences—without breaking
+          the bank.
+        </p>
+        <a href="https://payhip.com/b/U4Go1" class="btn">Buy for $5</a>
+      </div>
+      <div class="ebookimg-container">
+        <img
+          class="ebook-img"
+          src="images/ebook1.jpg"
+          alt="Ultimate Luxury Travel Guide 2025: Your VIP Guide to 5-Star Hotels, First-Class Flights & Exclusive Experiences"
+        />
+      </div>
+    </section>
+
+    <!-- faqs -->
+    <section class="section-light faq" id="luxury-travel-faq">
+      <div class="container">
+        <h3 class="section-title">Luxury Travel FAQ</h3>
+        <p class="section-subtitle">
+          Everything you need to know about luxury destinations, private travel,
+          and VIP experiences in 2025.
+        </p>
+
+        <details>
+          <summary>
+            <h5>What are the most luxurious destinations for 2025?</h5>
+          </summary>
           <p>
-            In this guide we show you how you can Travel Like a VIP
-            <strong> Without Spending a Fortune!</strong>, whether five-star
-            hotels, private yachts, and first-class flights but don't know where
-            to start? The Ultimate Luxury Travel Guide 2025 is your exclusive
-            passport to the world's most luxurious experiences—without breaking
-            the bank.
+            The top-rated luxury destinations in 2025 include the Maldives, Bora
+            Bora, Dubai, Santorini, and Paris — all offering premium
+            accommodations, exclusive experiences, and world-class service.
           </p>
-          <a href="https://payhip.com/b/U4Go1" class="btn">Buy for $5</a>
-        </div>
-        <div class="ebookimg-container">
-          <img
-            class="ebook-img"
-            src="images/ebook1.jpg"
-            alt="Ultimate Luxury Travel Guide 2025: Your VIP Guide to 5-Star Hotels, First-Class Flights & Exclusive Experiences"
-          />
-        </div>
-      </section>
+        </details>
+
+        <details>
+          <summary>
+            <h5>When is the best time to book luxury travel deals?</h5>
+          </summary>
+          <p>
+            Book 2-5 months in advance for peak-season destinations. For private
+            jets and cruises, last-minute deals can offer VIP savings. Tuesdays
+            and Wednesdays often show the best prices online.
+          </p>
+        </details>
+
+        <details>
+          <summary>
+            <h5>Can I book a private jet without a membership?</h5>
+          </summary>
+          <p>
+            Yes. Platforms like Villiers Jets allow you to charter flights
+            on-demand without upfront membership fees. You can choose your
+            aircraft, route, and schedule in minutes.
+          </p>
+        </details>
+
+        <details>
+          <summary><h5>What's included in VIP travel experiences?</h5></summary>
+          <p>
+            Luxury packages may include 5-star hotel stays, private airport
+            transfers, yacht cruises, personal chefs, spa treatments, and guided
+            tours. Many are fully customizable.
+          </p>
+        </details>
+
+        <details>
+          <summary>
+            <h5>Are there affiliate programs for luxury travel?</h5>
+          </summary>
+          <p>
+            Yes. Programs like Expedia, Viator, and Villiers Jets offer
+            high-commission affiliate links for booking hotels, tours, and
+            private flights. You can join for free and promote premium travel
+            experiences.
+          </p>
+        </details>
+      </div>
+    </section>
+
+    <!-- social media and newslater -->
     <section class="socialmedia-icons">
       <section id="subscribe">
         <h2>Join Our Luxury Travel Newsletter</h2>
@@ -449,9 +1378,157 @@
         ><i class="bx bxl-linkedin-square"></i
       ></a>
     </section>
-    <div class="reserved">
-      <p>&copy; 2025 Luxury Travel | All Rights Reserved</p>
+
+    <!-- affiliate disclosure -->
+    <div class="quote-quotes">
+      <blockquote>
+        <p class="affiliate-disclosure">
+          Disclosure: Some of the links on this site are affiliate links. This
+          means we may earn a commission at no extra cost to you if you make a
+          purchase through them. As an Amazon Associate, we earn from qualifying
+          purchases.
+        </p>
+      </blockquote>
     </div>
+
+    <!-- footer -->
+    <section class="footer-section">
+      <div class="footer">
+        <div>
+          <img
+            loading="lazy"
+            class="footer-logo"
+            src="images/logo.png"
+            alt="the luxury travel logo of this website"
+          />
+        </div>
+        <div class="footer-container">
+          <h3 class="heading">Best Services</h3>
+          <ul class="footer-list">
+            <li><a href="#best-campany">Best Luxury company</a></li>
+            <li>
+              <a
+                rel="nofollow noopener"
+                target="blank_"
+                href="https://expedia.com/affiliates/hotel-search-randheli-island.OkieGo9"
+                >Luxury Cruises</a
+              >
+            </li>
+            <li>
+              <a
+                rel="nofollow noopener"
+                target="blank_"
+                href="https://www.viator.com/St-Thomas-attractions/Yacht-Haven-Grande/d965-a14287?pid=P00218939&mcid=42383&medium=link&medium_version=selector"
+                >Yacht Rentals</a
+              >
+            </li>
+            <li>
+              <a
+                rel="nofollow noopener"
+                target="blank_"
+                href="https://www.villiersjets.com/?id=9474"
+                >First-Class Travel</a
+              >
+            </li>
+            <li>
+              <a rel="nofollow noopener" href="https://amzn.to/4lbDtO5"
+                >Travel Gear</a
+              >
+            </li>
+            <li><a href="#travel1">VIP Travel Deals</a></li>
+          </ul>
+        </div>
+        <div class="footer-container">
+          <h3 class="heading">Discover</h3>
+          <ul class="footer-list">
+            <li><a href="/Destination.html">Destinations</a></li>
+            <li>
+              <a
+                rel="nofollow noopener"
+                target="blank_"
+                href="https://expedia.com/affiliates/hotel-search-randheli-island.OkieGo9"
+                >5-Star Hotels</a
+              >
+            </li>
+            <li><a target="blank_" href="blogs.html">Blogs</a></li>
+            <li>
+              <a target="blank_" href="https://amzn.to/4kpRC9h"
+                >Travel guides and ebooks</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-container">
+          <h3 class="heading">Know Us</h3>
+          <ul class="footer-list">
+            <li>
+              <a target="blank_" href="/About-Us.html" target="_blank"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a target="blank_" href="/contact-Us.html" target="_blank"
+                >Contact Us</a
+              >
+            </li>
+            <li>
+              <a href="/about-josh.html">About Josh</a>
+            </li>
+
+            <li>
+              <a target="blank_" href="/privacy-policy.html">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="/affilliate-disclosure.html">Affiliate Disclosure</a>
+            </li>
+            <!-- <li><a href="">Adventure Website</a></li> -->
+          </ul>
+        </div>
+      </div>
+      <div class="reserved">
+        <p>&copy; 2025 Luxury Travel | All Rights Reserved</p>
+      </div>
+    </section>
+
+    <!-- fixed buttons -->
+    <div class="floating-buttons">
+      <a
+        href="https://expedia.com/affiliates/expedia-home.hMJbWB1"
+        target="_blank"
+        rel="nofollow noopener"
+        class="float-btn flights"
+        title="Book Flights"
+      >
+        <span class="material-symbols-outlined">flight</span></a
+      >
+      <a
+        href="https://hotellook.tpk.mx/Fmhh4o28"
+        target="_blank"
+        rel="nofollow noopener"
+        class="float-btn hotels"
+        title="Book Hotels"
+        ><span class="material-symbols-outlined">hotel</span></a
+      >
+      <a
+        href="https://www.viator.com/?pid=P00218939&mcid=42383&medium=link&medium_version=selector"
+        target="_blank"
+        rel="nofollow noopener"
+        class="float-btn tours"
+        title="Find Tours"
+      >
+        <span class="material-symbols-outlined">map</span></a
+      >
+      <a
+        href="https://amzn.to/4lbDtO5"
+        target="_blank"
+        rel="nofollow noopener"
+        class="float-btn jets"
+        title="Private Jets"
+        ><span class="material-symbols-outlined">shopping_cart</span></a
+      >
+    </div>
+
+    <!-- scripts for js, banners, widjets and schema -->
     <script
       async
       src="https://partners.vtrcdn.com/static/scripts/banners/banners.js"
@@ -464,5 +1541,287 @@
       class="eg-widgets-script"
       src="https://affiliates.expediagroup.com/products/widgets/assets/eg-widgets.js"
     ></script>
+    <!-- Swiper JS -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const s = document.createElement("script");
+        s.src = "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js";
+        s.onload = () => {
+          new Swiper(".flight-swiper", {
+            slidesPerView: 1.2,
+            spaceBetween: 20,
+            loop: false,
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+              640: { slidesPerView: 1.5 },
+              768: { slidesPerView: 2 },
+              1024: { slidesPerView: 3 },
+            },
+          });
+        };
+        document.body.appendChild(s);
+      });
+    </script>
+
+    <!-- for search bar which is affiliated  -->
+    <script>
+      /* ======= 1. PRESET KEYWORDS & AFFILIATE LINKS ======= */
+      const routes = [
+        {
+          keywords: ["flight", "fly"],
+          suggestion: [
+            "Flights to Dubai",
+            "Cheap flights to Paris",
+            "Last-minute flights",
+          ],
+          url: "https://expedia.com/affiliates/expedia-home.hMJbWB1",
+        },
+        {
+          keywords: ["hotel", "stay", "accommodation"],
+          suggestion: [
+            "Hotels in London",
+            "Beach resorts Bali",
+            "Budget stays New-York",
+          ],
+          url: "https://hotellook.tpk.mx/Fmhh4o28",
+        },
+        {
+          keywords: ["safari", "tour", "experience"],
+          suggestion: [
+            "Luxury safari Tanzania",
+            "Rome food tour",
+            "Snorkeling experiences",
+          ],
+          url: "https://www.viator.com/?pid=P00218939&mcid=42383&medium=link&medium_version=selector",
+        },
+        {
+          keywords: ["private jet", "luxury flight", "charter"],
+          suggestion: [
+            "Private Jet to London",
+            "Charter flight Dubai",
+            "VIP jet service",
+          ],
+          url: "https://www.villiersjets.com/?id=9474",
+        },
+      ];
+
+      /* ======= 2. AUTOCOMPLETE LOGIC ======= */
+      function showSuggestions(e) {
+        const val = e.target.value.toLowerCase();
+        const box = document.getElementById("suggestions");
+        box.innerHTML = ""; // clear previous
+        box.style.display = "none";
+
+        gtag("event", "search_bar_typing", { search_term: val }); // GA4 typing event
+
+        if (!val) return;
+
+        // build unique matches
+        const matches = new Set();
+        routes.forEach((r) => {
+          if (r.keywords.some((k) => val.includes(k))) {
+            r.suggestion.forEach((s) => matches.add(s));
+          }
+        });
+
+        if (matches.size === 0) return;
+
+        // populate dropdown
+        matches.forEach((text) => {
+          const li = document.createElement("li");
+          li.textContent = text;
+          li.style.padding = "0.75rem 1rem";
+          li.style.cursor = "pointer";
+          li.onmouseover = () => (li.style.background = "#f0f0f0");
+          li.onmouseout = () => (li.style.background = "#fff");
+          li.onclick = () => {
+            document.getElementById("searchInput").value = text;
+            box.style.display = "none";
+            gtag("event", "search_suggestion_click", { suggestion: text }); // GA4 click
+            handleSearch(); // immediately redirect
+          };
+          box.appendChild(li);
+        });
+        box.style.display = "block";
+      }
+
+      /* ======= 3. SEARCH SUBMIT / REDIRECT ======= */
+      function handleSearch() {
+        const input = document
+          .getElementById("searchInput")
+          .value.toLowerCase();
+        let target = null;
+
+        for (const r of routes) {
+          if (r.keywords.some((k) => input.includes(k))) {
+            target = r.url;
+            break;
+          }
+        }
+        if (!target) target = "/luxury-travel-deals.html"; // fallback internal page
+
+        gtag("event", "search_bar_submit", {
+          search_term: input,
+          redirect_to: target,
+        }); // GA4 submit
+        window.location.href = target;
+      }
+    </script>
+
+    <script>
+      const swiper = new Swiper(".flight-swiper", {
+        slidesPerView: 1.2,
+        spaceBetween: 20,
+        loop: false,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          640: { slidesPerView: 1.5 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        },
+      });
+    </script>
+
+    <!-- schema markup -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What are the most luxurious destinations for 2025?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The top-rated luxury destinations in 2025 include the Maldives, Bora Bora, Dubai, Santorini, and Paris — all offering premium accommodations, exclusive experiences, and world-class service."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "When is the best time to book luxury travel deals?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Book 2-5 months in advance for peak-season destinations. For private jets and cruises, last-minute deals can offer VIP savings. Tuesdays and Wednesdays often show the best prices online."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I book a private jet without a membership?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Platforms like Villiers Jets allow you to charter flights on-demand without upfront membership fees. You can choose your aircraft, route, and schedule in minutes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's included in VIP travel experiences?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Luxury packages may include 5-star hotel stays, private airport transfers, yacht cruises, personal chefs, spa treatments, and guided tours. Many are fully customizable."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are there affiliate programs for luxury travel?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Programs like Expedia, Viator, and Villiers Jets offer high-commission affiliate links for booking hotels, tours, and private flights. You can join for free and promote premium travel experiences."
+            }
+          }
+        ]
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://luxurytravelpradise.netlify.app/Destination.html",
+            "url": "https://luxurytravelpradise.netlify.app/Destination.html",
+            "name": "Luxury Travel Destinations | Private Jets, 5-Star Hotels & VIP Tours",
+            "description": "Explore curated luxury travel destinations like Maldives, Bora Bora, and Dubai. Book private jets, 5-star resorts, and exclusive tours with trusted affiliate partners.",
+            "primaryImageOfPage": {
+              "@type": "ImageObject",
+              "url": "https://luxurytravelpradise.netlify.app/images/paris-tower.webp",
+              "width": 1200,
+              "height": 630
+            },
+            "breadcrumb": {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://luxurytravelpradise.netlify.app"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Destinations",
+                  "item": "https://luxurytravelpradise.netlify.app/Destination.html"
+                }
+              ]
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://luxurytravelpradise.netlify.app/#organization",
+            "name": "Luxury Travel Paradise",
+            "url": "https://luxurytravelpradise.netlify.app",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://luxurytravelpradise.netlify.app/images/logo.png",
+              "width": 250,
+              "height": 80
+            },
+            "sameAs": [
+              "https://www.youtube.com/@paradise-lux",
+              "https://web.facebook.com/profile.php?id=61562869575815",
+              "https://x.com/JEdfonce",
+              "https://www.pinterest.com/luxuryparadise101/",
+              "https://www.linkedin.com/in/travel-trends-3a1a85314"
+            ]
+          },
+          {
+            "@type": "Product",
+            "name": "Ultimate Luxury Travel Guide 2025",
+            "description": "A complete insider guide to luxury travel: 5-star hotels, first-class flights, travel hacking, and VIP experiences worldwide.",
+            "brand": {
+              "@type": "Organization",
+              "name": "Luxury Travel Paradise"
+            },
+            "image": "https://luxurytravelpradise.netlify.app/images/ebook1.jpg",
+            "url": "https://payhip.com/b/U4Go1",
+            "offers": {
+              "@type": "Offer",
+              "priceCurrency": "USD",
+              "price": "5.00",
+              "availability": "https://schema.org/InStock",
+              "url": "https://payhip.com/b/U4Go1"
+            }
+          },
+          {
+            "@type": "TouristDestination",
+            "name": "Maldives",
+            "url": "https://luxurytravelpradise.netlify.app/destinations/Maldives.html",
+            "description": "Discover the Maldives: luxury overwater villas, private island resorts, and underwater spas for VIP travelers.",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": "3.2028",
+              "longitude": "73.2207"
+            },
+            "image": "https://luxurytravelpradise.netlify.app/images/valley.jpg"
+          }
+        ]
+      }
+    </script>
   </body>
 </html>
