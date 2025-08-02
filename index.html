@@ -327,6 +327,12 @@
       #check {
         display: none;
       }
+      .swiper-button-next,
+      .swiper-button-prev {
+        z-index: -1 !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+      }
 
       @media screen and (max-width: 1188px) {
         .icons {
@@ -541,7 +547,7 @@
     </section>
 
     <!-- hero section -->
-    <section class="hero">
+    <section class="hero" id="heros">
       <div class="hero-container">
         <h1>
           Experience the World's Most Exclusive
