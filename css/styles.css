@@ -27,9 +27,11 @@ h1 {
   font-size: 5rem;
   margin-bottom: 3.5rem;
 }
-h2,
-h3 {
+h2 {
   font-size: 3rem;
+}
+h3 {
+  font-size: 2.6rem;
 }
 h4 {
   font-size: 2rem;
@@ -64,6 +66,9 @@ h3 {
   }
   h2 {
     font-size: 2.6rem;
+  }
+  h3 {
+    font-size: 2.1rem;
   }
 }
 table {
@@ -281,7 +286,7 @@ h4 {
 
 .deals-hero {
   background: linear-gradient(rgb(0, 0, 0, 0.55), rgb(0, 0, 0, 0.55)),
-    url(/images/beautiful-landscapes.jpg);
+    url(/images/beautiful-landscapes.webp);
   height: 90vh;
   clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
 }
@@ -436,29 +441,16 @@ h4 {
   }
 }
 /* DESTINATION SECTION */
-.hero-sliding {
+/* .hero-sliding {
   height: 70vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  animation: slideShow 30s infinite ease-in-out;
+  animation: slideShow 60s infinite ease-in-out;
 }
 
-@keyframes slideShow {
-  0% {
-    background-image: url("/images/valley.webp");
-  }
-  33% {
-    background-image: url("/images/0verwater.webp");
-  }
-  66% {
-    background-image: url("/images/pool.webp");
-  }
-  100% {
-    background-image: url("/images/dome.webp");
-  }
-}
+*/
 
 .hero-overlay {
   position: absolute;
@@ -474,11 +466,41 @@ h4 {
   text-align: center;
   padding: 2rem;
   color: #fff;
+  z-index: 10;
 }
 
 .hero-title {
   font-size: 2.8rem;
   margin-bottom: 1rem;
+}
+
+.hero-sliding {
+  position: relative;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.slideshow-images {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.slideshow-images .slide {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+  z-index: 0;
+}
+
+.slideshow-images .slide.active {
+  opacity: 1;
+  z-index: 1;
 }
 
 .destination {
@@ -630,9 +652,9 @@ h4 {
 #best-campany {
   gap: 20px;
   flex-wrap: wrap;
-  width: 90%;
-  margin: 4rem 5%;
-  flex-direction: row;
+  width: 100%;
+  margin: 4rem 0;
+  flex-direction: column;
 }
 .campanies {
   max-width: 310px;
@@ -809,13 +831,16 @@ h4 {
 }
 /* ABOUT PAGE  & CONTACT PAGE & PRIVACY POLICY & AFFILLIATE DISCLOSURE*/
 
-.container {
-  max-width: 800px;
+.container,
+.company-container-one {
+  max-width: 1000px;
   margin: 7rem auto;
-  background: white;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.company-container-one {
+  background: white;
 }
 .about-list {
   padding: 30px;
@@ -844,17 +869,20 @@ textarea {
 }
 
 /* BLOGS PAGE */
-.heading-blog {
+.heading-blog,
+.heading-blogging {
   background: rgb(5, 5, 32);
   color: white;
-  text-align: center;
-  padding: 20px;
-  margin: 4rem 0;
-  height: 40vh;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
+}
+.heading-blog {
+  text-align: center;
+  padding: 20px;
+  margin: 4rem 0;
+  height: 40vh;
 }
 .heading-blog h2 {
   color: var(--secondary-color);
@@ -1013,7 +1041,241 @@ textarea {
     height: 60vh;
   }
 }
+/* new blogposts */
+.heading-blogging {
+  margin: 8rem 0 1rem;
+  height: 55vh;
+}
+.headingblogging-container {
+  max-width: 700rem;
+}
+.headingblogging-container h1 {
+  max-width: 900px;
+}
+.blogging-image {
+  display: flex;
+  gap: 10px;
+}
+.blogging-image p {
+  line-height: 1.5px;
+  padding: 5px 0;
+}
+.blogging-image-two {
+  height: auto;
+}
 
+.blogging-image-two,
+.blogging-image-three,
+.blogging-image-four,
+.affily-btns,
+.internal-leads {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.blogging-image-two figure,
+.blogging-image-three figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.blogging-image-two img,
+.blogging-image-three img,
+.blogging-image-four img {
+  border-radius: 10px;
+}
+
+.blogging-image-two img,
+.blogging-image-two figcaption {
+  height: auto;
+}
+.blogging-image-two img,
+.blogging-image-two figcaption,
+.blogging-image-three img {
+  width: 80%;
+}
+.blogging-image-three,
+.blogging-image-four {
+  margin: 1rem 0 4rem;
+}
+.blogging-image-three img {
+  object-fit: cover;
+}
+.blogging-image-three figure a figcaption {
+  color: var(--paragraph-color);
+}
+.blogging-image-four img {
+  max-width: 80%;
+  max-height: 700px;
+  object-fit: cover;
+}
+
+.call-card {
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  padding: 2rem;
+  color: var(--secondary-color);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 170px;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.call-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.25));
+  z-index: 0;
+}
+
+.call-card h4 {
+  font-weight: bold;
+  color: var(--button-hover);
+  z-index: 1;
+}
+
+.call-card .btn {
+  z-index: 1;
+  background-color: var(--paragraph-color);
+  color: var(--secondary-color);
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  width: fit-content;
+  transition: all 0.2s ease;
+}
+
+.call-card .btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--heading-color);
+}
+
+.call-card:hover {
+  transform: translateY(-6px);
+}
+
+.bloggingcard-one {
+  background: url(/images/thailand-plane.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bloggingcard-two {
+  background: url(/images/airplane.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bloggingcard-three {
+  background: url(/images/thailand-hotels.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bloggingcard-four {
+  background: url(/images/thailand-gears.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bloggingcard-five {
+  background: url(/images/thailand-girl.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bloggingcard-six {
+  background: url(/images/thailand-taxi.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main-content-blogging {
+  padding: 0 2rem;
+  margin: 2rem auto;
+  max-width: 1000px;
+}
+.main-content-blogging h3 {
+  font-size: 2.3rem;
+}
+.main-content-blogging p {
+  line-height: 1.6;
+}
+.main-content-blogging ul {
+  padding-left: 2rem;
+}
+.blogging-minihead {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--heading-color);
+  padding: 1.5rem 0 0;
+}
+.real-leads {
+  display: flex;
+  gap: 12px;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+.blogs-button,
+.internal-links {
+  margin: 1rem 0 4rem;
+}
+.affily-btns {
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 1rem 0 4rem;
+  justify-content: flex-start;
+}
+.affily-btns div {
+  padding: 1rem 0;
+}
+.internal-leads {
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 1rem 0 3rem;
+}
+.webdeals-links {
+  width: 300px;
+  padding: 2rem 0.6rem;
+}
+.headblog-paragraph {
+  margin: 4.5rem 0 0;
+}
+@media screen and (min-width: 1024px) {
+  .blogging-image-two img,
+  .blogging-image-two figcaption {
+    width: 950px;
+    object-fit: cover;
+  }
+  .blogging-image-two img {
+    height: 80vh;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .headingblogging-container {
+    padding: 2rem;
+  }
+}
+@media screen and (max-width: 415px) {
+  .heading-blogging {
+    height: 70vh;
+  }
+  .blogging-image p {
+    line-height: normal;
+    padding: 0 0;
+  }
+}
 /* DESTINATION PAGE */
 .destination-page {
   margin-top: 7rem;
@@ -1365,7 +1627,7 @@ textarea {
 
 .swiper-button-next,
 .swiper-button-prev {
-  color: #111;
+  color: var(--button-color);
 }
 /* google icons */
 .material-symbols-outlined {
@@ -1731,32 +1993,7 @@ blockquote p {
     max-width: 600px;
   }
 }
-/* faqs */
-.section-light {
-  background: #fff;
-  padding: 4rem 2rem;
-}
-.faq details {
-  max-width: 750px;
-  margin: 1rem auto;
-  border: 1px solid #e5e7eb;
-  border-radius: 5px;
-  padding: 1rem;
-  background: #fff;
-  cursor: pointer;
-}
 
-.faq summary {
-  font-weight: bold;
-  font-size: 1rem;
-}
-.faq p {
-  color: #555;
-}
-.faqs-container {
-  width: 100%;
-  text-align: center;
-}
 /* private jets homepage section */
 .private-charters {
   width: 100%;
@@ -1782,11 +2019,11 @@ blockquote p {
   flex-direction: column;
 }
 .jetsgrid-firsttextcontainer ul {
-  padding: 2rem 0;
+  padding: 1.5rem 0;
 }
 .jetsgrid-firsttextcontainer ul li {
   line-height: 2rem;
-  padding: 2rem 0;
+  padding: 1rem 0;
   list-style: none;
 }
 .jets-container {
@@ -1976,4 +2213,56 @@ blockquote p {
 }
 .about-mejosh {
   text-align: center;
+}
+.auther-information {
+  border-left: 2px solid var(--button-color);
+}
+/* blog post's faqs section */
+.faqs-width {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.faq-section {
+  padding: 60px 20px;
+  max-width: 1000px;
+}
+
+.faq-section h2 {
+  margin-bottom: 40px;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--paragraph-color);
+}
+
+.faq-question {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.9rem;
+  font-weight: bold;
+  text-align: left;
+
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.faq-question:hover {
+  background: #f0f0f0;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  padding: 0 15px;
+  background-color: var(--secondary-color);
+}
+
+.faq-item.active .faq-answer {
+  padding: 15px;
+  max-height: 500px;
 }
