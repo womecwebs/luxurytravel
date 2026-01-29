@@ -147,6 +147,7 @@
   font-weight: 600;
   margin-bottom: 16px;
   min-height: 38px;
+  padding: 2rem;
 }
 
 .trust {
@@ -389,7 +390,7 @@
   color: white;
 }
 
-/* ===== CHAT HISTORY (SIDEBAR) 1 ===== */
+/* ===== CHAT HISTORY ===== */
 
 .ai-chat-history {
   margin-top: 24px;
@@ -421,6 +422,7 @@
   color: var(--ai-text-muted);
   cursor: pointer;
   transition: background 0.2s ease;
+  margin: 0.1rem 0.5rem;
 }
 
 .chat-history-item:hover {
@@ -447,4 +449,56 @@
 .ai-sidebar.collapsed .ai-chat-history-header,
 .ai-sidebar.collapsed .chat-title {
   display: none;
+}
+
+/* NEW CHAT BUTTON */
+.ai-new-chat {
+  padding: 12px;
+}
+
+.new-chat-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: linear-gradient(
+    90deg,
+    rgba(77, 163, 255, 0.18),
+    rgba(77, 163, 255, 0.05)
+  );
+  border: none;
+  color: var(--ai-text-main);
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.new-chat-btn:hover {
+  background: rgba(77, 163, 255, 0.25);
+}
+
+.ai-sidebar.collapsed .new-chat-btn span.ai-label {
+  display: none;
+}
+
+/* RENAME BUTTON */
+.chat-actions {
+  opacity: 0.4;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.chat-history-item:hover .chat-actions {
+  opacity: 1;
+}
+
+.chat-rename-input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.08);
+  border: none;
+  border-radius: 8px;
+  padding: 4px 6px;
+  color: var(--ai-text-main);
+  outline: none;
 }

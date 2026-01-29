@@ -155,7 +155,7 @@ exports.handler = async function (event) {
     /* 5️⃣ PROMPT */
     /* ─────────────────────────────────────────────── */
     const prompt = `
-You are Paradise AI, a professional luxury travel advisor.
+You are Paradise AI, a professional travel advisor.
 
 STRICT RULES:
 - NO nightlife, alcohol, clubs, gambling
@@ -166,7 +166,6 @@ STRICT RULES:
 
 CONTENT STYLE:
 - Calm, expert, factual
-- Luxury-focused
 - High-end experiences only
 
 OUTPUT REQUIREMENTS:
@@ -232,7 +231,7 @@ USER QUESTION:
     answerHtml = answerHtml
       .replaceAll(
         "{{AFF_FLIGHTS}}",
-        `<a class="ai-link" href="${AFFILIATES.flights}" target="_blank" rel="noopener">premium flights</a>`,
+        `<a class="ai-link" href="${AFFILIATES.flights}" target="_blank" rel="noopener">flights</a>`,
       )
       .replaceAll(
         "{{AFF_HOTELS}}",
@@ -244,7 +243,7 @@ USER QUESTION:
       )
       .replaceAll(
         "{{AFF_TRANSFERS}}",
-        `<a class="ai-link" href="${AFFILIATES.transfers}" target="_blank" rel="noopener">luxury transfers</a>`,
+        `<a class="ai-link" href="${AFFILIATES.transfers}" target="_blank" rel="noopener">airport transfers</a>`,
       )
       .replaceAll(
         "{{AFF_JETS}}",

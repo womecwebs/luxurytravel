@@ -18,10 +18,26 @@ const AI_STATE = {
   activeChatId: null,
 };
 
-/* ===== DOM REFERENCES (MUST COME EARLY) ===== */
+/* ===== DOM REFERENCES ===== */
 const input = document.getElementById("ai-input");
 const chat = document.getElementById("chat");
 const emptyState = document.getElementById("ai-emptyState");
+
+/* ===== NEW CHATS ===== */
+const newChatBtn = document.getElementById("newChatBtn");
+
+if (newChatBtn) {
+  newChatBtn.addEventListener("click", () => {
+    AI_STATE.activeChatId = null;
+    saveState();
+
+    chat.innerHTML = "";
+    chat.style.display = "none";
+    emptyState.style.display = "flex";
+
+    renderChatHistory();
+  });
+}
 
 function saveState() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(AI_STATE));
@@ -87,7 +103,59 @@ function renderChatHistory() {
     li.className =
       "chat-history-item" +
       (chat.id === AI_STATE.activeChatId ? " active" : "");
-    li.textContent = chat.title;
+    li.innerHTML = `
+  <span class="chat-title">${chat.title}</span>
+  <span class="chat-actions">
+    <span class="edit-chat material-symbols-outlined">ink_pen</span>
+    <span class="delete-chat material-symbols-outlined">delete</span>
+  </span>
+`;
+
+    const titleEl = li.querySelector(".chat-title");
+    const editBtn = li.querySelector(".edit-chat");
+    const deleteBtn = li.querySelector(".delete-chat");
+
+    /* ✏️ RENAME CHAT */
+    editBtn.onclick = (e) => {
+      e.stopPropagation();
+
+      const input = document.createElement("input");
+      input.type = "text";
+      input.value = chat.title;
+      input.className = "chat-rename-input";
+
+      titleEl.replaceWith(input);
+      input.focus();
+
+      input.onblur = () => {
+        chat.title = input.value.trim() || "New Chat";
+        saveState();
+        renderChatHistory();
+      };
+
+      input.onkeydown = (e) => {
+        if (e.key === "Enter") input.blur();
+      };
+    };
+
+    /* 🗑️ DELETE CHAT (SAFE) */
+    deleteBtn.onclick = (e) => {
+      e.stopPropagation();
+
+      if (!confirm("Delete this chat permanently?")) return;
+
+      AI_STATE.chats = AI_STATE.chats.filter((c) => c.id !== chat.id);
+
+      if (AI_STATE.activeChatId === chat.id) {
+        AI_STATE.activeChatId = null;
+        chat.innerHTML = "";
+        chat.style.display = "none";
+        emptyState.style.display = "flex";
+      }
+
+      saveState();
+      renderChatHistory();
+    };
 
     li.onclick = () => {
       AI_STATE.activeChatId = chat.id;
@@ -247,18 +315,6 @@ async function send() {
     loader.remove();
 
     // Guardrail: backend error
-    //   if (data.error) {
-    //     chat.innerHTML += `
-    //   <div class="message ai error">
-    //     The AI service is temporarily unavailable. Please try again.
-    //   </div>
-    // `;
-    //     addMessage("ai", data.answer_html);
-    //     renderChatHistory();
-
-    //     return;
-    //   }
-
     if (data.error) {
       const errorMsg = "The AI service is temporarily unavailable.";
       chat.innerHTML += `
