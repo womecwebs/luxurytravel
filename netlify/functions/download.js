@@ -1,4 +1,7 @@
-const ebooks = require("../../src/_data/ebooks.json");
+const path = require("path");
+
+// Robust absolute path (prevents future breakage)
+const ebooks = require(path.join(process.cwd(), "src", "_data", "ebooks.json"));
 
 exports.handler = async (event) => {
   const slug = event.queryStringParameters?.ebook;
