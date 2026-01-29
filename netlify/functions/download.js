@@ -1,28 +1,28 @@
-const ebooks = require("../../_site/_data/ebooks.json");
+const ebooks = require("../../src/_data/ebooks.json");
 
 exports.handler = async (event) => {
-  const ebookSlug = event.queryStringParameters?.ebook;
+  const slug = event.queryStringParameters?.ebook;
 
-  if (!ebookSlug) {
+  if (!slug) {
     return {
       statusCode: 400,
       body: "Missing ebook parameter",
     };
   }
 
-  const match = ebooks.find((e) => e.slug === ebookSlug);
+  const ebook = ebooks.find((e) => e.slug === slug);
 
-  if (!match || !match.download_url) {
+  if (!ebook || !ebook.download_url) {
     return {
       statusCode: 404,
-      body: "Download not found",
+      body: "Ebook not found",
     };
   }
 
   return {
     statusCode: 302,
     headers: {
-      Location: match.download_url,
+      Location: ebook.download_url,
       "Cache-Control": "no-store",
     },
   };
