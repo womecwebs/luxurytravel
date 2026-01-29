@@ -1,3 +1,5 @@
+console.log("page-ebooks.js loaded");
+
 document.addEventListener("DOMContentLoaded", () => {
   const phrases = [
     "Not More Expensive.",
@@ -24,15 +26,24 @@ document.addEventListener("click", (e) => {
   if (!btn) return;
 
   const slug = btn.dataset.ebook;
-
   if (!slug) {
-    console.warn("No ebook slug found on button");
+    console.error("Missing ebook slug");
     return;
   }
 
-  // Store slug for Beehiiv → redirect
+  // Store slug
   localStorage.setItem("leadEbook", slug);
-
-  // Debug confirmation
   console.log("Stored ebook slug:", slug);
+
+  // Redirect to Beehiiv (FULL PAGE)
+  const redirectUrl =
+    "https://paradize.life/.netlify/functions/download?ebook=" +
+    encodeURIComponent(slug);
+
+  const beehiivUrl =
+    "https://subscribe-forms.beehiiv.com/3b7a92f9-e06c-41c9-a6db-0868df2b13ef" +
+    "?redirect_url=" +
+    encodeURIComponent(redirectUrl);
+
+  window.location.href = beehiivUrl;
 });
