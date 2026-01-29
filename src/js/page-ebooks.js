@@ -18,3 +18,21 @@ document.addEventListener("DOMContentLoaded", () => {
     el.classList.add("pop-text");
   }, 4000);
 });
+
+document.addEventListener("click", (e) => {
+  const btn = e.target.closest("[data-open-lead]");
+  if (!btn) return;
+
+  const slug = btn.dataset.ebook;
+
+  if (!slug) {
+    console.warn("No ebook slug found on button");
+    return;
+  }
+
+  // Store slug for Beehiiv → redirect
+  localStorage.setItem("leadEbook", slug);
+
+  // Debug confirmation
+  console.log("Stored ebook slug:", slug);
+});

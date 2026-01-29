@@ -1,0 +1,18 @@
+---
+layout: base.njk
+title: Preparing your download…
+permalink: /download-redirect/
+---
+
+<p>Preparing your download…</p>
+
+<script>
+  const ebook = localStorage.getItem("leadEbook");
+
+  if (!ebook) {
+    document.body.innerHTML = "<p>Missing download information.</p>";
+  } else {
+    window.location.href =
+      "/.netlify/functions/download?ebook=" + encodeURIComponent(ebook);
+  }
+</script>
