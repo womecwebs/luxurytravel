@@ -147,6 +147,10 @@
 .color-secondary {
   color: var(--secondary-color);
 }
+
+.color-gold {
+  color: var(--button-color);
+}
 .color-paragraph {
   color: var(--paragraph-color);
 }
@@ -345,6 +349,9 @@
 .pl-1-5 {
   padding-left: 1.5rem;
 }
+.pl-20 {
+  padding-left: 2rem;
+}
 .pr-1 {
   padding-right: 0.25rem;
 }
@@ -539,6 +546,9 @@
 .object-cover {
   object-fit: cover;
 }
+.object-contain {
+  object-fit: contain;
+}
 
 /* Background Images */
 .bg-cover {
@@ -658,6 +668,9 @@
 }
 .border-l-sky {
   border-left: 4px solid #0066cc;
+}
+.border-sky {
+  border: 2px solid #0066cc;
 }
 
 /* ===========================

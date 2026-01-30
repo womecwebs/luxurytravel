@@ -662,20 +662,32 @@ h4 {
    EBOOK PAGE
 ========================= */
 
-.ebook-hero {
-  padding: 90px 0 70px;
+.ebook-hero,
+.ai-home-hero {
   overflow: hidden;
   background: linear-gradient(135deg, #0b1d26, #122c34);
+  padding: 90px 0 70px;
 }
 
-.ebook-hero-inner {
+.ebook-hero-inner,
+.ai-home-hero-inner {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
-
   display: flex;
   align-items: center;
   gap: 60px;
+}
+.ebook-hero-inner {
+  padding: 0 20px;
+}
+
+.ai-home-hero-inner {
+  padding: 0 10px;
+}
+
+.inner-two {
+  background: linear-gradient(135deg, #0e242e, #122c34);
+  box-shadow: 2px 2px 10px black;
 }
 
 .ebook-hero-actions {
@@ -871,7 +883,8 @@ h4 {
 }
 
 @media (max-width: 900px) {
-  .ebook-hero-inner {
+  .ebook-hero-inner,
+  .ai-home-hero-inner {
     flex-direction: column;
     text-align: left;
   }

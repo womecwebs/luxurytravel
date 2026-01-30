@@ -162,7 +162,6 @@ STRICT RULES:
 - NO hallucination or guessing
 - NO markdown
 - NO emojis
-- Family-safe, luxury-only
 
 CONTENT STYLE:
 - Calm, expert, factual

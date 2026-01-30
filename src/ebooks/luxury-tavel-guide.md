@@ -3,7 +3,7 @@ layout: ebook-layouts/single-ebook.njk
 title: "Luxury Thailand Travel Guide 2026"
 description: "A premium ebook covering luxury hotels, VIP experiences, private transport, and insider travel tips in Thailand."
 type: free
-download_url: "https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648069/nyc-june_qk2zu1.jpg"
+download_url: "https://res.cloudinary.com/dxqnpsj8k/image/upload/v1769761104/dltqpajcowqlstij6avz.pdf"
 cover: "https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648069/nyc-june_qk2zu1.jpg"
 featured: true
 category: "Luxury Travel"
