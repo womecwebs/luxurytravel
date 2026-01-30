@@ -1,32 +1,40 @@
-const path = require("path");
-
-// Robust absolute path (prevents future breakage)
-const ebooks = require(path.join(process.cwd(), "src", "_data", "ebooks.json"));
-
 exports.handler = async (event) => {
-  const slug = event.queryStringParameters?.ebook;
+  try {
+    const slug = event.queryStringParameters?.ebook;
 
-  if (!slug) {
+    if (!slug) {
+      return { statusCode: 400, body: "Missing ebook parameter" };
+    }
+
+    const origin =
+      event.headers.origin ||
+      event.headers.referer?.split("/").slice(0, 3).join("/") ||
+      "https://paradize.life";
+
+    // 🔑 Fetch Eleventy-generated JSON (SAFE)
+    const res = await fetch(`${origin}/_data/ebooks.json`);
+
+    if (!res.ok) {
+      throw new Error("Failed to load ebooks JSON");
+    }
+
+    const ebooks = await res.json();
+
+    const match = ebooks.find((e) => e.slug === slug);
+
+    if (!match || !match.download_url) {
+      return { statusCode: 404, body: "Download not found" };
+    }
+
     return {
-      statusCode: 400,
-      body: "Missing ebook parameter",
+      statusCode: 302,
+      headers: {
+        Location: match.download_url,
+        "Cache-Control": "no-store",
+      },
     };
+  } catch (err) {
+    console.error("DOWNLOAD ERROR:", err);
+    return { statusCode: 500, body: "Internal Server Error" };
   }
-
-  const ebook = ebooks.find((e) => e.slug === slug);
-
-  if (!ebook || !ebook.download_url) {
-    return {
-      statusCode: 404,
-      body: "Ebook not found",
-    };
-  }
-
-  return {
-    statusCode: 302,
-    headers: {
-      Location: ebook.download_url,
-      "Cache-Control": "no-store",
-    },
-  };
 };

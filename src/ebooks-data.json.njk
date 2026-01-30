@@ -2,4 +2,11 @@
 permalink: "/_data/ebooks.json"
 eleventyExcludeFromCollections: true
 ---
-{{ collections.ebooksData | dump | safe }}
+[
+{%- for ebook in collections.ebooks -%}
+  {
+    "slug": "{{ ebook.data.slug }}",
+    "download_url": "{{ ebook.data.download_url }}"
+  }{% if not loop.last %},{% endif %}
+{%- endfor -%}
+]
