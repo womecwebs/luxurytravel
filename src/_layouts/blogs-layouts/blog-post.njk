@@ -45,11 +45,16 @@ navType: none
         </div>
       </section>
 
-      {% include "blocks/toc-auto.njk" %} {% if featured_image %}
+      {% include "blocks/toc-auto.njk" %}
       <div class="blogging-image-two">
-        <img src="{{ featured_image }}" alt="{{ featured_image_alt }} " />
+        <img 
+          src="{{ image }}"
+          alt="{{ alt }}"
+          loading="lazy"
+          width="600"
+          height="400"
+        />
       </div>
-      {% endif %}
 
       <!-- BLOG CONTENT -->
       <section>{{ content | safe }}</section>
