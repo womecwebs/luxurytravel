@@ -69,7 +69,14 @@ If you want a faster way to decide, you can also use our [interactive travel pla
 
 January is ideal if you want to escape winter or travel cheaply after the holidays.
 
+
+
 ### Best destinations in January:
+
+* **Thailand** – Dry season, perfect beaches, great value
+* **Mexico** – Warm weather, fewer crowds after New Year
+* **South Africa** – Summer season, excellent wildlife experiences
+* **Sri Lanka** – Peak weather for beaches and culture
 
 <!--StartFragment-->
 
