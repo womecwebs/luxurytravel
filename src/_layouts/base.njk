@@ -1,149 +1,144 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <!-- Google tag (gtag.js) -->
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "G-S1G5HQZXP2");
-  </script>
-  <meta
-    name="google-site-verification"
-    content="iMba3iNH_5vmxhCCOtq8EyrRUqMsPwOKYGRYRoJNIYU"
-  />
-    
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  {% include "seo.njk" %}
-  {% include "schema.njk" %}
-
-
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
-  <link rel="stylesheet" href="/css/styles.css">
-  <link rel="stylesheet" href="/css/utilities.css">
-  <link rel="stylesheet" href="/css/next.css">
-  <link rel="stylesheet" href="/css/paradise-ai.css">
-
-  <!-- Swiper CSS -->
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-  />
-
-  <!-- font for css -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;500;700&display=swap"
-    rel="stylesheet"
-  />
-
-  <!-- Favicon -->
-  <link
-    rel="apple-touch-icon"
-    sizes="180x180"
-    href="/favicons/apple-touch-icon.png"
-  />
-  <link
-    rel="icon"
-    type="image/png"
-    sizes="32x32"
-    href="/favicons/favicon-32x32.png"
-  />
-  <link
-    rel="icon"
-    type="image/png"
-    sizes="16x16"
-    href="/favicons/favicon-16x16.png"
-  />
-  <link rel="manifest" href="/favicons/site.webmanifest" />
-
-  <!-- icons -->
-  <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
-  />
-  <link
-    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-    rel="stylesheet"
-  />
-
-  <style>
-    .swiper-button-next,
-    .swiper-button-prev {
-      z-index: -1 !important;
-      opacity: 0 !important;
-      pointer-events: none !important;
-    }
-
-    @media screen and (min-width: 1099px) {
-      .hero-container {
-        max-width: 110rem;
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
       }
-    }
-  </style>
-</head>
-<body {% if pageId %}data-page="{{ pageId }}"{% endif %}>
+      gtag("js", new Date());
 
-{# -------------------------------
-   NAVIGATION
--------------------------------- #}
+      gtag("config", "G-S1G5HQZXP2");
+    </script>
+    <meta
+      name="google-site-verification"
+      content="iMba3iNH_5vmxhCCOtq8EyrRUqMsPwOKYGRYRoJNIYU"
+    />
 
-{% set navType = navType | default("default") %}
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-{% if navType == "none" %}
-  {% include "nav-none.njk" %}
-{% elseif navType == "default" %}
-  {% include "nav-default.njk" %}
-{% endif %}
+    {% include "seo.njk" %} 
+    {% include "schema.njk" %}
 
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/utilities.css" />
+    <link rel="stylesheet" href="/css/next.css" />
+    <link rel="stylesheet" href="/css/paradise-ai.css" />
+    <link rel="stylesheet" href="/css/content.css" />
 
-  <main>
-    {{ content | safe }}
-  </main>
-  
-  {% include "blocks/newslatter-popup.njk" %}
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
-{# -------------------------------
-   FOOTER
--------------------------------- #}
+    <!-- font for css -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
 
-{% set footerType = footerType | default("default") %}
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicons/site.webmanifest" />
 
-{% if footerType == "none" %}
-  {# no footer #}
-{% elseif footerType == "minimal" %}
-  {% include "footer-minimal.njk" %}
-{% else %}
-  {% include "footer-default.njk" %}
-{% endif %} 
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
-  <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", user => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
-          });
+    <style>
+      .swiper-button-next,
+      .swiper-button-prev {
+        z-index: -1 !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+      }
+
+      @media screen and (min-width: 1099px) {
+        .hero-container {
+          max-width: 110rem;
         }
-      });
-    }
-  </script>
+      }
+    </style>
+  </head>
+  <body {% if pageId %}data-page="{{ pageId }}" {% endif %}>
+    {# ------------------------------- 
+        NAVIGATION
+    -------------------------------- #} 
+    
+    {% set navType = navType | default("default") %} 
+    
+    {% if navType == "none" %} 
+      {% include "nav-none.njk" %} 
+    {% elseif navType == "default" %} 
+      {% include "nav-default.njk" %}
+    {% endif %}
 
-{% include "blocks/cookies.njk" %}
+    <main>{{ content | safe }}</main>
 
-  <!-- js files -->
-  
-  <script defer src="/js/core.js"></script>
-  <script defer src="/js/where-next.js"></script>
-  <script defer src="/js/paradise-ai.js"></script>
-  <script defer src="/js/page-ebooks.js"></script>
-  <script defer src="/js/comments-toggle.js"></script>
-  
-</body>
+    {% include "blocks/newslatter-popup.njk" %} 
+
+    
+    {# ------------------------------- 
+       FOOTER
+    -------------------------------- #}
+
+    {% set footerType = footerType | default("default") %} 
+    
+    {% if footerType == "none" %} 
+      {# no footer #} 
+    {% elseif footerType == "minimal" %} 
+      {% include "footer-minimal.njk" %} 
+    {% else %}
+      {% include "footer-default.njk" %} 
+    {% endif %}
+
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", (user) => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+
+    {% include "blocks/cookies.njk" %}
+
+    <!-- js files -->
+
+    <script defer src="/js/core.js"></script>
+    <script defer src="/js/where-next.js"></script>
+    <script defer src="/js/paradise-ai.js"></script>
+    <script defer src="/js/page-ebooks.js"></script>
+    <script defer src="/js/comments-toggle.js"></script>
+  </body>
 </html>

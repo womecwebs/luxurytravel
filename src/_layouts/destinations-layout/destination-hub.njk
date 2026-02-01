@@ -2,64 +2,58 @@
 layout: base.njk
 ---
 
+<!-- hero section -->
+<section class="hero thailand-hero">
+  <div class="slideshow-images">
+    <img
+      src="https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648597/thai-pool-villa-phuket_m59fww.webp"
+      width="600"
+      height="400"
+      loading="lazy"
+      alt="The Phuket Aerial view of the sea with infinity pools "
+      class="slide active"
+    />
+    <img
+      src="https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768646155/0verwater_andbak.webp"
+      width="600"
+      height="400"
+      loading="lazy"
+      alt="Bora bora Overwater bungalows with Mount Otemanu in the background"
+      class="slide"
+    />
+    <img
+      src="https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648639/thailand-elephants_hcctgp.webp"
+      alt="travellers having an unforgattable elephant tour experience"
+      loading="lazy"
+      width="600"
+      height="400"
+      class="slide"
+    />
+    <img
+      src="https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648635/thailand-gears_shcaxm.webp"
+      alt="traveller in a private jet with added privacy and luxury"
+      loading="lazy"
+      width="600"
+      height="400"
+      class="slide"
+    />
+  </div>
+  <div class="hero-overlay">
+    <div id="search-container-hero">
+      <h1 class="hero-title">Discover the World's Finest Destinations</h1>
+      <!-- AI textarea to Paradise-ai -->
+      {%include "ai/ai-box.njk"%}
+    </div>
+  </div>
+</section>
 
-    <!-- hero section -->
-    <section class="hero thailand-hero">
-      <div class="slideshow-images">
-        <img
-          src="https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648597/thai-pool-villa-phuket_m59fww.webp"
-          width="600"
-          height="400"
-          loading="lazy"
-          alt="The Phuket Aerial view of the sea with infinity pools "
-          class="slide active"
-        />
-        <img
-          src="https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768646155/0verwater_andbak.webp"
-          width="600"
-          height="400"
-          loading="lazy"
-          alt="Bora bora Overwater bungalows with Mount Otemanu in the background"
-          class="slide"
-        />
-        <img
-          src="https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648639/thailand-elephants_hcctgp.webp"
-          alt="travellers having an unforgattable elephant tour experience"
-          loading="lazy"
-          width="600"
-          height="400"
-          class="slide"
-        />
-        <img
-          src="https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648635/thailand-gears_shcaxm.webp"
-          alt="traveller in a private jet with added privacy and luxury"
-          loading="lazy"
-          width="600"
-          height="400"
-          class="slide"
-        />
-      </div>
-      <div class="hero-overlay">
-        <div id="search-container-hero">
-          <h1 class="hero-title">
-            Discover the World's Finest Destinations
-          </h1>
-          <!-- AI textarea to Paradise-ai -->  
-          {%include "ai/ai-box.njk"%}
-        </div>
-      </div>
-    </section>
+{% include "blocks/continents-links.njk" %}
 
-    {% include "blocks/continents-links.njk" %}
+<!-- PAGE CONTENT -->
+<main id="destination-hub-content">{{ content | safe }}</main>
 
-    <!-- PAGE CONTENT -->
-    <main id="destination-hub-content">
-      {{ content | safe }}
-    </main>
+{% include "ebooks/ebooks-reusable-card.njk" %} 
+{% include "blocks/newsletter-social.njk" %}
+{% include "blocks/floating-menu.njk" %}
 
-    {% include "ebooks/ebooks-reusable-card.njk" %}
-   
-    {% include "blocks/newsletter-social.njk" %}
-
-    {% include "blocks/floating-menu.njk" %}
 

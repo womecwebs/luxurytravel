@@ -19,25 +19,28 @@ permalink: "/countries/{{ country.data.slug }}/blog/"
 
 {% include "blocks/continent-hero.njk" %}
 
-
 <section class="max-w-1100 mt-60">
-
   <h2>{{ country.data.title }} Guides</h2>
 
   <div class="destination-grid">
+    {% for post in collections.blogs %} {% if post.data.country ==
+    country.data.slug %}
 
-  {% for post in collections.blogs %}
-    {% if post.data.country == country.data.slug %}
+    <article class="blogpost">
+      <img 
+        src="{{ post.data.image }}"
+        alt="{{ post.data.title }}" 
+        width="600"
+        height="400"
+        loading="lazy"
+      />
+      <h3>{{ post.data.title }}</h3>
+      <p>{{ post.data.excerpt }}</p>
+      <a href="{{ post.url }}">Read guide</a>
+    </article>
 
-      <article class="blogpost">
-        <img src="{{ post.data.image }}" />
-        <h3>{{ post.data.title }}</h3>
-        <p>{{ post.data.excerpt }}</p>
-        <a href="{{ post.url }}">Read guide</a>
-      </article>
-
-    {% endif %}
-  {% endfor %}
-
+    {% endif %} {% endfor %}
   </div>
 </section>
+
+

@@ -6,11 +6,6 @@ footerType: none
 ---
 
 <div class="where-next">
-  <div class="bg-visuals" aria-hidden="true">
-    <span class="blob b1"></span>
-    <span class="blob b2"></span>
-    <span class="blob b3"></span>
-  </div>
 
   {% include "travellers/where-next/where-next-sidebar.njk" %}
 
@@ -29,11 +24,13 @@ footerType: none
     <header>
       {% include "nav-blog.njk" %}
 
-      <h1>Where should I travel next?</h1>
-      <p>
-        Choose a month, pick experiences, and discover the top recommended
-        places — curated for timing, weather and vibe.
-      </p>
+      <div class="p-20">
+        <h1>Where should I travel next?</h1>
+        <p>
+          Choose a month, pick experiences, and discover the top recommended
+          places — curated for timing, weather and vibe.
+        </p>
+      </div>
 
       <!-- Months -->
       <div class="months" id="months">

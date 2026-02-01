@@ -31,7 +31,13 @@ permalink: "/countries/{{ country.data.slug }}/destinations/"
     {% if d.data.country == country.data.slug %}
 
       <article class="destination-cards">
-        <img src="{{ d.data.image }}" alt="{{ d.data.title }}" />
+        <img 
+          src="{{ d.data.image }}"
+          alt="{{ d.data.title }}"
+          width="600"
+          height="400"
+          loading="lazy"
+        />
         <h3>{{ d.data.title }}</h3>
         <p>{{ d.data.excerpt }}</p>
         <a class="link" href="{{ d.url }}">Explore</a>

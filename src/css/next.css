@@ -149,97 +149,6 @@ html,
   }
 }
 
-/* Animated blurred color background */
-.bg-visuals {
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  overflow: hidden;
-}
-.bg-visuals .blob {
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(120px);
-  mix-blend-mode: screen;
-  opacity: 0.9;
-  transform: translate3d(0, 0, 0);
-}
-/* individual blobs */
-.bg-visuals .b1 {
-  width: 420px;
-  height: 420px;
-  left: -160px;
-  top: -80px;
-  background: radial-gradient(
-    circle at 30% 30%,
-    rgba(0, 194, 255, 0.95),
-    rgba(79, 70, 229, 0.8) 50%,
-    transparent 60%
-  );
-  animation: blobMove1 14s ease-in-out infinite;
-}
-.bg-visuals .b2 {
-  width: 520px;
-  height: 520px;
-  right: -220px;
-  top: 40px;
-  background: radial-gradient(
-    circle at 50% 40%,
-    rgba(139, 92, 246, 0.9),
-    rgba(0, 194, 255, 0.6) 45%,
-    transparent 60%
-  );
-  animation: blobMove2 18s ease-in-out infinite;
-}
-.bg-visuals .b3 {
-  width: 380px;
-  height: 380px;
-  left: 40%;
-  bottom: -160px;
-  background: radial-gradient(
-    circle at 40% 60%,
-    rgba(255, 209, 102, 0.55),
-    rgba(79, 70, 229, 0.28) 40%,
-    transparent 60%
-  );
-  animation: blobMove3 20s ease-in-out infinite;
-}
-@keyframes blobMove1 {
-  0% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: translate(30px, 18px);
-  }
-  100% {
-    transform: translate(0, 0);
-  }
-}
-@keyframes blobMove2 {
-  0% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: translate(-40px, 22px);
-  }
-  100% {
-    transform: translate(0, 0);
-  }
-}
-@keyframes blobMove3 {
-  0% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: translate(10px, -28px);
-  }
-  100% {
-    transform: translate(0, 0);
-  }
-}
-
-/* Container layout: */
 .containerss {
   max-width: var(--container-max);
   margin: 0 auto;
@@ -247,14 +156,12 @@ html,
   transition: margin-left 0.28s ease;
 }
 
-/* On large screens  for the sidebar */
 @media (min-width: 980px) {
   .containerss {
     margin-left: calc(var(--sidebar-width) + 20px);
   }
 }
 
-/* Left sidebar */
 .left-sidebar {
   position: fixed;
   left: 0;
@@ -279,7 +186,6 @@ html,
   background: var(--bg-2);
 }
 
-/* Mobile behavior: hidden by default; toggled class .open shows it */
 @media (max-width: 979px) {
   .left-sidebar {
     transform: translateX(-106%);
@@ -292,7 +198,6 @@ html,
   }
 }
 
-/* Sidebar inner styling */
 .left-sidebar .sidebar-brand h2 {
   margin: 0;
   color: #fff;
@@ -301,7 +206,6 @@ html,
   color: var(--muted);
 }
 
-/* Affiliate card in sidebar */
 .affiliate-card {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 10px;
@@ -327,23 +231,13 @@ html,
   color: var(--secondary-color);
   font-size: 1.5rem;
 }
-/* .btn {
-  display: inline-block;
-  padding: 8px 12px;
-  border-radius: 8px;
-  background: transparent;
-  color: #fff;
-  text-decoration: none;
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  font-weight: 700;
-} */
+
 .btn-cta {
   background: linear-gradient(90deg, var(--accent) 0%, var(--accent-2) 100%);
   color: #fff;
   border: none;
 }
 
-/* Sidebar toggle (mobile) */
 .sidebar-toggle {
   position: fixed;
   left: 12px;
@@ -371,7 +265,6 @@ html,
   line-height: 2.5rem;
 }
 
-/* Card tweaks  */
 .card {
   background: var(--card);
   color: #0f172a;
@@ -416,13 +309,13 @@ header p {
 }
 
 /* accessibility: prefer-reduced-motion */
-@media (prefers-reduced-motion: reduce) {
+/* @media (prefers-reduced-motion: reduce) {
   .bg-visuals .blob {
     animation: none;
     transform: none;
     filter: blur(100px);
   }
-}
+} */
 
 /* Month pills */
 .months {
@@ -781,7 +674,9 @@ header p {
 .tour-highlight {
   position: relative;
   z-index: 10001 !important;
-  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.8), 0 0 12px rgba(79, 70, 229, 0.6);
+  box-shadow:
+    0 0 0 3px rgba(79, 70, 229, 0.8),
+    0 0 12px rgba(79, 70, 229, 0.6);
   border-radius: 6px;
   animation: pulse-ring 1.5s infinite;
 }
@@ -800,15 +695,18 @@ header p {
 
 @keyframes pulse-ring {
   0% {
-    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.8),
+    box-shadow:
+      0 0 0 3px rgba(79, 70, 229, 0.8),
       0 0 12px rgba(79, 70, 229, 0.6);
   }
   50% {
-    box-shadow: 0 0 0 5px rgba(79, 70, 229, 0.5),
+    box-shadow:
+      0 0 0 5px rgba(79, 70, 229, 0.5),
       0 0 18px rgba(79, 70, 229, 0.4);
   }
   100% {
-    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.8),
+    box-shadow:
+      0 0 0 3px rgba(79, 70, 229, 0.8),
       0 0 12px rgba(79, 70, 229, 0.6);
   }
 }

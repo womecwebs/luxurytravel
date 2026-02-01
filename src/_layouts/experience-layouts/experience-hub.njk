@@ -1,6 +1,7 @@
 ---
 layout: base.njk
 ---
+
 <!-- HERO -->
 <section
   class="w-full h-fit-content mt-70 p-4 p-4-sm mb-4 bg-center bg-cover bg-no-repeat relative"
@@ -63,7 +64,7 @@ layout: base.njk
 <!-- featured Experiences -->
 <section class="mt-70 pt-50 mb-60 pb-50 max-w-1100">
   <div class="p-20 max-w-1100">
-    <h2>Luxury Tours & Experiences</h2>
+    <h2>Top Tours & Experiences</h2>
     <p>
       Discover curated, high-end experiences designed for travelers who demand
       exclusivity, privacy, and unforgettable moments.
@@ -75,14 +76,14 @@ layout: base.njk
     "blocks/featured-experience.njk" %} {% endfor %}
   </div>
   <div class="flex gap-10 flex-wrap w-30r m-3 pl-1-5">
-    <a href="/experiences" class="btn2 color-dark"> Explore more </a>
+    <a href="#more-experiences" class="btn2 color-dark"> Explore more </a>
   </div>
 </section>
 
 <!-- ALL EXPERIENCES -->
-<section class="max-w-1100 mb-40">
-  <h2>All Luxury Experiences</h2>
-  <p>Browse all curated luxury experiences worldwide.</p>
+<section id="more-experiences" class="max-w-1100 mb-40">
+  <h2>All Experiences</h2>
+  <p>Browse all curated top experiences worldwide.</p>
 
   <div class="destination-grid mt-30">
     {% for exp in collections.experiences %}
@@ -100,8 +101,6 @@ layout: base.njk
   </div>
 </section>
 
-{% include "ebooks/ebooks-reusable-card.njk" %}
-
-{% include "blocks/newsletter-social.njk" %}
-
+{% include "ebooks/ebooks-reusable-card.njk" %} 
+{% include "blocks/newsletter-social.njk" %} 
 {% include "blocks/floating-menu.njk" %}

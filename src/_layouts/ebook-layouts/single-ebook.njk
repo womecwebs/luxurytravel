@@ -4,40 +4,34 @@ navType: none
 footerType: none
 ---
 
-{% set learn = learning_outcomes %}
+
+{% set learn = learning_outcomes %} 
 {% set for_who = audience %}
 {% set why_different = differentiators or [] %}
-
 
 <article class="ebook-page-container">
   <div class="single-ebook-page">
     <!-- LEFT -->
     <section class="ebook-left-side">
       <div class="ebook-wrapper single-cover-ebook">
-        <img 
+        <img
           src="{{ cover }}"
           alt="Ebook Cover"
           loading="lazy"
           width="600"
           height="400"
         />
-{% if type == "paid" %}
-  <!-- PAID CTA -->
-  <a href="{{ payhip_url }}" class="price-btn">
-    Buy Now — {{ price }}
-  </a>
+        {% if type == "paid" %}
+        <!-- PAID CTA -->
+        <a href="{{ payhip_url }}" class="price-btn"> Buy Now — {{ price }} </a>
 
-{% elseif type == "free" %}
-  <!-- FREE LEAD MAGNET CTA -->
-<button
-  class="price-btn"
-  data-open-lead
-  data-ebook="{{ slug }}"
->
-  Get This Free Guide
-</button>
+        {% elseif type == "free" %}
+        <!-- FREE LEAD MAGNET CTA -->
+        <button class="price-btn" data-open-lead data-ebook="{{ slug }}">
+          Get This Guide Free
+        </button>
 
-{% endif %}
+        {% endif %}
       </div>
     </section>
 
@@ -113,26 +107,21 @@ footerType: none
           <h4 class="bold">Get the Guide</h4>
           <p>Download today and plan your trip with confidence.</p>
 
-{% if type == "paid" %}
-  <a href="{{ payhip_url }}" class="price-btn">
-    Buy for {{ currency }} {{ price }}
-  </a>
-{% else %}
-  <a
-    class="price-btn"
-    href="https://subscribe-forms.beehiiv.com/3b7a92f9-e06c-41c9-a6db-0868df2b13ef?redirect_url=https://paradize.life/.netlify/functions/download?ebook={{ slug }}"
-  >
-    Download Free
-  </a>
-{% endif %}
+          {% if type == "paid" %}
+           <!-- PAID CTA -->
+          <a href="{{ payhip_url }}" class="price-btn"> Buy Now — {{ price }} </a>
 
+          {% elseif type == "free" %}
+          <!-- FREE LEAD MAGNET CTA -->
+          <button class="price-btn" data-open-lead data-ebook="{{ slug }}">
+            Get This Guide Free
+          </button>
 
-        </section>        
-        
-        <!-- COMMENTS -->
-        <section class="mt-40">
-         {% include "blocks/comments.njk" %}
+          {% endif %}
         </section>
+
+        <!-- COMMENTS -->
+        <section class="mt-40">{% include "blocks/comments.njk" %}</section>
 
         {% include "blocks/faq.njk" %} 
         {% include "blocks/newsletter-social.njk" %} 

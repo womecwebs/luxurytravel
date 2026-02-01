@@ -3,7 +3,6 @@ layout: base.njk
 ---
 
 <article class="country-page">
-
   <!-- HERO -->
   <section
     class="w-full h-fit-content mt-70 p-4 p-4-sm mb-4 bg-center bg-cover bg-no-repeat relative"
@@ -17,7 +16,9 @@ layout: base.njk
     "
   >
     <div class="flights-hero-overlay">
-      <div class="w-full flex justify-center items-center flex-column mt-70 mb-70">
+      <div
+        class="w-full flex justify-center items-center flex-column mt-70 mb-70"
+      >
         <div class="w-90 text-left">
           <h1>{{ title }}</h1>
           <p class="color-secondary max-w-700">{{ description }}</p>
@@ -33,24 +34,21 @@ layout: base.njk
     <div class="featured-destinations mt-40 mb-40">
       <div class="swiper categories-swiper">
         <div class="swiper-wrapper">
-
-        {% for d in collections.destinations %}
-          {% if d.data.country == slug and loop.index <= 10 %}
-            <div class="swiper-slide destination-cards">
-              <img 
-                 src="{{ d.data.image }}"
-                 alt="{{ d.data.title }}"
-                 loading="lazy"
-                 width="600"
-                 height="400" 
-              />
-              <h3>{{ d.data.title }}</h3>
-              <p>{{ d.data.excerpt }}</p>
-              <a class="link" href="{{ d.url }}">Explore</a>
-            </div>
-          {% endif %}
-        {% endfor %}
-
+          {% for d in collections.destinations %} {% if d.data.country == slug
+          and loop.index <= 10 %}
+          <div class="swiper-slide destination-cards">
+            <img
+              src="{{ d.data.image }}"
+              alt="{{ d.data.title }}"
+              loading="lazy"
+              width="600"
+              height="400"
+            />
+            <h3>{{ d.data.title }}</h3>
+            <p>{{ d.data.excerpt }}</p>
+            <a class="link" href="{{ d.url }}">Explore</a>
+          </div>
+          {% endif %} {% endfor %}
         </div>
       </div>
     </div>
@@ -67,11 +65,9 @@ layout: base.njk
     <h2>Luxury Experiences in {{ title }}</h2>
 
     <div class="deals">
-      {% for exp in collections.experiences %}
-        {% if exp.data.country == slug and loop.index <= 10 %}
-          {% include "blocks/featured-experience.njk" %}
-        {% endif %}
-      {% endfor %}
+      {% for exp in collections.experiences %} {% if exp.data.country == slug
+      and loop.index <= 10 %} {% include "blocks/featured-experience.njk" %} {%
+      endif %} {% endfor %}
     </div>
 
     <div class="pt-20 pb-20">
@@ -86,24 +82,23 @@ layout: base.njk
     <h2>{{ title }} Travel Guides</h2>
 
     <div class="destination-grid mt-40 mb-40">
-      {% for post in collections.blogs %}
-        {% if post.data.country == slug and loop.index <= 10 %}
-        <article class="blogpost">
-          <img 
-             src="{{ post.data.image }}" 
-             alt="{{ post.data.title }}" 
-             loading="lazy"
-             width="600"
-             height="400"
-          />
-          <div class="blogpage-content">
-            <h3 class="heading">{{ post.data.title }}</h3>
-            <p>{{ post.data.excerpt }}</p>
-            <a class="link" href="{{ post.url }}">Read guide</a>
-          </div>
-        </article>
-        {% endif %}
-      {% endfor %}
+      {% for post in collections.blogs %} {% if post.data.country == slug and
+      loop.index <= 10 %}
+      <article class="blogpost">
+        <img
+          src="{{ post.data.image }}"
+          alt="{{ post.data.title }}"
+          loading="lazy"
+          width="600"
+          height="400"
+        />
+        <div class="blogpage-content">
+          <h3 class="heading">{{ post.data.title }}</h3>
+          <p>{{ post.data.excerpt }}</p>
+          <a class="link" href="{{ post.url }}">Read guide</a>
+        </div>
+      </article>
+      {% endif %} {% endfor %}
     </div>
 
     <div class="pt-20 pb-20">
@@ -114,25 +109,21 @@ layout: base.njk
   </section>
 
   <!-- EBOOKS -->
-  {% set relatedEbooks = collections.ebooks | ebooksForCountry(country) %}
-
-  {% if relatedEbooks.length %}
+  {% set relatedEbooks = collections.ebooks | ebooksForCountry(country) %} {% if
+  relatedEbooks.length %}
   <section class="related-ebooks">
     <h2>Recommended Travel Guides</h2>
 
     <div class="max-w-1100 mt-80 mb-70 p-20">
       {% for ebook in relatedEbooks %}
-        <article class="ebook-card">
-         {% include "ebooks/ebook-card" %}
-        </article>
+      <article class="ebook-card">{% include "ebooks/ebook-card" %}</article>
       {% endfor %}
     </div>
   </section>
-  {% endif %}
-
-
-  {% include "blocks/faq.njk" %}  
-  {% include "blocks/newsletter-social.njk" %}
+  {% endif %} 
+  
+  {% include "blocks/faq.njk" %} 
+  {% include "blocks/newsletter-social.njk" %} 
   {% include "blocks/floating-menu.njk" %}
-
 </article>
+

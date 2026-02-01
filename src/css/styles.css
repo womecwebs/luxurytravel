@@ -662,27 +662,19 @@ h4 {
    EBOOK PAGE
 ========================= */
 
-.ebook-hero,
-.ai-home-hero {
+.ebook-hero {
   overflow: hidden;
   background: linear-gradient(135deg, #0b1d26, #122c34);
   padding: 90px 0 70px;
 }
 
-.ebook-hero-inner,
-.ai-home-hero-inner {
+.ebook-hero-inner {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   gap: 60px;
-}
-.ebook-hero-inner {
   padding: 0 20px;
-}
-
-.ai-home-hero-inner {
-  padding: 0 10px;
 }
 
 .inner-two {
@@ -741,6 +733,7 @@ h4 {
 .free-ebook .ebook-cover-two,
 .payed-ebook .ebook-cover-three {
   display: block;
+  object-fit: cover;
 }
 
 @keyframes floatBook {
@@ -2444,19 +2437,25 @@ blockquote p {
 }
 
 /* main button */
-.float-btn.main-btn {
+.float-btn.main-btn,
+.float-blue-btn.main-blue-btn {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: var(--button-color);
   color: var(--secondary-color);
-
   align-items: center;
   justify-content: center;
   cursor: pointer;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   transition: background 0.5s;
 }
+.float-btn.main-btn {
+  background: var(--button-color);
+}
+.float-blue-btn.main-blue-btn {
+  background: var(--bg-2);
+}
+
 .float-btn.main-btn:hover {
   background: var(--button-hover);
 }
@@ -2482,7 +2481,6 @@ blockquote p {
   border-radius: 50%;
   background: var(--secondary-color);
   color: var(--paragraph-color);
-
   align-items: center;
   justify-content: center;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
@@ -2684,102 +2682,18 @@ blockquote p {
 }
 /* search bar */
 #search-container,
-#search-container-hero {
+.ai-search-container {
   text-align: center;
   position: relative;
-  padding: 5rem 0;
 }
 #search-container {
   background: #f9f9f9;
-}
-/* for destination */
-
-#search-container h2,
-#search-container-hero h1 {
-  margin: 3rem 0;
+  padding: 5rem 1rem;
 }
 
-#searchInput {
-  width: 80%;
-  height: 5rem;
-  max-width: 600px;
-  padding: 1rem;
-  font-size: 1.8rem;
-  border: 1px solid #ccc;
-  border-radius: 12px;
-}
-.search-btn {
-  margin-left: 0.5rem;
-  padding: 1rem 2rem;
-  background: var(--button-color);
-  color: #fff;
-  border: none;
-  border-radius: 12px;
-  font-size: 1.8rem;
-  cursor: pointer;
-  height: 5rem;
-}
-#suggestions {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 0 0;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 220px;
-  width: 80%;
-  max-width: 600px;
-  background: #dcd69a;
-  border: 1px solid #ccc;
-  border-radius: 12px;
-  display: none;
-  z-index: 99;
-  max-height: 320px;
-  overflow: auto;
-}
-/* .alternative-search {
-  margin-top: 15rem;
-} */
-@media screen and (max-width: 562px) {
-  #suggestions {
-    top: 250px;
-  }
-}
-/* luxury companies */
-.about-luxury-section {
-  max-width: 900px;
-  margin: 3rem auto;
-  padding: 2rem;
-}
-.luxury-btn {
-  margin: 2rem 0;
-}
-.expedia-content {
-  margin: 2rem 0 5rem;
-}
-.luxury-companies {
-  margin: 3rem 0;
-}
-
-/* about me page  */
-.about-josh-section {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
-}
-.about-josh-image {
-  width: 60px;
-  height: 60px;
-  border-radius: 150%;
-  margin-top: 1rem;
-  object-fit: cover;
-  filter: grayscale(10);
-}
-.about-josh-section p {
-  margin-top: 2rem;
-}
-.about-mejosh {
-  text-align: center;
+.ai-search-container {
+  background: #020617;
+  padding: 1rem 1rem;
 }
 .auther-information {
   border-left: 2px solid var(--button-color);
@@ -3860,21 +3774,3 @@ blockquote p {
   width: 100%;
   border-radius: 8px;
 }
-
-/* VIDEO */
-/* .ai-video {
-  margin-bottom: 32px;
-}
-
-.ai-video iframe {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  border-radius: 14px;
-  border: none;
-}
-
-.ai-video p {
-  margin-top: 8px;
-  font-weight: 600;
-  color: #444;
-} */
