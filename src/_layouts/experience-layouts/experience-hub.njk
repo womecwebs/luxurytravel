@@ -91,9 +91,10 @@ layout: base.njk
       <img
         src="{{ exp.data.image }}"
         alt="{{ exp.data.title }}"
+        class="m-0 mt-0 mb-0"
         loading="lazy"
       />
-      <h3>{{ exp.data.title }}</h3>
+      <h3 class="mt-0">{{ exp.data.title }}</h3>
       <p>{{ exp.data.excerpt }}</p>
       <a href="{{ exp.url }}" class="btn3">View experience</a>
     </article>
