@@ -227,11 +227,11 @@ layout: base.njk
     {% for exp in collections.experiences %} {% if loop.index <= 6 %}
 
     <div class="deals">
-      <div class="card-deals-container">
-        <div class="card-daels">
+      <div class="card-deals-container bg-white rounded-lg">
+        <div class="exp-card">
           <a href="{{ exp.url }}">
             <img
-              class="w-full h-full object-cover"
+              class="w-full h-full object-cover m-0 mt-0 mb-0"
               loading="lazy"
               src="{{ exp.data.image }}"
               alt="{{ exp.data.title }}"
@@ -243,7 +243,7 @@ layout: base.njk
 
         <div>
           <a href="{{ exp.url }}">
-            <h3>{{ exp.data.title }}</h3>
+            <h3 class="color-black fs-2">{{ exp.data.title }}</h3>
             <p>{{ exp.data.excerpt }}</p>
           </a>
           <a href="{{ exp.url }}" class="link">View experience</a>
@@ -273,12 +273,13 @@ layout: base.njk
       <img
         src="{{ c.data.image }}"
         alt="{{ c.data.title }}"
+        class="w-full h-full object-cover m-0 mt-0 mb-0"
         loading="lazy"
         width="600"
         height="400"
       />
 
-      <h3>{{ c.data.title }}</h3>
+      <h3 class="color-black fs-2 mt-0">{{ c.data.title }}</h3>
 
       <p>{{ c.data.description or c.data.excerpt }}</p>
 

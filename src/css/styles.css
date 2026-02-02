@@ -1021,9 +1021,6 @@ h4 {
 }
 .exp-card {
   width: 100%;
-  height: 220px;
-  text-align: left;
-  transition: 0.3s;
 }
 .card-daels p,
 .exp-card p {

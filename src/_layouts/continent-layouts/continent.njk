@@ -78,11 +78,13 @@ permalink: "/continents/{{ slug }}/"
         <img
           src="{{ c.data.image }}"
           alt="{{ c.data.title }}"
+          class=" m-0 mt-0 mb-0"
           loading="lazy"
           width="600"
           height="400"
         />
-        <h3>{{ c.data.title }}</h3>
+        <h3 class="m-0">{{ c.data.title }}</h3>
+        <p>{{ c.data.description or c.data.excerpt }}</p>
         <a class="link" href="{{ c.url }}">Explore country</a>
       </article>
       {% endif %} {% endfor %}
