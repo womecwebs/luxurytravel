@@ -34,9 +34,7 @@ The most popular island hopping destinations in Thailand include:
 
 Each region offers different landscapes, water conditions, and tour styles.
 
-
-
-![a lady experiencing the beauty of thailand through Island hopping experience](https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648637/thailand-girl_wpkfia.webp)
+![A lady tourist experiencing the beauty of thailand through Island hopping experience](https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648637/thailand-girl_wpkfia.webp)
 
 ### Types of Island Hopping Tours
 
