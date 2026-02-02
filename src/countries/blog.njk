@@ -28,13 +28,13 @@ permalink: "/countries/{{ country.data.slug }}/blog/"
 
     <article class="blogpost">
       <img 
-        src="{{ post.data.heroImage }}"
+        src="{{ post.data.image }}"
         alt="{{ post.data.title }}" 
         width="600"
         height="400"
         loading="lazy"
       />
-      <h3>{{ post.data.title }}</h3>
+      <h3 class="mt-05">{{ post.data.title }}</h3>
       <p>{{ post.data.excerpt }}</p>
       <a href="{{ post.url }}">Read guide</a>
     </article>
