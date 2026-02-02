@@ -12,6 +12,7 @@ heroImage: https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648623/thailan
 image: https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648623/thailand-chefs_etb8cn.webp
 continent: asia
 country: thailand
+destination: Bangkok
 category: food
 featured: false
 ---
