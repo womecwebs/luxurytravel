@@ -21,8 +21,6 @@ featured: false
 
 Thai cuisine is known for its balance of sweet, sour, salty, spicy, and bitter flavors. Dishes are freshly prepared using herbs, spices, and local ingredients. Street food in Thailand is not only popular with tourists but also eaten daily by locals, making it one of the most authentic ways to experience Thai culture.
 
-
-
 ## Best Cities for Thai Street Food Experiences
 
 **The best destinations for Thai street food include:**
@@ -34,6 +32,11 @@ Thai cuisine is known for its balance of sweet, sour, salty, spicy, and bitter f
 
 Each city offers unique regional dishes and cooking styles.
 
+{% btn
+  text: "Explore experience on viator",
+  url: "https://www.viator.com/Thailand-tours/Street-Food-Tours/d20-g6-c32027?pid=P00218939&mcid=42383&medium=link",
+  variant: "btn3"
+%}
 
 
 ## Popular Thai Dishes to Try
