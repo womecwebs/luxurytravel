@@ -15,6 +15,7 @@ country: thailand
 category: food
 featured: false
 ---
+
 **[Thai street food and cooking experiences](https://www.viator.com/Thailand-tours/Street-Food-Tours/d20-g6-c32027?pid=P00218939&mcid=42383&medium=link)** are a core part of traveling in Thailand. From bustling night markets to local food stalls and hands-on cooking classes, travelers can experience authentic Thai flavors that are globally recognized. This experience is affordable, accessible, and deeply connected to Thailand’s culture and daily life.
 
 ## Why Thai Food Is World-Famous
@@ -25,19 +26,14 @@ Thai cuisine is known for its balance of sweet, sour, salty, spicy, and bitter f
 
 **The best destinations for Thai street food include:**
 
-* **Bangkok** – World-famous street food, night markets, food tours
-* **Chiang Mai** – Northern Thai dishes and night bazaars
-* **Phuket** – Southern Thai flavors and seafood
-* **Ayutthaya** – Traditional recipes and local markets
+- **Bangkok** – World-famous street food, night markets, food tours
+- **Chiang Mai** – Northern Thai dishes and night bazaars
+- **Phuket** – Southern Thai flavors and seafood
+- **Ayutthaya** – Traditional recipes and local markets
 
 Each city offers unique regional dishes and cooking styles.
 
-{% btn
-  text: "Explore experience on viator",
-  url: "https://www.viator.com/Thailand-tours/Street-Food-Tours/d20-g6-c32027?pid=P00218939&mcid=42383&medium=link",
-  variant: "btn3"
-%}
-
+{% btn "Explore experience on Viator" "https://www.viator.com/Thailand-tours/Street-Food-Tours/d20-g6-c32027?pid=P00218939&mcid=42383&medium=link" "btn3" %}
 
 ## Popular Thai Dishes to Try
 

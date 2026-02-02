@@ -13,6 +13,25 @@ media_library:
 media_folder: ""
 public_folder: ""
 
+editor_components:
+  - id: btn
+    label: Button
+    fields:
+      - { name: text, label: Button Text, widget: string }
+      - { name: url, label: URL, widget: string }
+      - label: Style
+        name: variant
+        widget: select
+        options:
+          - btn
+          - btn2
+          - btn3
+          - btn4
+    from_block: |
+      {% btn "{{text}}" "{{url}}" "{{variant}}" %}
+    to_block: |
+      {% btn "{{text}}" "{{url}}" "{{variant}}" %}
+
 # =========================
 # COLLECTIONS
 # =========================

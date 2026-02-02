@@ -1,6 +1,20 @@
 const toc = require("eleventy-plugin-toc");
+const markdownIt = require("markdown-it");
 
 module.exports = function (eleventyConfig) {
+  /* ---------------- MARKDOWN CONFIG ---------------- */
+
+  eleventyConfig.setLibrary(
+    "md",
+    markdownIt({
+      html: true,
+      breaks: true,
+      linkify: true,
+    }),
+  );
+
+  eleventyConfig.setTemplateFormats(["md", "njk", "html"]);
+
   /* ---------------- PASSTHROUGH ---------------- */
   eleventyConfig.addPassthroughCopy("src/admin");
   eleventyConfig.addPassthroughCopy("src/ebook-pdfs");
@@ -312,13 +326,13 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode(
     "btn",
-    function ({
+    function (
       text,
       url,
       variant = "btn",
       target = "_blank",
       rel = "sponsored noopener",
-    }) {
+    ) {
       return `
     <a
       href="${url}"
