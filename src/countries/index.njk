@@ -80,6 +80,7 @@ description: Discover the world’s best countries for best travel experience, p
       />
 
       <h3 class="mt-05 color-black">{{ c.data.title }}</h3>
+      <p>{{ c.data.description or c.data.excerpt }}</p>
 
       <a class="link" href="{{ c.url }}">View destinations</a>
     </article>
