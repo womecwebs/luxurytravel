@@ -50,7 +50,7 @@ During an island hopping tour, travelers typically enjoy swimming, snorkeling, s
 
 The best time for island hopping depends on the region. The Andaman Sea coast is best from **November to April**, while the Gulf of Thailand is calmer between **January and September**. Choosing the correct coast during the right season ensures smooth seas, better visibility, and safer boat conditions.
 
-C﻿heck out **[paradise Travel too](/travellers/where-next)l** for exploring which destination should you visit next for luxury experience.
+C﻿heck out **[paradise Travel   tool](/travellers/where-next)** for exploring which destination should you visit next for luxury experience.
 
 ### Island Hopping Costs Explained
 
