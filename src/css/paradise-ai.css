@@ -313,6 +313,7 @@
 #related-guides {
   max-width: 980px;
   margin: 32px auto 0;
+  width: 100%;
 }
 .related-guides {
   display: flex;
@@ -372,6 +373,7 @@
   height: 140px;
   object-fit: cover;
   display: block;
+  margin: 0;
 }
 
 .guide-card h4 {

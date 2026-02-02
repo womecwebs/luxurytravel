@@ -234,7 +234,7 @@ typeEffect();
 
 /* ===== Render Related Guides ===== */
 function renderRelatedGuides(aiGuides) {
-  const container = document.getElementById("related-guides");
+  const container = document.querySelector("#chat #related-guides");
   if (!container) return;
 
   container.innerHTML = "";
