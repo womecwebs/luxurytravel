@@ -1,8 +1,8 @@
 <div class="card-deals-container bg-white rounded-lg">
-  <div class="card-daels">
+  <div class="exp-card">
     <a href="{{ exp.url }}">
       <img
-        class="w-full h-full object-cover m-0"
+        class="w-full h-full object-cover m-0 mt-0 mb-0"
         loading="lazy"
         src="{{ exp.data.image }}"
         alt="{{ exp.data.title }}"
@@ -12,9 +12,9 @@
     </a>
   </div>
 
-  <div class="pl-1-5 pr-1-5 pb-4 text-left">
+  <div class="p-2 text-left">
     <a href="{{ exp.url }}">
-      <h3>{{ exp.data.title }}</h3>
+      <h3 class="color-black fs-2">{{ exp.data.title }}</h3>
       <p>{{ exp.data.excerpt }}</p>
     </a>
     <a href="{{ exp.url }}" class="link">View experience</a>

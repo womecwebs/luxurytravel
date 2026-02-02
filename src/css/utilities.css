@@ -114,6 +114,9 @@
 .lowercase {
   text-transform: lowercase;
 }
+.fs-2 {
+  font-size: 2rem;
+}
 .fs-1-8 {
   font-size: 1.8rem;
 }
