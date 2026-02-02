@@ -44,6 +44,8 @@ Some must-try Thai dishes include Pad Thai, **[Tom Yum Goong, Green Curry, Massa
 
 Thai cooking classes are widely available across Thailand and typically include a market visit, ingredient introduction, and hands-on cooking. Classes range from half-day to full-day experiences and are suitable for beginners. Many classes allow participants to choose dishes and cater to dietary needs.
 
+![tourists in a cooking class in thailand](https://res.cloudinary.com/dxqnpsj8k/image/upload/v1770047296/thailand-cooking-class_xjbal6.jpg)
+
 
 
 ## Best Time for Food Tours and Cooking Classes
