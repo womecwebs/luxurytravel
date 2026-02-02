@@ -34,4 +34,10 @@ The most popular island hopping destinations in Thailand include:
 * **Koh Lanta** – Quieter islands and relaxed atmosphere
 * **Koh Samui** – Access to Ang Thong Marine National Park
 
-  Each region offers different landscapes, water conditions, and tour styles.
+Each region offers different landscapes, water conditions, and tour styles.
+
+
+
+## Types of Island Hopping Tours
+
+Island hopping tours in Thailand vary by comfort level and duration. Common options include group speedboat tours, traditional long-tail boat trips, snorkeling-focused tours, and private luxury charters. Group tours are cost-effective and social, while private boats provide flexibility, privacy, and access to less crowded islands.
