@@ -54,6 +54,10 @@ Thailand is home to thousands of Buddhist temples, but a small number stand out 
 
 
 
+
+
+
+
 ### Wat Phra Kaew (Bangkok) – Temple of the Emerald Buddha
 
 **[Wat Phra Kaew](https://www.viator.com/searchResults/all?text=thailand+temple+Wat+Phra+Kaew&pid=P00218939&mcid=42383&medium=link)**, located within Bangkok’s Grand Palace complex, is considered the most sacred temple in Thailand. It houses the Emerald Buddha, a highly revered statue believed to bring prosperity and protection to the country. The temple’s intricate architecture, golden spires, and detailed murals make it one of the most visited cultural sites in Thailand.
@@ -75,3 +79,7 @@ Wat Arun is one of Bangkok’s most recognizable landmarks, located on the banks
 ### Wat Phra That Doi Suthep (Chiang Mai) – Sacred Mountain Temple
 
 Wat Phra That Doi Suthep sits atop a mountain overlooking Chiang Mai and is one of northern Thailand’s most important religious sites. According to legend, the temple was built to house a sacred relic of the Buddha. Visitors climb a long staircase or take a cable car to reach the temple, where golden pagodas and city views await.
+
+
+
+### Wat Rong Khun (Chiang Rai) – The White Temple
