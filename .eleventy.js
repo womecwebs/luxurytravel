@@ -310,6 +310,32 @@ module.exports = function (eleventyConfig) {
     }));
   });
 
+  eleventyConfig.addShortcode(
+    "btn",
+    function ({
+      text,
+      url,
+      variant = "btn",
+      target = "_blank",
+      rel = "sponsored noopener",
+    }) {
+      return `
+    <a
+      href="${url}"
+      class="${variant}"
+      target="${target}"
+      rel="${rel}"
+    >
+      ${text}
+    </a>
+  `;
+    },
+  );
+
+  eleventyConfig.addPairedShortcode("btnGroup", function (content) {
+    return `<div class="heros-btns">${content}</div>`;
+  });
+
   eleventyConfig.addPassthroughCopy("src/favicons");
   eleventyConfig.addPassthroughCopy("src/robots.txt");
   eleventyConfig.addPassthroughCopy("src/llms.txt");
