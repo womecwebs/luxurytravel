@@ -23,3 +23,15 @@ category: luxury
 ## Why Island Hopping in Thailand Is Special
 
 Thailand stands out globally for island hopping because of its short travel distances between islands and well-developed tour infrastructure. Visitors can easily join half-day or full-day tours that include transportation, meals, snorkeling equipment, and guides. Compared to many island destinations worldwide, Thailand offers exceptional value without sacrificing quality or safety.
+
+## Best Places for Island Hopping in Thailand
+
+The most popular island hopping destinations in Thailand include:
+
+* **Phuket** – Gateway to the Phi Phi Islands and Similan Islands
+* **Krabi** – Famous for limestone cliffs and nearby island groups
+* **Koh Phi Phi** – Iconic scenery and snorkeling spots
+* **Koh Lanta** – Quieter islands and relaxed atmosphere
+* **Koh Samui** – Access to Ang Thong Marine National Park
+
+  Each region offers different landscapes, water conditions, and tour styles.
