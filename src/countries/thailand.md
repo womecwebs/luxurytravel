@@ -9,6 +9,7 @@ slug: thailand
 featured: true
 tags: country
 heroImage: https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648657/thailand_sjr6ni.webp
+image: https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648614/thailand_-_Copy_ee32yk.webp
 continent: asia
 faqs:
   - question: Is Thailand safe for tourists?
