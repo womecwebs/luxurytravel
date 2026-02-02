@@ -15,6 +15,29 @@ country: thailand
 destination: Bangkok
 category: food
 featured: false
+faqs:
+  - question: Is Thai street food safe for tourists?
+    answer: Yes, Thai street food is generally safe when eaten at busy stalls with
+      high turnover. Food is cooked fresh, and locals eat there daily. Travelers
+      should avoid food that has been sitting out and drink bottled water to
+      reduce risk.
+  - question: Do I need to like spicy food to enjoy Thai cuisine?
+    answer: No, many Thai dishes can be adjusted for spice level. Travelers can
+      request mild versions, and cooking classes often tailor dishes to
+      individual preferences. Thai cuisine includes many non-spicy options.
+  - question: Are Thai cooking classes suitable for beginners?
+    answer: Yes, Thai cooking classes are beginner-friendly and designed for
+      travelers with no prior cooking experience. Instructors guide participants
+      step by step and explain ingredients and techniques clearly.
+  - question: Can vegetarians or vegans enjoy Thai food experiences?
+    answer: Yes, many Thai dishes can be prepared vegetarian or vegan. Cooking
+      classes often accommodate dietary preferences, and street food stalls
+      commonly offer vegetable-based dishes. It’s helpful to communicate dietary
+      needs in advance.
+  - question: How long do Thai food tours and cooking classes last?
+    answer: Street food tours usually last between 2 to 4 hours, while cooking
+      classes typically run 3 to 6 hours, depending on the program. Both are
+      easy to fit into a travel itinerary.
 ---
 **[Thai street food and cooking experiences](https://www.viator.com/Thailand-tours/Street-Food-Tours/d20-g6-c32027?pid=P00218939&mcid=42383&medium=link)** are a core part of traveling in Thailand. From bustling night markets to local food stalls and hands-on cooking classes, travelers can experience authentic Thai flavors that are globally recognized. This experience is affordable, accessible, and deeply connected to Thailand’s culture and daily life.
 
