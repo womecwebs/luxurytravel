@@ -28,7 +28,7 @@ Thailand stands out globally for island hopping because of its short travel dist
 
 The most popular island hopping destinations in Thailand include:
 
-* **Phuket** – Gateway to the Phi Phi Islands and Similan Islands
+* **[Phuket](https://www.viator.com/Phuket/d349-ttd?pid=P00218939&mcid=42383&medium=link)** – Gateway to the Phi Phi Islands and Similan Islands
 * **Krabi** – Famous for limestone cliffs and nearby island groups
 * **Koh Phi Phi** – Iconic scenery and snorkeling spots
 * **Koh Lanta** – Quieter islands and relaxed atmosphere
@@ -49,3 +49,11 @@ During an island hopping tour, travelers typically enjoy swimming, snorkeling, s
 ### Best Time for Island Hopping in Thailand
 
 The best time for island hopping depends on the region. The Andaman Sea coast is best from **November to April**, while the Gulf of Thailand is calmer between **January and September**. Choosing the correct coast during the right season ensures smooth seas, better visibility, and safer boat conditions.
+
+C﻿heck out **[paradise Travel too](/travellers/where-next)**l for exploring which destination should you visit next for luxury experience.
+
+### Island Hopping Costs Explained
+
+**[Island hopping in Thailand](https://www.viator.com/Phuket/d349-ttd?pid=P00218939&mcid=42383&medium=link)** suits a wide range of budgets. Group tours are generally affordable and include most essentials, while private or luxury tours cost more depending on boat type, duration, and exclusivity. Most packages include transportation, guides, meals, and equipment, making it a convenient all-in-one experience.
+
+Visit **[Viator](https://www.viator.com/Phuket/d349-ttd?pid=P00218939&mcid=42383&medium=link)** to explore real prices for **Island hopping in Thailand** and explore more experiences.
