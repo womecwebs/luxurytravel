@@ -38,6 +38,14 @@ Each region offers different landscapes, water conditions, and tour styles.
 
 
 
-## Types of Island Hopping Tours
+### Types of Island Hopping Tours
 
 Island hopping tours in Thailand vary by comfort level and duration. Common options include group speedboat tours, traditional long-tail boat trips, snorkeling-focused tours, and private luxury charters. Group tours are cost-effective and social, while private boats provide flexibility, privacy, and access to less crowded islands.
+
+### What You’ll See and Do
+
+During an island hopping tour, travelers typically enjoy swimming, snorkeling, sightseeing, and beach relaxation. Many tours stop at coral reefs, lagoons, caves, and remote beaches. Snorkeling equipment is usually provided, and guided tours often explain marine life and local geography.
+
+### Best Time for Island Hopping in Thailand
+
+The best time for island hopping depends on the region. The Andaman Sea coast is best from **November to April**, while the Gulf of Thailand is calmer between **January and September**. Choosing the correct coast during the right season ensures smooth seas, better visibility, and safer boat conditions.
