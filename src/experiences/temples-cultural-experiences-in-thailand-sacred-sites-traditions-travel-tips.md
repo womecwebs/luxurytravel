@@ -38,4 +38,4 @@ faqs:
       sites. Cultural-focused destinations like Ayutthaya or Chiang Mai may
       require a full day to explore properly.
 ---
-Temples and cultural experiences are at the heart of Thailand’s identity. The country is home to thousands of Buddhist temples, known as *wats*, alongside royal palaces, historical ruins, and living traditions practiced daily. Visiting temples in Thailand is not only a sightseeing activity but a cultural experience that offers insight into religion, history, and Thai values.
+**[Temples and cultural experiences ](https://www.viator.com/searchResults/all?text=thailand+temple&pid=P00218939&mcid=42383&medium=link)**are at the heart of Thailand’s identity. The country is home to thousands of Buddhist temples, known as *wats*, alongside royal palaces, historical ruins, and living traditions practiced daily. Visiting temples in Thailand is not only a sightseeing activity but a cultural experience that offers insight into religion, history, and Thai values.
