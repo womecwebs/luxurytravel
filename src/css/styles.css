@@ -1014,7 +1014,7 @@ h4 {
 .card-daels {
   width: 300px;
   height: 220px;
-  padding: 10px;
+  /* padding: 10px; */
   text-align: left;
   transition: 0.3s;
 }
