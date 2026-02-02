@@ -112,6 +112,12 @@ tr th {
   border: 1px solid var(--heading-color);
   padding: 1rem;
 }
+
+img {
+  width: 80%;
+  object-fit: cover;
+  border-radius: 10px;
+}
 .link {
   color: blue;
 }

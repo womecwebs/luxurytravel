@@ -154,6 +154,11 @@ collections:
         name: "heroImage"
         widget: "image"
 
+      - label: "Featured Image"
+        name: "image"
+        widget: "image"
+        allow_multiple: false
+
       - label: "Continent"
         name: "continent"
         widget: "relation"
@@ -222,6 +227,11 @@ collections:
       - label: "Hero Image"
         name: "heroImage"
         widget: "image"
+
+      - label: "Featured Image"
+        name: "image"
+        widget: "image"
+        allow_multiple: false
 
       - label: "Continent"
         name: "continent"
@@ -298,6 +308,11 @@ collections:
       - label: "Hero Image"
         name: "heroImage"
         widget: "image"
+
+      - label: "Featured Image"
+        name: "image"
+        widget: "image"
+        allow_multiple: false
 
       - label: "Continent"
         name: "continent"
