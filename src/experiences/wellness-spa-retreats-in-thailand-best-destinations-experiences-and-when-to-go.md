@@ -52,7 +52,7 @@ Unlike many countries, wellness here is not a luxury add-on. It’s part of dail
 * Calm natural environments (beaches, mountains, jungles)
 * Strong safety and hospitality standards
 
-{% btn "book experience on Viator" "https://www.viator.com/searchResults/all?text=thailand+wellness&pid=P00218939&mcid=42383&medium=link" "btn3" %}
+**[book experience on Viator](https://www.viator.com/searchResults/all?text=thailand+wellness&pid=P00218939&mcid=42383&medium=link)**
 
 ## Types of Wellness & Spa Experiences in Thailand
 
