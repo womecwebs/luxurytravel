@@ -52,6 +52,8 @@ Unlike many countries, wellness here is not a luxury add-on. It’s part of dail
 * Calm natural environments (beaches, mountains, jungles)
 * Strong safety and hospitality standards
 
+{% btn "book experience on Viator" "https://www.viator.com/searchResults/all?text=thailand+wellness&pid=P00218939&mcid=42383&medium=link" "btn3" %}
+
 ## Types of Wellness & Spa Experiences in Thailand
 
 Thailand offers wellness experiences for **every level**, from casual spa days to full medical-grade retreats.
@@ -65,10 +67,6 @@ Thailand offers wellness experiences for **every level**, from casual spa days t
 * Holistic healing (sound therapy, breathwork, reiki)
 
 These experiences can last from **a few hours to several weeks**, depending on goals.
-
-
-
-
 
 ## Best Destinations for Wellness & Spa Retreat
 
