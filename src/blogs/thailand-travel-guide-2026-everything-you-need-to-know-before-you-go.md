@@ -134,7 +134,7 @@ These experiences consistently rank as **the most valuable and meaningful** for 
 * Visit **ethical elephant sanctuaries only**
 * Avoid riding or performance-based attractions
 
-### [Wellness & Relaxation](/experiences/wellness-spa-retreats-in-thailand-best-destinations-experiences-and-when-to-go/)
+### [Wellness & Relaxation](/experiences/wellness-spa-retreats-in-thailand-best-destinations-experiences-and-when-to-go)
 
 * Traditional Thai massage
 * Yoga and meditation retreats
