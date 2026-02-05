@@ -109,6 +109,10 @@ Thailand is not one destination—it’s many, and each region serves a differen
 
 {% btn "Explore Destinations on Viator" "https://www.viator.com/searchResults/all?text=thailand+elephant&pid=P00218939&mcid=42383&medium=link" "btn3" %}
 
+
+
+{% btn "Explore Destinations on Viator" "https://www.viator.com/searchResults/all?text=thailand+elephant&pid=P00218939&mcid=42383&medium=link" "btn3" %}
+
 ## Must-Do Experiences in Thailand
 
 These experiences consistently rank as **the most valuable and meaningful** for travelers.
