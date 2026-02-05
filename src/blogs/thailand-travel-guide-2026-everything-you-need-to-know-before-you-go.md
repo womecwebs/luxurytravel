@@ -48,6 +48,10 @@ As of January 1, 2025, Thailand requires most visa applications to be submitted 
 
 **Important:** Entry rules can change. Always confirm with official Thai immigration sources before departure.
 
+
+
+{% include "blocks/affiliate-cards.njk" %}
+
 ## Best Time to Visit Thailand (Month-by-Month Insight)
 
 Thailand is a year-round destination, but timing affects **weather, crowds, and costs**.
@@ -187,8 +191,6 @@ To avoid scams and poor experiences, travelers should book through **reliable pl
 * [Transfers & taxis](https://kiwitaxi.tpk.mx/7OgDoKGT): pre-booked airport transfers
 * [Insurance](https://auras.insure/?utm_source=google&utm_medium=cpc&utm_campaign=m_29&utm_content=ads1&utm_term=allianz%20travel%20insurance&gad_source=1&gad_campaignid=22963061470&gbraid=0AAAAAqZyix8eaSU4cD91VSNbwSi7hkwAE&gclid=Cj0KCQiAnJHMBhDAARIsABr7b85Dz7c219rADQKp4h9V-0N5i5hRtCtJ5JUfQjWmyjtjglkBzgh3i4YaAukJEALw_wcB): global travel insurance providers
 
-(Internal links and tools should be placed here.)
-
 ## Safety, Scams & Cultural Etiquette
 
 Thailand is generally very safe, but awareness matters.
@@ -215,8 +217,6 @@ Thailand values politeness—basic respect goes a long way.
 * Travelers rely more on **tools for planning**
 
 This means **clear, structured information** matters more than ever.
-
-
 
 ## Final Planning Tip
 
