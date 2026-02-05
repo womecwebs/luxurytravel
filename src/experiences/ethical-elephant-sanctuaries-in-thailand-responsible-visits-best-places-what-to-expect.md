@@ -95,8 +95,6 @@ The table below breaks this down clearly so travelers can make a smart decision 
 | Hot Season   | Mar – May | Very hot, 30–40°C  | ⭐⭐⭐ Good but physically demanding      | Medium      | Budget travelers, early-morning tours        |
 | Green Season | Jun – Oct | Rainy, humid       | ⭐⭐⭐⭐ Lush landscapes, active elephants | Low         | Nature lovers, photographers, fewer crowds   |
 
-
-
 **Key Takeaways**
 
 * November to February offers the most comfortable weather and the best overall experience.
@@ -112,10 +110,6 @@ Not sure **which sanctuary**, **which month**, or **which region** fits your tra
 * Travel style (solo, family, couples, groups)
 
 ***[“Find the Best Experience for Your Trip” ](/travellers/where-next)***
-
-
-
-
 
 ## Costs and Booking Expectations
 
