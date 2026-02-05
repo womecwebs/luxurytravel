@@ -1,13 +1,16 @@
-<div class="destination-cards swiper-slide">
+<div class="blog-post swiper-slide">
   <img
     src="{{ post.data.image }}"
     alt="{{ post.data.title }}"
     loading="lazy"
     width="600"
     height="400"
+    class="m-0 rounded-none"
   />
-  <h3>{{ post.data.title }}</h3>
-  <p>{{ post.data.excerpt }}</p>
-  <a href="{{ post.url }}" class="btn3">Read article</a>
+  <div class="blogpage-content">
+    <h3 class="heading m-0">{{ post.data.title }}</h3>
+    <p>{{ post.data.excerpt }}</p>
+    <a href="{{ post.url }}" class="btn3">Read article</a>
+  </div>
 </div>
 

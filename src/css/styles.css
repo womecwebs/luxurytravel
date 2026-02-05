@@ -143,7 +143,7 @@ th {
 }
 
 tr:nth-child(even) {
-  background: rgba(0, 0, 0, 0.28);
+  background: rgba(0, 0, 0, 0.255);
 }
 
 td a {
