@@ -15,6 +15,20 @@ country: thailand
 destination: Koh Samui
 category: wellness
 featured: true
+faqs:
+  - question: Are wellness retreats in Thailand safe?
+    answer: Yes. Reputable retreats operate under Thai health regulations and often
+      employ licensed professionals.
+  - question: How much does a wellness retreat in Thailand cost?
+    answer: Daily spa experiences start around $30–$80. Full retreats range from
+      $500 to $3,000+ per week.
+  - question: Do I need experience for yoga or meditation retreats?
+    answer: No. Most retreats offer beginner-friendly programs.
+  - question: How long should I stay for real results?
+    answer: Minimum 5–7 days. Optimal results come from 2–4 weeks.
+  - question: Can solo travelers join wellness retreats?
+    answer: Absolutely. Thailand is one of the safest and most popular wellness
+      destinations for solo travelers.
 ---
 Thailand is one of the **top wellness destinations in the world**, not because of hype, but because it combines **ancient healing traditions**, skilled practitioners, natural ingredients, and world-class hospitality at prices far lower than Europe or the US.
 
