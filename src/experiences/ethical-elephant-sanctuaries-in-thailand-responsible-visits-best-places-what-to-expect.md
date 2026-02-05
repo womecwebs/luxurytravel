@@ -43,6 +43,10 @@ Ethical elephant sanctuaries in Thailand offer travelers the opportunity to obse
 
 For decades, elephants in Thailand were used in logging and later exploited in tourism through riding, performances, and street begging. Ethical sanctuaries exist to protect elephants from abuse, overwork, and captivity conditions that harm their physical and mental health. Choosing ethical sanctuaries helps end harmful practices and supports long-term conservation efforts.
 
+
+
+{% btn "book experience on Viator" "https://www.viator.com/searchResults/all?text=thailand+elephant&pid=P00218939&mcid=42383&medium=link" "btn3" %}
+
 ## What Makes an Elephant Sanctuary Ethical
 
 An ethical elephant sanctuary prioritizes animal welfare above tourist interaction. **Key indicators of ethical sanctuaries include:**
@@ -92,7 +96,6 @@ The table below breaks this down clearly so travelers can make a smart decision 
 | Cool Season  | Nov – Feb | Mild, dry, 20–30°C | ⭐⭐⭐⭐⭐ Best overall conditions          | High        | First-time visitors, families, photographers |
 | Hot Season   | Mar – May | Very hot, 30–40°C  | ⭐⭐⭐ Good but physically demanding      | Medium      | Budget travelers, early-morning tours        |
 | Green Season | Jun – Oct | Rainy, humid       | ⭐⭐⭐⭐ Lush landscapes, active elephants | Low         | Nature lovers, photographers, fewer crowds   |
-
 
 ## Costs and Booking Expectations
 
