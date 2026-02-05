@@ -124,7 +124,7 @@ table {
   margin: 2rem 0;
   font-size: 0.95rem;
   line-height: 1.5;
-  background: #ffffff;
+  background: rgba(0, 0, 0, 0.2);
 }
 
 th,
@@ -139,11 +139,11 @@ td {
 th {
   background: #f8fafc;
   font-weight: 600;
-  color: #111827;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 tr:nth-child(even) {
-  background: #fafafa;
+  background: rgba(0, 0, 0, 0.28);
 }
 
 td a {
