@@ -82,7 +82,7 @@ Ethical elephant sanctuaries operate year-round. The cooler months between **Nov
 
 Ethical elephant sanctuary visits are typically more expensive than traditional elephant attractions due to higher care standards. Costs usually include transportation, guides, meals, and educational programs. Higher prices help fund food, medical care, and habitat maintenance for rescued elephants.
 
-{% btn "Explore real costs on viator" "https://www.viator.com/searchResults/all?text=thailand+elephant&pid=P00218939&mcid=42383&medium=link" "btn2" %}
+{% btn "Explore real costs on viator" "https://www.viator.com/searchResults/all?text=thailand+elephant&pid=P00218939&mcid=42383&medium=link" "btn3" %}
 
 <!--EndFragment-->
 
