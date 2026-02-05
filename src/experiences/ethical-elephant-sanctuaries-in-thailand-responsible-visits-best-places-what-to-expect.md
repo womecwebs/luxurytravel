@@ -59,6 +59,8 @@ Visitors are encouraged to observe, learn, and respect elephants rather than con
 
  key indicators of ethical elephant sanctuaries that prioritize animal welfare over tourist interaction on **[World Animal Protection](https://www.worldanimalprotection.org/our-campaigns/wildlife/commercial-exploitation/travel-tourism/elephant-friendly-tourist-guide/#:~:text=Observational%20elephant%20venues,offer%20hand%2Dfeeding%20over%20barrier)** and **[alibaba](https://share.google/XEW263BU7K9h8rMIp)**
 
+![couple of ehical elephant tours in Thailand](https://res.cloudinary.com/dxqnpsj8k/image/upload/v1770280803/thai-elephant-tour_l0u8js.jpg)
+
 ## Best Places for Ethical Elephant Sanctuaries in Thailand
 
 The most reputable ethical elephant sanctuaries in Thailand are located in:
