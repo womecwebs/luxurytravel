@@ -45,6 +45,8 @@ For decades, elephants in Thailand were used in logging and later exploited in t
 
 
 
+{% btn "book experience on Viator" "https://www.viator.com/searchResults/all?text=thailand+elephant&pid=P00218939&mcid=42383&medium=link" "btn3" %}
+
 ## What Makes an Elephant Sanctuary Ethical
 
 An ethical elephant sanctuary prioritizes animal welfare above tourist interaction. **Key indicators of ethical sanctuaries include:**
