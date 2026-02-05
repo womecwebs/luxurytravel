@@ -43,7 +43,7 @@ Ethical elephant sanctuaries in Thailand offer travelers the opportunity to obse
 
 For decades, elephants in Thailand were used in logging and later exploited in tourism through riding, performances, and street begging. Ethical sanctuaries exist to protect elephants from abuse, overwork, and captivity conditions that harm their physical and mental health. Choosing ethical sanctuaries helps end harmful practices and supports long-term conservation efforts.
 
-{% btn "book experience on Viator" "https://www.viator.com/searchResults/all?text=thailand+elephant&pid=P00218939&mcid=42383&medium=link" "btn3" %}
+
 
 ## What Makes an Elephant Sanctuary Ethical
 
