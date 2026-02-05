@@ -113,17 +113,17 @@ Thailand is not one destination—it’s many, and each region serves a differen
 
 These experiences consistently rank as **the most valuable and meaningful** for travelers.
 
-### [Cultural & Historical](/experiences/temples-cultural-experiences-in-thailand-sacred-sites-traditions-travel-tips/)
+### [Cultural & Historical](/experiences/temples-cultural-experiences-in-thailand-sacred-sites-traditions-travel-tips)
 
 * Visit major temples (Wat Phra Kaew, Wat Pho, Wat Arun)
 * Explore ancient cities like Ayutthaya
 
-### [Food & Culinary](/experiences/thai-street-food-cooking-experiences-what-to-eat-where-to-go-what-to-expect/)
+### [Food & Culinary](/experiences/thai-street-food-cooking-experiences-what-to-eat-where-to-go-what-to-expect)
 
 * Thai street food tours
 * Cooking classes with local chefs
 
-### [Nature & Adventure](/experiences/island-hoping-in-thailand/)
+### [Nature & Adventure](/experiences/island-hoping-in-thailand)
 
 * Island hopping
 * Snorkeling and diving
