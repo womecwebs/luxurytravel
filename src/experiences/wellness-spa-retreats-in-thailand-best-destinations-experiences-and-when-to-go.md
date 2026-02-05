@@ -224,6 +224,4 @@ Thailand consistently ranks among the **top wellness destinations globally** bec
 
 For travelers seeking **real wellness**, not just spa aesthetics, Thailand sets the standard.
 
-
-
 {% btn "book experience on Viator" "https://www.viator.com/searchResults/all?text=thailand+wellness&pid=P00218939&mcid=42383&medium=link" "btn3" %}
