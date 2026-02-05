@@ -83,6 +83,17 @@ Ethical sanctuaries do not offer elephant riding, bathing for entertainment, pai
 
 Ethical elephant sanctuaries operate year-round. The cooler months between **November and February** provide more comfortable conditions for both elephants and visitors. Visits are usually scheduled during mornings or early afternoons to align with the elephants’ natural routines.
 
+| Experience | Duration | Price | Best For |
+|-----------|----------|-------|----------|
+| Street Food Tour | 4 hours | $45 | First-time visitors |
+| Cooking Class | 5 hours | $60 | Food lovers |
+| Night Market Tour | 3 hours | $35 | Budget travelers |
+
+
+### Best Time to Visit Ethical Elephant Sanctuaries in Thailand
+
+
+
 ## Costs and Booking Expectations
 
 Ethical elephant sanctuary visits are typically more expensive than traditional elephant attractions due to higher care standards. Costs usually include transportation, guides, meals, and educational programs. Higher prices help fund food, medical care, and habitat maintenance for rescued elephants.
