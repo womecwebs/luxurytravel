@@ -83,15 +83,15 @@ Ethical sanctuaries do not offer elephant riding, bathing for entertainment, pai
 
 Ethical elephant sanctuaries operate year-round. The cooler months between **November and February** provide more comfortable conditions for both elephants and visitors. Visits are usually scheduled during mornings or early afternoons to align with the elephants’ natural routines.
 
-| Experience | Duration | Price | Best For |
-|-----------|----------|-------|----------|
-| Street Food Tour | 4 hours | $45 | First-time visitors |
-| Cooking Class | 5 hours | $60 | Food lovers |
-| Night Market Tour | 3 hours | $35 | Budget travelers |
-
+The table below breaks this down clearly so travelers can make a smart decision based on **weather, experience quality, and travel style**.
 
 ### Best Time to Visit Ethical Elephant Sanctuaries in Thailand
 
+| Season       | Months    | Weather            | Experience Quality                     | Crowd Level | Best For                                     |
+| ------------ | --------- | ------------------ | -------------------------------------- | ----------- | -------------------------------------------- |
+| Cool Season  | Nov – Feb | Mild, dry, 20–30°C | ⭐⭐⭐⭐⭐ Best overall conditions          | High        | First-time visitors, families, photographers |
+| Hot Season   | Mar – May | Very hot, 30–40°C  | ⭐⭐⭐ Good but physically demanding      | Medium      | Budget travelers, early-morning tours        |
+| Green Season | Jun – Oct | Rainy, humid       | ⭐⭐⭐⭐ Lush landscapes, active elephants | Low         | Nature lovers, photographers, fewer crowds   |
 
 
 ## Costs and Booking Expectations
