@@ -71,50 +71,28 @@ The most reputable ethical elephant sanctuaries in Thailand are located in:
 
 Northern Thailand is considered the center of ethical elephant conservation due to its natural habitats and long-standing rescue initiatives.
 
-
-
 ## What You’ll Experience at an Ethical Sanctuary
 
-
-
 Visitors typically spend time observing elephants in their natural environment, learning about their history, behavior, and care. Activities may include walking alongside elephants, preparing food, and educational talks led by caretakers. Direct interaction is limited and always guided to ensure the elephants’ comfort and safety.
-
-
 
 ## What Ethical Sanctuaries Do NOT Offer
 
 Ethical sanctuaries do not offer elephant riding, bathing for entertainment, painting, or performances. These activities can stress elephants and encourage harmful training practices. Sanctuaries that advertise rides or shows should be avoided, even if they claim to be **“ethical.”**
 
-
-
 ## Best Time to Visit Elephant Sanctuaries
-
-
 
 Ethical elephant sanctuaries operate year-round. The cooler months between **November and February** provide more comfortable conditions for both elephants and visitors. Visits are usually scheduled during mornings or early afternoons to align with the elephants’ natural routines.
 
 ## Costs and Booking Expectations
 
-
-
 Ethical elephant sanctuary visits are typically more expensive than traditional elephant attractions due to higher care standards. Costs usually include transportation, guides, meals, and educational programs. Higher prices help fund food, medical care, and habitat maintenance for rescued elephants.
 
-{% btn "Explore real costs on viator" "https://www.viator.com/searchResults/all?text=thailand+elephant&pid=P00218939&mcid=42383&medium=link" "btn3" %}
-
-
-
-
+{% btn "Explore costs on viator" "https://www.viator.com/searchResults/all?text=thailand+elephant&pid=P00218939&mcid=42383&medium=link" "btn3" %}
 
 ## Who This Experience Is Best For
 
-
-
 Ethical elephant sanctuaries are ideal for animal lovers, families, couples, and responsible travelers. This experience is best suited for visitors who value education, conservation, and ethical travel over entertainment-driven attractions.
 
-
-
 ## Why Ethical Elephant Sanctuaries Belong in a Thailand Itinerary
-
-
 
 Visiting an ethical elephant sanctuary is one of the most meaningful experiences in Thailand. It offers a deeper understanding of wildlife conservation and allows travelers to contribute positively to animal welfare. This experience creates lasting memories without causing harm, making it a responsible choice for modern travelers.
