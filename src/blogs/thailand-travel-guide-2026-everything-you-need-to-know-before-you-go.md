@@ -18,12 +18,6 @@ destination: ""
 
 This guide is designed to answer **every major travel decision** upfront: when to go, where to stay, what to do, how much it costs, what’s changed, and how to plan efficiently.
 
-
-
-{% btn "book experience on Viator" "https://www.viator.com/searchResults/all?text=thailand+wellness&pid=P00218939&mcid=42383&medium=link" "btn3" %}
-
-
-
 ## Quick Facts About Thailand
 
 * **Region:** Southeast Asia
