@@ -69,45 +69,46 @@ Bangkok’s monthly climate chart (red = temperature, blue = rainfall) shows yea
 <section class="swiper categories-swiper mt-40 mb-40">
   <div class="swiper-wrapper">
 
-    <div class="bloggingcard-two call-hero swiper-slide">
-      <h4>Private Jets</h4>
-      <a rel="sponsored noopener" target="_blank" class="btn"
-         href="https://www.villiersjets.com/?id=9474">Book Jet</a>
-    </div>
+```
+<div class="bloggingcard-two call-hero swiper-slide">
+  <h4>Private Jets</h4>
+  <a rel="sponsored noopener" target="_blank" class="btn"
+     href="https://www.villiersjets.com/?id=9474">Book Jet</a>
+</div>
 
-    <div class="bloggingcard-three call-hero swiper-slide">
-      <h4>Luxury Hotels</h4>
-      <a rel="sponsored noopener" target="_blank" class="btn"
-         href="https://expedia.com/affiliate/kpS9be0">View Hotels</a>
-    </div>
+<div class="bloggingcard-three call-hero swiper-slide">
+  <h4>Luxury Hotels</h4>
+  <a rel="sponsored noopener" target="_blank" class="btn"
+     href="https://expedia.com/affiliate/kpS9be0">View Hotels</a>
+</div>
 
-    <div class="bloggingcard-one call-hero swiper-slide">
-      <h4>Cheap Flights</h4>
-      <a rel="sponsored noopener" target="_blank" class="btn"
-         href="https://tp.media/click?shmarker=610677&promo_id=3673">Find Flights</a>
-    </div>
+<div class="bloggingcard-one call-hero swiper-slide">
+  <h4>Cheap Flights</h4>
+  <a rel="sponsored noopener" target="_blank" class="btn"
+     href="https://tp.media/click?shmarker=610677&promo_id=3673">Find Flights</a>
+</div>
 
-    <div class="bloggingcard-four call-hero swiper-slide">
-      <h4>Travel Gear</h4>
-      <a rel="sponsored noopener" target="_blank" class="btn"
-         href="https://amzn.to/4lbDtO5">Shop Gear</a>
-    </div>
+<div class="bloggingcard-four call-hero swiper-slide">
+  <h4>Travel Gear</h4>
+  <a rel="sponsored noopener" target="_blank" class="btn"
+     href="https://amzn.to/4lbDtO5">Shop Gear</a>
+</div>
 
-    <div class="bloggingcard-five call-hero swiper-slide">
-      <h4>Tours & Experiences</h4>
-      <a rel="sponsored noopener" target="_blank" class="btn"
-         href="https://www.viator.com/?pid=P00218939">Explore Tours</a>
-    </div>
+<div class="bloggingcard-five call-hero swiper-slide">
+  <h4>Tours & Experiences</h4>
+  <a rel="sponsored noopener" target="_blank" class="btn"
+     href="https://www.viator.com/?pid=P00218939">Explore Tours</a>
+</div>
 
-    <div class="bloggingcard-six call-hero swiper-slide">
-      <h4>Airport Transfers</h4>
-      <a rel="sponsored noopener" target="_blank" class="btn"
-         href="https://kiwitaxi.tpk.mx/7OgDoKGT">Book Transfer</a>
-    </div>
+<div class="bloggingcard-six call-hero swiper-slide">
+  <h4>Airport Transfers</h4>
+  <a rel="sponsored noopener" target="_blank" class="btn"
+     href="https://kiwitaxi.tpk.mx/7OgDoKGT">Book Transfer</a>
+</div>
+```
 
   </div>
 </section>
-
 
 To plan the perfect trip by month and travel style, consider using our [Where Should I Travel Next? travel planner](/travellers/where-next), which lets you filter destinations by month and interests (beach, adventure, culture, etc.). This can help match Thailand’s seasons to your desired experience.
 
@@ -120,6 +121,23 @@ January is in the heart of dry season. The weather is hot during the day (around
 February remains warm and dry, with daytime highs around 32–33 °C and almost no rain. Crowds stay high (it’s still peak tourist season), but evenings begin to warm up. Accommodation rates remain elevated. February brings **Chinese New Year** celebrations (varies by lunar calendar) in Bangkok and other cities, adding cultural vibrancy. With little rainfall, it’s excellent for island visits or Bangkok sightseeing. 
 
 If you prefer slightly fewer crowds, late February can be a sweet spot: weather is excellent but some high-season tourists have departed, yielding modest price drops compared to December–January peak.
+
+<div class="w-full h-30 mt-40 mb-40">
+  <div class="travel-ad-img h-30 h-40-sm">
+    <img src="/images/0verwater.webp" alt="Travel Destination" />
+    <div class="travel-ad-overlay"></div>
+    <div class="travel-ad-text">
+      <h3 id="travel-ad-heading"></h3>
+      <p>Find curated destinations for the right season, vibe & experiences.</p>
+      <a
+        href="/travellers/where-to-visit-next.html"
+        target="_blank"
+        class="travel-ad-btn"
+        >✨ Discover Now</a
+      >
+    </div>
+  </div>
+</div>
 
 ## March
 
