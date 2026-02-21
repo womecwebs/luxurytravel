@@ -18,6 +18,10 @@ destination: ""
 
 This guide is designed to answer **every major travel decision** upfront: when to go, where to stay, what to do, how much it costs, what’s changed, and how to plan efficiently.
 
+
+
+{% btn "book experience on Viator" "https://www.viator.com/searchResults/all?text=thailand+wellness&pid=P00218939&mcid=42383&medium=link" "btn3" %}
+
 ## Quick Facts About Thailand
 
 * **Region:** Southeast Asia
@@ -47,8 +51,6 @@ As of January 1, 2025, Thailand requires most visa applications to be submitted 
 * Proof of accommodation (for some visa types)
 
 **Important:** Entry rules can change. Always confirm with official Thai immigration sources before departure.
-
-
 
 {% include "blocks/affiliate-cards.njk" %}
 
