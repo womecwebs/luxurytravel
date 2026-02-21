@@ -206,6 +206,9 @@ img {
   background: var(--button-color);
   color: var(--secondary-color);
   border-radius: 8px;
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
 }
 .btn3 {
   background: var(--button-hover);
