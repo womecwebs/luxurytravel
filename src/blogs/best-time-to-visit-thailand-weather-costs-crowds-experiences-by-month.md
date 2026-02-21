@@ -66,6 +66,49 @@ Bangkok’s monthly climate chart (red = temperature, blue = rainfall) shows yea
 
 **Costs and crowds also fluctuate by season.** Peak season (Nov–Feb) draws the largest crowds, especially around Christmas/New Year and major festivals. Hotels and tours often cost **30–50% more** than in low season. Conversely, the **green season (Jul–Sep)** is Thailand’s low season: prices on flights, accommodation and tours can be sharply discounted, though some remote hotels may close and certain ferries run less often. Major cities like Bangkok see smaller price swings, but on islands high season rates can be ~50–75% above off-season. In short, **for budget travel, the summer months offer the best deals** (at the cost of occasional rain), while **for best weather and beaches, November through March** is idea.
 
+<section class="swiper categories-swiper mt-40 mb-40">
+  <div class="swiper-wrapper">
+
+    <div class="bloggingcard-two call-hero swiper-slide">
+      <h4>Private Jets</h4>
+      <a rel="sponsored noopener" target="_blank" class="btn"
+         href="https://www.villiersjets.com/?id=9474">Book Jet</a>
+    </div>
+
+    <div class="bloggingcard-three call-hero swiper-slide">
+      <h4>Luxury Hotels</h4>
+      <a rel="sponsored noopener" target="_blank" class="btn"
+         href="https://expedia.com/affiliate/kpS9be0">View Hotels</a>
+    </div>
+
+    <div class="bloggingcard-one call-hero swiper-slide">
+      <h4>Cheap Flights</h4>
+      <a rel="sponsored noopener" target="_blank" class="btn"
+         href="https://tp.media/click?shmarker=610677&promo_id=3673">Find Flights</a>
+    </div>
+
+    <div class="bloggingcard-four call-hero swiper-slide">
+      <h4>Travel Gear</h4>
+      <a rel="sponsored noopener" target="_blank" class="btn"
+         href="https://amzn.to/4lbDtO5">Shop Gear</a>
+    </div>
+
+    <div class="bloggingcard-five call-hero swiper-slide">
+      <h4>Tours & Experiences</h4>
+      <a rel="sponsored noopener" target="_blank" class="btn"
+         href="https://www.viator.com/?pid=P00218939">Explore Tours</a>
+    </div>
+
+    <div class="bloggingcard-six call-hero swiper-slide">
+      <h4>Airport Transfers</h4>
+      <a rel="sponsored noopener" target="_blank" class="btn"
+         href="https://kiwitaxi.tpk.mx/7OgDoKGT">Book Transfer</a>
+    </div>
+
+  </div>
+</section>
+
+
 To plan the perfect trip by month and travel style, consider using our [Where Should I Travel Next? travel planner](/travellers/where-next), which lets you filter destinations by month and interests (beach, adventure, culture, etc.). This can help match Thailand’s seasons to your desired experience.
 
 ## January
