@@ -122,23 +122,6 @@ February remains warm and dry, with daytime highs around 32–33 °C and almos
 
 If you prefer slightly fewer crowds, late February can be a sweet spot: weather is excellent but some high-season tourists have departed, yielding modest price drops compared to December–January peak.
 
-<div class="w-full h-30 mt-40 mb-40">
-  <div class="travel-ad-img h-30 h-40-sm">
-    <img src="/images/0verwater.webp" alt="Travel Destination" />
-    <div class="travel-ad-overlay"></div>
-    <div class="travel-ad-text">
-      <h3 id="travel-ad-heading"></h3>
-      <p>Find curated destinations for the right season, vibe & experiences.</p>
-      <a
-        href="/travellers/where-to-visit-next.html"
-        target="_blank"
-        class="travel-ad-btn"
-        >✨ Discover Now</a
-      >
-    </div>
-  </div>
-</div>
-
 ## March
 
 March is still part of dry season but temperatures climb. Average highs reach around 34–35 °C (Bangkok’s mean high is ~95 °F). Humidity starts to rise as the hot season approaches. Rain remains scarce, though infrequent afternoon showers may occur near month’s end. Tourist numbers are high in early March, then gradually taper by late March. 
