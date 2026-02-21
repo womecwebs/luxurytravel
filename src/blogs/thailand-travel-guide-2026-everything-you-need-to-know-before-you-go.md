@@ -22,6 +22,10 @@ This guide is designed to answer **every major travel decision** upfront: when t
 
 {% btn "book experience on Viator" "https://www.viator.com/searchResults/all?text=thailand+wellness&pid=P00218939&mcid=42383&medium=link" "btn3" %}
 
+
+
+{% btn "book experience on Viator" "https://www.viator.com/searchResults/all?text=thailand+wellness&pid=P00218939&mcid=42383&medium=link" "btn3" %}
+
 ## Quick Facts About Thailand
 
 * **Region:** Southeast Asia
