@@ -34,6 +34,8 @@ faqs:
 
 Wellness in Thailand isn’t just massages. It’s a full ecosystem: meditation, detox, yoga, Thai medicine, nutrition, and mental reset.
 
+{% btn "book experience on Viator" "https://www.viator.com/searchResults/all?text=thailand+wellness&pid=P00218939&mcid=42383&medium=link" "btn3" %}
+
 ## Why Thailand Is a Global Wellness Capital
 
 Thailand’s wellness culture is rooted in:
