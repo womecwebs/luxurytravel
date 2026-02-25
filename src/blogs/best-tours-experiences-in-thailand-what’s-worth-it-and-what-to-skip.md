@@ -24,6 +24,8 @@ Many travelers also enjoy street food tours and authentic cooking classes. In Ch
 
 ### **Island and Beach Tours**
 
+![a beautiful lady traveler having wonderful experience in one of the island in Thailand](https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648637/thailand-girl_wpkfia.webp)
+
  A longtail-boat snorkeling trip around Phi Phi Islands (including Maya Bay and Pileh Lagoon) is highly recommended. 
 
 This full-day excursion combines iconic scenery with swimming among tropical fish. Travel experts note that a Phi Phi snorkeling tour (about $35) offers excellent value for the sights and sunset on the Andaman Sea. Alternatively, a speedboat tour from Phuket can hit Maya Bay and Monkey Beach in one day. 
@@ -32,11 +34,13 @@ If you go, remember Maya Bay (the famous site of *The Beach*) is closed to visit
 
 ### **Chiang Mai and North Adventures**
 
- Inland tours include jungle treks, waterfalls, and river rafting. For example, a Chiang Mai waterfall trek and bamboo-rafting tour lets you hike to hidden falls and drift down the Wang River on a raft. 
+Inland tours include jungle treks, waterfalls, and river rafting. For example, a Chiang Mai waterfall trek and bamboo-rafting tour lets you hike to hidden falls and drift down the Wang River on a raft. 
 
 These nature excursions (around $30–$40) earn rave reviews for combining gentle adventure with tranquil scenery. In Chiang Rai, tours can include the Golden Triangle boat trip and the stunning Blue Temple, giving cultural insight and scenic views.
 
 ### **Cultural and Temple Excursions**
+
+![a shaolin at one of the temples in bangkok](https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648634/thailand-bangkok_bxlt3j.webp)
 
 No trip is complete without visiting ancient sites. In Bangkok, guided tours of the Grand Palace and Wat Pho let you admire the famous reclining Buddha and royal halls. In Ayutthaya (a day trip north of Bangkok), bicycle or tuk-tuk tours of the historic park — with centuries-old temples rising out of the jungle — are a highlight. 
 
@@ -51,6 +55,8 @@ Food tours also rank high: street-food or market tours in Bangkok, Chiang Mai, a
 {% travelAd %}
 
 ### **Luxury and Special Tours**
+
+![an helicopter tour in thailand with thailand city view and ocean](https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648637/thailand-helocopter_usy4p0.webp)
 
 If budget allows, there are luxury experiences like private longtail boat charters or helicopter flights over Krabi’s coast. For example, [Villiers Jets](https://www.villiersjets.com/?id=9474) offers private jet charters to Phuket for travelers seeking the ultimate convenience. High-end travelers can also book upscale resorts in advance via [Expedia](https://expedia.com/affiliates/expedia-home.hMJbWB1) or VIP airport transfers with [Kiwi.Taxi](https://tp.media/click?shmarker=610677&promo_id=3673&source_type=link&type=click&campaign_id=111&trs=393596) to arrive stress-free.
 
