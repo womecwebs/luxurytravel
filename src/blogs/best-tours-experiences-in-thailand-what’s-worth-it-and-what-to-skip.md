@@ -13,6 +13,27 @@ tags:
 continent: asia
 country: thailand
 destination: Bangkok
+faqs:
+  - question: What are the best tours worth doing in Thailand?
+    answer: "Top picks: ethical elephant sanctuaries in Chiang Mai, snorkeling in
+      Krabi, and cooking classes in Bangkok. These offer authentic culture and
+      nature without crowds—book via reputable operators like Klook."
+  - answer: >-
+      
+      Skip elephant rides and tiger selfies—they're unethical and exploitative. Also pass on mass-tourist floating markets; opt for local ones instead for a genuine vibe.
+    question: Which popular Thailand experiences should you skip?
+  - answer: >-
+      
+      Yes for Ayutthaya temples or floating markets, but skip if short on time—trains are efficient and cheaper than tours. Combine with a private guide for history-rich insights.
+    question: Are day trips from Bangkok worth it?
+  - answer: >-
+      
+      Phi Phi and James Bond Islands from Phuket are highlights for stunning beaches and kayaking. Worth it for views; skip rainy season to avoid cancellations.
+    question: Best island-hopping tours in Thailand?
+  - answer: >-2
+       
+      Use platforms like GetYourGuide or Viator for reviews and free cancellation. Book 1–2 weeks ahead for deals, and prioritize small-group options to dodge tourist traps.
+    question: How to book affordable, high-quality Thailand tours?
 ---
 Thailand’s attractions range from stunning islands and jungles to vibrant cities and cultural sites. The country’s warm hospitality and rich culture make it a must-visit destination. Visitors can snorkel crystalline waters at Phi Phi and Similan Islands, explore ancient temples, trek jungle waterfalls, and attend lively festivals. 
 
