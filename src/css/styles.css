@@ -411,6 +411,12 @@ h4 {
   width: 100%;
   z-index: -1;
 }
+@media (max-width: 768px) {
+  .hero-video {
+    display: none;
+  }
+}
+
 .hero-container {
   text-align: center;
 }
