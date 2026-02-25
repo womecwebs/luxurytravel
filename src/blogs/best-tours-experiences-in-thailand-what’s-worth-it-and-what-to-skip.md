@@ -58,14 +58,28 @@ If budget allows, there are luxury experiences like private longtail boat charte
 
 ### **Don’t Ride Elephants or Visit Tiger Temples**:
 
- Many sites advertise elephant rides or close encounters with tigers. Modern travelers should avoid them. Most elephant camps exploit animals (the elephants are often abused to make them docile). Instead, [seek out genuine elephant sanctuaries ](/experiences/ethical-elephant-sanctuaries-in-thailand-responsible-visits-best-places-what-to-expect/)(where you only feed or bathe the elephants, not ride them). Similarly, the infamous “Tiger Temple” (Wat Pha Luang Ta Bua) is notorious for animal abuse and is now permanently closed. Simply put: ***Avoid*** any tours promising exotic animal performances.
+ Many sites advertise elephant rides or close encounters with tigers. Modern travelers should avoid them. Most elephant camps exploit animals (the elephants are often abused to make them docile). Instead, [seek out genuine elephant sanctuaries ](/experiences/ethical-elephant-sanctuaries-in-thailand-responsible-visits-best-places-what-to-expect/)(where you only feed or bathe the elephants, not ride them). 
 
-**Steer Clear of Overtouristed Traps**: Some places offer little authentic Thai culture and cater only to mass tourism. For example, skip areas like Patong Beach (Phuket) and Pattaya — they are packed with chain shops, nightlife that can be seedy, and generic attractions. In general, beach hop to quieter islands like Koh Lanta or Koh Yao Yai instead of the overly crowded Koh Phi Phi on holidays. In Bangkok, Khaosan Road is famous among backpackers but is noisy and filled with tourist junk stores. As one travel guide advises, "If you’re looking for anything other than a 24-hour party, trust us, you don’t want to stay there". Instead, explore nearby historic neighborhoods or stay in a quieter riverside district.
+Similarly, the infamous “Tiger Temple” (Wat Pha Luang Ta Bua) is notorious for animal abuse and is now permanently closed. Simply put: ***Avoid*** any tours promising exotic animal performances.
 
-**Beware of Tuk-Tuk Scams and High-Priced Tours**: First-timers often fall for tuk-tuk drivers’ fake deals. A common scam: a driver offers a “cheap” tour to a temple, then detours to souvenir shops and animal cages, demanding purchases. Tip: if a deal sounds too good (20 baht tours!), it’s almost certainly a bait-and-switch. Always use metered taxis or ride-hailing apps (like Grab) when possible, and book excursions through reputable agencies. Keep in mind tuk-tuks are usually more expensive than metered cabs for the same distance.
+### **Steer Clear of Overtouristed Traps**
 
-**Skip “The Beach” (Maya Bay) for Now**: As of 2023, Thailand’s famed Maya Bay on Phi Phi Leh remains closed to heal from overtourism[](https://www.walkmyworld.com/posts/mistakes-thailand#:~:text=This%20is%20one%20of%20the,marine%20life%20to%20be%20decimated). Boat tours often promise it, but the site is off-limits. Instead, enjoy surrounding sights. For example, many Phi Phi tours include Pileh Lagoon and Bamboo Island, which are stunning and open.
+Some places offer little authentic Thai culture and cater only to mass tourism. For example, skip areas like Patong Beach (Phuket) and Pattaya — they are packed with chain shops, nightlife that can be seedy, and generic attractions. In general, beach hop to quieter islands like Koh Lanta or Koh Yao Yai instead of the overly crowded Koh Phi Phi on holidays. 
 
-**Other Tips**: Avoid booking snake oil “cures,” like supposedly miraculous diets or over-hyped spa treatments with unverified claims. Use common sense with luggage and valuables — Thailand is generally safe, but petty theft can happen in crowded markets or red-light districts. Finally, always have travel insurance; in Thailand, medical care is high quality but costs can add up if you need evacuation or long-term care.
+In Bangkok, Khaosan Road is famous among backpackers but is noisy and filled with tourist junk stores. As one travel guide advises, "If you’re looking for anything other than a 24-hour party, trust us, you don’t want to stay there". Instead, explore nearby historic neighborhoods or stay in a quieter riverside district.
 
-For booking any tour, compare options on \[Viator] or \[GetYourGuide], and look for small-group or private tours for a personalized experience. This often ensures better guides and flexibility. After a day’s adventure, rest in well-rated hotels or resorts — check \[Expedia] for deals on places like five-star beach resorts or boutique city hotels (with pools and luxury amenities).
+### **Beware of Tuk-Tuk Scams and High-Priced Tours**:
+
+ First-timers often fall for tuk-tuk drivers’ fake deals. A common scam: a driver offers a “cheap” tour to a temple, then detours to souvenir shops and animal cages, demanding purchases. Tip: if a deal sounds too good (20 baht tours!), it’s almost certainly a bait-and-switch. 
+
+Always use metered taxis or ride-hailing apps (like Grab) when possible, and book excursions through reputable agencies. Keep in mind tuk-tuks are usually more expensive than metered cabs for the same distance.
+
+### **Skip “The Beach” (Maya Bay) for Now**:
+
+ As of 2023, Thailand’s famed Maya Bay on Phi Phi Leh remains closed to heal from overtourism[](https://www.walkmyworld.com/posts/mistakes-thailand#:~:text=This%20is%20one%20of%20the,marine%20life%20to%20be%20decimated). Boat tours often promise it, but the site is off-limits. Instead, enjoy surrounding sights. For example, many Phi Phi tours include Pileh Lagoon and Bamboo Island, which are stunning and open.
+
+### **Other Tips**: 
+
+Avoid booking snake oil “cures,” like supposedly miraculous diets or over-hyped spa treatments with unverified claims. Use common sense with luggage and valuables — Thailand is generally safe, but petty theft can happen in crowded markets or red-light districts. Finally, always have travel insurance; in Thailand, medical care is high quality but costs can add up if you need evacuation or long-term care.
+
+For booking any tour, compare options on [Viator](https://www.viator.com/?pid=P00218939&mcid=42383&medium=link&medium_version=selector) or **GetYourGuide**, and look for small-group or private tours for a personalized experience. This often ensures better guides and flexibility. After a day’s adventure, rest in well-rated hotels or resorts — check [Expedia](https://expedia.com/affiliates/expedia-home.hMJbWB1) for deals on places like five-star beach resorts or boutique city hotels (with pools and luxury amenities).
