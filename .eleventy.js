@@ -445,7 +445,7 @@ module.exports = function (eleventyConfig) {
     return `
 <div class="w-full h-30 mt-40 mb-40">
   <div class="travel-ad-img h-30 h-40-sm">
-    <img src="/images/0verwater.webp" alt="Travel Destination" />
+    <img src="https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648523/soneva-jani-overwater-villa_sauyxe.jpg" alt="Travel Destination" />
     <div class="travel-ad-overlay"></div>
     <div class="travel-ad-text">
       <h3 id="travel-ad-heading"></h3>
