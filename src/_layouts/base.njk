@@ -86,6 +86,22 @@
         }
       }
     </style>
+
+    {% if heroImage %}
+    <link 
+      rel="preload" 
+      as="image" 
+      href="{{ heroImage | cloudinary(1600) }}"
+      fetchpriority="high">
+    {% endif %}
+
+    {% if image and not heroImage %}
+    <link 
+      rel="preload" 
+      as="image" 
+      href="{{ image | cloudinary(1200) }}"
+      fetchpriority="high">
+    {% endif %}
   </head>
   <body {% if pageId %}data-page="{{ pageId }}" {% endif %}>
     {# ------------------------------- 

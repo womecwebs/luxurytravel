@@ -27,10 +27,10 @@ layout: base.njk
     preload="none"
     width="100%"
     height="auto"
-    poster="https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648069/nyc-june_qk2zu1.jpg"
+    poster="https://res.cloudinary.com/dxqnpsj8k/image/upload/f_auto,q_auto,w_1600/v1768648069/nyc-june_qk2zu1.jpg"
   >
-    <source src="https://res.cloudinary.com/dxqnpsj8k/video/upload/v1768646247/background2_ztag5m.webm" type="video/webm" />
-    <source src="https://res.cloudinary.com/dxqnpsj8k/video/upload/v1768646268/background2_mu4x6e.mp4" type="video/mp4" />
+    <source src="https://res.cloudinary.com/dxqnpsj8k/video/upload/f_auto,q_auto:eco,vc_auto,br_600k/v1768646247/background2_ztag5m.webm" type="video/webm" />
+    <source src="https://res.cloudinary.com/dxqnpsj8k/video/upload/f_auto,q_auto:eco,vc_auto,br_600k/v1768646268/background2_mu4x6e.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 </section>
@@ -188,7 +188,8 @@ layout: base.njk
             class="active"
             width="600"
             height="400"
-            loading="eager"
+            loading="lazy"
+            fetchpriority="high"
           />
           <img
             src="https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768646194/bali-june_tbnj6t.jpg"
@@ -196,6 +197,7 @@ layout: base.njk
             width="600"
             height="400"
             loading="lazy"
+            fetchpriority="high"
           />
           <img
             src="https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648637/thailand-girl_wpkfia.webp"
@@ -203,6 +205,7 @@ layout: base.njk
             width="600"
             height="400"
             loading="lazy"
+            fetchpriority="high"
           />
         </div>
 

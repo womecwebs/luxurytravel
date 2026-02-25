@@ -516,7 +516,7 @@ h4 {
   padding: 3rem 1rem;
   background:
     linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0, 0.4)),
-    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648797/yosemite_bieq0y.jpg);
+    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/f_auto,q_auto,w_1600/v1768648797/yosemite_bieq0y.jpg);
   background-attachment: fixed;
 }
 
@@ -1132,37 +1132,37 @@ h4 {
 .cardz1 {
   background:
     linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.7)),
-    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648120/paris-tower_bwhktn.webp)
+    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/f_auto,q_auto,w_1600/v1768648120/paris-tower_bwhktn.webp)
       no-repeat center/cover;
 }
 .cardz2 {
   background:
     linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.7)),
-    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648639/thailand-elephants_hcctgp.webp)
+    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/f_auto,q_auto,w_1600/v1768648639/thailand-elephants_hcctgp.webp)
       no-repeat center/cover;
 }
 .cardz3 {
   background:
     linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.7)),
-    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648634/thailand-bangkok_bxlt3j.webp)
+    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/f_auto,q_auto,w_1600/v1768648634/thailand-bangkok_bxlt3j.webp)
       no-repeat center/cover;
 }
 .cardz4 {
   background:
     linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.7)),
-    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648637/thailand-helocopter_usy4p0.webp)
+    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/f_auto,q_auto,w_1600/v1768648637/thailand-helocopter_usy4p0.webp)
       no-repeat center/cover;
 }
 .cardz5 {
   background:
     linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.7)),
-    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648656/thailand-yacht-adamson_l2kcmp.webp)
+    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/f_auto,q_auto,w_1600/v1768648656/thailand-yacht-adamson_l2kcmp.webp)
       no-repeat center/cover;
 }
 .cardz6 {
   background:
     linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.7)),
-    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648800/zanzibar_zitzrr.webp)
+    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/f_auto,q_auto,w_1600/v1768648800/zanzibar_zitzrr.webp)
       no-repeat center/cover;
 }
 @media screen and (min-width: 1000px) {
@@ -1202,7 +1202,7 @@ h4 {
   padding: 60px 20px;
   background:
     linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.4)),
-    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768646330/cruise_pngztg.webp)
+    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/f_auto,q_auto,w_1600/v1768646330/cruise_pngztg.webp)
       no-repeat center/cover;
   border-radius: 10px;
 }
@@ -1724,7 +1724,7 @@ textarea {
 .bloggingcard-one {
   background:
     linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.25)),
-    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648646/thailand-plane_kn9pds.webp);
+    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/f_auto,q_auto,w_1600/v1768648646/thailand-plane_kn9pds.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1732,7 +1732,7 @@ textarea {
 .bloggingcard-two {
   background:
     linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.25)),
-    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768645842/airplane_ciogj9.webp);
+    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/f_auto,q_auto,w_1600/v1768645842/airplane_ciogj9.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1740,7 +1740,7 @@ textarea {
 .bloggingcard-three {
   background:
     linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.25)),
-    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648637/thailand-hotels_tiznqd.webp);
+    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/f_auto,q_auto,w_1600/v1768648637/thailand-hotels_tiznqd.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1748,7 +1748,7 @@ textarea {
 .bloggingcard-four {
   background:
     linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.25)),
-    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648635/thailand-gears_shcaxm.webp);
+    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/f_auto,q_auto,w_1600/v1768648635/thailand-gears_shcaxm.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1756,7 +1756,7 @@ textarea {
 .bloggingcard-five {
   background:
     linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.25)),
-    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648637/thailand-girl_wpkfia.webp);
+    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/f_auto,q_auto,w_1600/v1768648637/thailand-girl_wpkfia.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1764,7 +1764,7 @@ textarea {
 .bloggingcard-six {
   background:
     linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.25)),
-    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648653/thailand-taxi_eytl9d.webp);
+    url(https://res.cloudinary.com/dxqnpsj8k/image/upload/f_auto,q_auto,w_1600/v1768648653/thailand-taxi_eytl9d.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -1,18 +1,53 @@
 const toc = require("eleventy-plugin-toc");
 const markdownIt = require("markdown-it");
+const markdownItLinkAttributes = require("markdown-it-link-attributes");
 
 module.exports = function (eleventyConfig) {
   /* ---------------- MARKDOWN CONFIG ---------------- */
 
-  eleventyConfig.setLibrary(
-    "md",
-    markdownIt({
-      html: true,
-      breaks: true,
-      linkify: true,
-    }),
-  );
+  const md = markdownIt({
+    html: true,
+    breaks: true,
+    linkify: true,
+  })
+    /* 🔹 Affiliate Links */
+    .use(markdownItLinkAttributes, {
+      matcher(href) {
+        return (
+          href.includes("viator.com") ||
+          href.includes("amzn.to") ||
+          href.includes("expedia.com") ||
+          href.includes("kiwitaxi") ||
+          href.includes("villiers") ||
+          href.includes("tp.media")
+        );
+      },
+      attrs: {
+        target: "_blank",
+        rel: "sponsored noopener",
+      },
+    })
 
+    /* 🔹 Normal External Links */
+    .use(markdownItLinkAttributes, {
+      matcher(href) {
+        return (
+          href.startsWith("http") &&
+          !href.includes("paradize.life") &&
+          !href.includes("viator.com") &&
+          !href.includes("amzn.to") &&
+          !href.includes("expedia.com") &&
+          !href.includes("kiwitaxi") &&
+          !href.includes("tp.media")
+        );
+      },
+      attrs: {
+        target: "_blank",
+        rel: "noopener",
+      },
+    });
+
+  eleventyConfig.setLibrary("md", md);
   eleventyConfig.setTemplateFormats(["md", "njk", "html"]);
 
   /* ---------------- PASSTHROUGH ---------------- */
@@ -291,6 +326,15 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("date", (dateObj) => {
     return new Date(dateObj).toISOString().split("T")[0];
+  });
+
+  eleventyConfig.addFilter("cloudinary", function (url, width = 1200) {
+    if (!url || !url.includes("res.cloudinary.com")) return url;
+
+    return url.replace(
+      "/image/upload/",
+      `/image/upload/f_auto,q_auto,w_${width}/`,
+    );
   });
 
   /* ---------------- SITEMAP ---------------- */
