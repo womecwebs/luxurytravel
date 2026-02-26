@@ -47,6 +47,7 @@ layout: base.njk
               loading="lazy"
               width="600"
               height="400"
+              class="m-0 rounded-none"
             />
             <h3>{{ d.data.title }}</h3>
             <p>{{ d.data.excerpt }}</p>
@@ -88,7 +89,7 @@ layout: base.njk
     <div class="destination-grid mt-40 mb-40">
       {% for post in collections.blogs %} {% if post.data.country == slug and
       loop.index <= 10 %}
-      <article class="blogpost">
+      <article class="blog-post">
         <img
           src="{{ post.data.image }}"
           alt="{{ post.data.title }}"
