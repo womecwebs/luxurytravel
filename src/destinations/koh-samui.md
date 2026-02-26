@@ -47,11 +47,7 @@ Koh Samui is one of Thailand’s most beloved islands, known for **palm-lined be
 * **Ideal trip length:** 5–7 days
 * **Best time to visit:** January–September (different monsoon pattern than Phuket)
 
-
-
   {% travelAd %}
-
-
 
 ## **Why Visit Koh Samui (Overview)**
 
@@ -67,6 +63,8 @@ Koh Samui’s uniqueness lies in its **refined island experience**. Unlike Phuke
 The overall vibe is **relaxed, tropical, and quietly upscale**, with strong cultural elements woven into daily life.
 
 ## **Top Things to Do in Koh Samui**
+
+![TRAVELERS EXPLORING THE BEAUTY OF KOH SAMUI ISLAND](https://res.cloudinary.com/dxqnpsj8k/image/upload/v1768648647/thailand-phuket_st9eg1.webp)
 
 ### **1. Relax on Koh Samui’s Beaches**
 
@@ -112,11 +110,7 @@ Koh Samui is one of Thailand’s top wellness hubs, with yoga retreats, detox pr
 * **Good for:** Wellness travelers, couples
 * **Time needed:** Flexible (half day to multi-day)
 
-
-
 {% travelSwiper %}
-
-
 
 ## **Best Areas to Stay in Koh Samui**
 
@@ -241,10 +235,6 @@ Use these trusted platforms when planning your Koh Samui trip:
 * **Airport Transfers:** Kiwitaxi
 * **Luxury Air Travel:** Villiers Jets
 
-
-
 {% travelSwiper %}
-
-
 
 ***T﻿RAVEL SAFE WITH PARADISE***
