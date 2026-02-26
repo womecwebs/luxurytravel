@@ -38,6 +38,8 @@ faqs:
       Yes, Koh Samui is generally safe. Petty theft is rare, but travelers should avoid unlicensed motorbike rentals and use caution when swimming during rough sea conditions.
     question: Is Koh Samui safe for tourists?
 ---
+Koh Samui is a tropical island in the Gulf of Thailand known for palm-fringed beaches, luxury resorts and vibrant nightlife in Chaweng. Visitors relax on Lamai Beach, explore Ang Thong Marine Park and enjoy wellness retreats. It’s ideal for couples, honeymooners and travelers seeking a balance of relaxation and comfort.
+
 Koh Samui is one of Thailand’s most beloved islands, known for **palm-lined beaches, luxury resorts, spiritual landmarks, and easy island-hopping**. More polished than Phuket yet more developed than Koh Tao, Samui strikes a rare balance between comfort, nature, and culture—making it one of the best all-round island destinations in Southeast Asia.
 
 **Quick facts at a glance**
