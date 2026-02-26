@@ -13,6 +13,55 @@ country: thailand
 destination: bangkok
 category: yacht
 featured: true
+faqs:
+  - answer: >2
+       About 2–3 hours for Wat Pho and 30–60 minutes for the river. Many travelers allow 4 hours total (including transit).
+    question: How long should we plan?
+  - answer: >
+      Yes, especially for first-timers. The Reclining Buddha and temple
+      atmosphere are highlights of Bangkok.
+    question: Is Wat Pho worth visiting?
+  - answer: >2
+       Morning or late afternoon[7]. Midday is hot. If doing a cruise, late afternoon (4–6 PM) gives great light.
+    question: Best time to go?
+  - answer: >2
+       You can go alone easily. Entry is self-serve (300฿). Guided tours are optional. If you use a long-tail boat or guided river tour, those should be booked.
+    question: Do I need to book a tour or can I go alone?
+  - answer: >2
+       Similar to other temples: shoulders and knees covered[12]. Wat Pho may refuse entry (or rent you coverings) if improperly dressed.
+    question: Dress code?
+  - answer: >+
+      Yes – coin-operated restrooms inside. Bring a 20฿ note or use free ones
+      outside near the pier.
+
+    question: Are there toilets at Wat Pho?
+  - answer: >
+      Generally yes (the reclining Buddha is fascinating to many children). Keep
+      an eye on them on the slippery floors and stairs.
+    question: Is it suitable for kids?
+  - answer: >
+      Light clothing (long pants or skirt), hat, water bottle. On the boat,
+      bring sunglasses.
+    question: "What to wear/bring? "
+  - answer: >2
+       Chao Phraya ferries are regulated and safe (life jackets available). Long-tail boats are lower and less formal but generally safe when drivers are licensed.
+    question: Are boats safe?
+  - answer: >2
+       Yes, just take the public ferry from Sathorn Pier or Tha Tien. For a private cruise, you’ll need to hire a boat.
+    question: Can I do the boat cruise independently?
+  - answer: >2
+       Instead of hiring a boat, use the regular river taxi (฿16 per ride). For temples, Wat Pho is already low-cost (฿300).
+    question: What are cheaper alternatives?
+  - answer: >2
+       Consider trying a traditional Thai massage (Wat Pho’s massage school offers courses and short massages for visitors). Or simply admire the 394 small Buddha images around.
+    question: What should I try at Wat Pho?
+  - answer: >
+      The ferries have them; wearing one is optional. If prone to seasickness,
+      the river is usually calm, but a free ferry ride is unlikely to cause it.
+    question: "Is a life jacket needed? "
+  - answer: Most tours conclude back at the starting point (Tha Tien or a hotel). If
+      on your own, take a taxi or BTS from the Tha Tien area back to your hotel.
+    question: How to end the tour?
 ---
 Wat Pho & a boat cruise along the Chao Phraya River is a **half-day combo tour** featuring the grand Reclining Buddha temple and a scenic river voyage. You’ll explore Wat Pho’s golden statues and Thai massage school, then board a traditional long-tail or express ferry to admire Bangkok’s skyline and riverside temples from the water. This cultural + scenic experience is especially enjoyable **early morning or late afternoon in the dry season (Nov–Feb)** to beat crowds and heat.
 
