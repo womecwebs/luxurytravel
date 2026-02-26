@@ -40,12 +40,38 @@ faqs:
 ---
 **Planning a trip to Thailand?** How many days you have will guide your route. As one travel expert notes, **one week is the *shortest* we recommend** to see at least two regions of Thailand. Here are sample itineraries for common trip lengths, including tips for different travel styles:
 
-<!--\[if !supportLists]-->·         <!--\[endif]-->**7-Day Itinerary (Crash Course):** With 7 days, move methodically. A popular loop is: 2 nights in **Bangkok** (temples, Grand Palace, street food) → 2–3 nights in **Chiang Mai** (mountain temple Doi Suthep, night bazaar, elephant sanctuary) → 2–3 nights on a southern beach/island (such as **Phuket**, **Krabi/Railay** or **Koh Samui**). In practice: Day 1-2 Bangkok, fly north Day 3 to Chiang Mai (fly out of Chiang Mai Day 6 to Phuket), then Day 6-7 at the beach, fly home. As noted: *“With 7 days in Thailand, I recommend 1-2 nights in Bangkok, followed by a flight up north to Chiang Mai or Chiang Rai…, then heading south – likely to only one island or beach destination”*. This itinerary gives a snapshot of city, culture and sea, but expect a busy pace. (Tip: Book a multi-city or open-jaw flight via \[Kiwi.com], e.g. into Bangkok out of Phuket, to save backtracking.)
+## **7-Day Itinerary (Crash Course)**
 
-<!--\[if !supportLists]-->·         <!--\[endif]-->**10-Day Itinerary (Balanced Blend):** With extra days, add variety. One option: 2 days **Bangkok**, 2 days **Ayutthaya**/Sukhothai (historic parks, a short train from Bangkok), 3 days **Chiang Mai/Chiang Rai**, and 3 days **Phuket/Krabi/Island**. Or substitute 1–2 days on an island in the Gulf (Koh Samui/Phangan) instead of the Andaman Sea. The extra time lets you slow down – perhaps a cooking class in Chiang Mai or a trek in Khao Sok. Flight/overland travel times will eat half-days, so plan tightly or focus on two regions. For example, a 10-day “north + south” route might be: Bangkok (2d) → Chiang Mai (3d) → Phuket (3d) → back to Bangkok (1d). Many Thailand itineraries advise flying between far-apart regions to save time. (Booking domestic flights via \[Kiwi.com] or local airlines like Thai Smile is efficient.)
+With 7 days, move methodically. A popular loop is: 2 nights in **Bangkok** (temples, Grand Palace, street food) → 2–3 nights in **Chiang Mai** (mountain temple Doi Suthep, night bazaar, elephant sanctuary) → 2–3 nights on a southern beach/island (such as **Phuket**, **Krabi/Railay** or **Koh Samui**). 
 
-<!--\[if !supportLists]-->·         <!--\[endif]-->**14-Day Itinerary (In-Depth):** Two weeks opens up the itinerary. A classic two-week trip is “Bangkok → Chiang Mai → Andaman Islands.” One traveler’s route: *start in Bangkok*, spend ~3 days sightseeing, *fly to Chiang Mai* (~3 days for temples and mountain excursion), then *fly to Krabi* on the Andaman coast (~4 days exploring Ao Nang, Railay Beach, Phi Phi islands). You can even add a detour: from Chiang Mai north to Chiang Rai (White Temple) or south to **Koh Samui** before returning to Bangkok. As one guide puts it: *“this itinerary starts in Bangkok… heads up north to Chiang Mai, and then even further south to the Thai Islands on the west coast in the Andaman Sea”*. With 14 days you can also consider the Mae Hong Son Loop in the far north (Pai, Mae Hong Son) if adventurous.
+**In practice:** 
+
+Day 1-2 Bangkok, fly north Day 3 to Chiang Mai (fly out of Chiang Mai Day 6 to Phuket), then Day 6-7 at the beach, fly home. As noted: *“With 7 days in Thailand, I recommend 1-2 nights in Bangkok, followed by a flight up north to Chiang Mai or Chiang Rai…, then heading south – likely to only one island or beach destination”*. This itinerary gives a snapshot of city, culture and sea, but expect a busy pace. 
+
+*(Tip: Book a multi-city or open-jaw flight via \[Kiwi.com], e.g. into Bangkok out of Phuket, to save backtracking.)*
+
+{% travelSwiper %}
+
+## 10-Day Itinerary (Balanced Blend): 
+
+With extra days, add variety. One option: 2 days **Bangkok**, 2 days **Ayutthaya**/Sukhothai (historic parks, a short train from Bangkok), 3 days **Chiang Mai/Chiang Rai**, and 3 days **Phuket/Krabi/Island**. Or substitute 1–2 days on an island in the Gulf (Koh Samui/Phangan) instead of the Andaman Sea. 
+
+The extra time lets you slow down – perhaps a cooking class in Chiang Mai or a trek in Khao Sok. Flight/overland travel times will eat half-days, so plan tightly or focus on two regions. For example, a 10-day “north + south” route might be: Bangkok (2d) → Chiang Mai (3d) → Phuket (3d) → back to Bangkok (1d). 
+
+{% travelAd %}
+
+Many Thailand itineraries advise flying between far-apart regions to save time. (Booking domestic flights via \[Kiwi.com] or local airlines like Thai Smile is efficient.)
+
+## **14-Day Itinerary (In-Depth)** 
+
+Two weeks opens up the itinerary. A classic two-week trip is “Bangkok → Chiang Mai → Andaman Islands.” One traveler’s route: *start in Bangkok*, spend ~3 days sightseeing, *fly to Chiang Mai* (~3 days for temples and mountain excursion), then *fly to Krabi* on the Andaman coast (~4 days exploring Ao Nang, Railay Beach, Phi Phi islands). You can even add a detour: from Chiang Mai north to Chiang Rai (White Temple) or south to **Koh Samui** before returning to Bangkok. As one guide puts it: *“this itinerary starts in Bangkok… heads up north to Chiang Mai, and then even further south to the Thai Islands on the west coast in the Andaman Sea”*. 
+
+With 14 days you can also consider the Mae Hong Son Loop in the far north (Pai, Mae Hong Son) if adventurous
+
+
+
+{% travelSwiper %}
+
+
 
 Whichever length you choose, leave room for downtime and flexibility. Thailand’s efficiency will surprise you (flights are short and cheap). For ease, reserve hotels through \[Expedia] and manage airport transfers with \[Kiwi.Taxi]. No matter your style—fast-paced, relaxed, luxury, or budget—you’ll be rewarded. And remember: a well-planned itinerary often means pre-booking key attractions or tours; for example, a **Bangkok tuk-tuk night tour with Viator** is a fun evening plan.
-
-<!--EndFragment-->
