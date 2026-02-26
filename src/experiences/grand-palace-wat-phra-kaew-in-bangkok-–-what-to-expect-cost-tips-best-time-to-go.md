@@ -14,6 +14,28 @@ country: thailand
 destination: bangkok
 category: culture
 featured: true
+faqs:
+  - answer: " Usually ~2–3 hours for the palace and Wat Phra Kaew. With a guide or
+      combined sites, plan half a day (3–4 hours). Including Wat Pho, you could
+      spend 5–6 hours."
+    question: How long does a visit take?
+  - answer: >2
+       Yes – it’s Bangkok’s most famous cultural site. The unique architecture and the Emerald Buddha make it a highlight for nearly all visitors.
+    question: Is the Grand Palace worth visiting?
+  - answer: >+2
+       Tickets are sold at the entrance, but books-tour are highly recommended to skip lines and ensure entry. In high season, tours can sell out, so pre-book if possible.
+
+    question: Do I need to book in advance?
+  - answer: >2
+       Strict: shoulders and knees must be covered at all times. No shorts, sleeveless tops, or sandals. If you arrive improperly dressed, you’ll need to rent cover-ups or be denied entry.
+    question: What is the dress code?
+  - answer: >2
+       Yes – many tourists go independently. There are directional signs and maps. Guides are optional but helpful for history and context.
+    question: Can I visit without a guide?
+  - answer: Limited street parking exists, but not near the main gate. Best to use
+      public transport or park at nearby lots (e.g., Wat Mahathat lot on Tha
+      Maharat Rd, ~10 min walk).
+    question: "Is there parking? "
 ---
 
 
