@@ -1,17 +1,14 @@
 ---
 layout: destinations-layout/destination-hub.njk
 title: Discover the World's Finest Luxury Destinations
+
 pagination:
   data: collections.destinations
   size: 30
   alias: destinationsPage
-  reverse: false
-permalink: >
-  {% if pagination.pageNumber == 0 %}
-    /destinations/
-  {% else %}
-    /destinations/page/{{ pagination.pageNumber + 1 }}/
-  {% endif %}
+
+permalink: "{% if pagination.pageNumber == 0 %}/destinations/{% else %}/destinations/page/{{ pagination.pageNumber + 1 }}/{% endif %}"
+
 eleventyExcludeFromCollections: true
 ---
 
