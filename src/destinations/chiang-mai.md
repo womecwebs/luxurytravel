@@ -72,6 +72,8 @@ Chiang Mai’s charm lies in its seamless blend of ancient heritage and modern c
 
 **Doi Inthanon National Park:** Take a private day trip to Thailand’s highest peak, enjoying cool forest trails, waterfalls and Karen hill tribe villages. A luxury tour often includes a personal guide, gourmet picnic and espresso stop at a mountain cafe. *Good for:* nature lovers and adventure-seekers. *Time:* full day (8–10 hours).
 
+![small temples in thailand with best culture experience](https://res.cloudinary.com/dxqnpsj8k/image/upload/v1771838036/thailand-small-temples_lx8u9l.png)
+
 ## **Best Areas to Stay**
 
 **Old City:** The historic heart (inside the moat) is brimming with temples and local charm. It’s ideal for first-timers and families. Accommodations range from mid-century boutique hotels (Tamarind Village, Rachamankha) to high-end suites tucked in gardens. The vibe is laid-back and authentic.
