@@ -36,6 +36,29 @@ faqs:
       public transport or park at nearby lots (e.g., Wat Mahathat lot on Tha
       Maharat Rd, ~10 min walk).
     question: "Is there parking? "
+  - answer: >2
+       Yes, photography is allowed outside and in most areas. However, no photography is allowed inside the Emerald Buddha’s chamber. Always turn off flash in indoor halls.
+    question: Are cameras allowed?
+  - answer: >+2
+       Generally yes for ages ~6+. Younger kids might get bored with the details, but older children often enjoy the colors and space. Be prepared to hold hands on stairs.
+
+    question: Is it suitable for kids?
+  - answer: >2
+       No – like all temples, remove shoes before entering temple ordination halls. Leave them in designated racks at entry.
+    question: Can we wear shoes inside?
+  - answer: >2
+       Yes, there are restrooms near the entrance and some drink stalls inside. Bring water; small vendors sell it cheaply.
+    question: Are there water/facilities?
+  - answer: >2
+       Entry is fixed at 500฿. If skipping Palace, you can see some of the architecture from the outside riverbank for free, but you’ll miss the temple interiors. There’s no low-cost “alternative” to the palace experience – only a small entrance fee covers the whole complex.
+    question: Cheaper alternatives?
+  - answer: >2
+       The Emerald Buddha is the star attraction. Also note the intricate mural in its ordination hall and the Coronation Hall outside. The “Wat Phra Kaeo Buddha” changing of robes by the King during seasons is a ritual not seen, but plaques explain the tradition.
+    question: What should I not miss?
+  - answer: " Early morning (8:30–11:00). Midday is hot and crowded. Late afternoon
+      (2:00–3:30) can be better crowd-wise, but extremely hot and the palace
+      closes at 3:30 (final entry around 2:30)."
+    question: Best time of day?
 ---
 
 
